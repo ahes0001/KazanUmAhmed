@@ -2027,21 +2027,21 @@ module.exports = {
         "book": "Book Now"
     },
     "hero": {
-        "headline": "Authentic Home-Cooked Bukhari Rice & Specialty Lamb",
-        "subHeadline": "Freshly prepared in small, high-quality batches for family gatherings and intimate events.",
+        "headline": "Specialty Lamb Bukhari",
+        "subHeadline": "Authenticly prepared with fresh quality ingredients.",
         "ctaBook": "Book Your Event",
         "ctaMenu": "View Menu & Pricing",
         "trust1": "Free Delivery Included",
-        "trust2": "Signature Sides Included",
+        "trust2": "Sides Included",
         "trust3": "Max 2 Lambs / Order",
         "imageLabel": "[HERO KAZAN BACKGROUND]"
     },
     "about": {
         "eyebrow": "The Kazan Um Ahmed Story",
-        "heading": "Heritage, Quality & The Comfort of Home",
+        "heading": "Centuries of Tradition, Perfected at Home",
         "paragraph1": "Every dish that leaves our kitchen carries generations of tradition. We believe great food is never rushed, which is why we prepare every order in small, carefully managed batches.",
         "paragraph2": "We source premium local and imported lamb breeds, selecting each cut for tenderness, flavor, and the unmistakable aroma that only slow, home-style cooking can create.",
-        "paragraph3": "From intimate family dinners to small celebrations, our home kitchen is built on trust, hospitality, and the promise of food that tastes like it was made for family — because it is.",
+        "paragraph3": "From intimate family dinners to small celebrations, our home kitchen is built on trust, hospitality, and the promise of food that tastes like it was made for family.",
         "imageLabel": "[HOME KITCHEN PREP PHOTO]"
     },
     "pricing": {
@@ -2049,26 +2049,26 @@ module.exports = {
         "heading": "Our Packages & Pricing",
         "oneLambTitle": "One Lamb Options",
         "twoLambTitle": "Two Lamb Options",
-        "feedsUpTo": "Feeds up to {{count}} people",
+        "feedsUpTo": "Feeds {{count}} people",
         "was": "Was SAR {{price}}",
         "now": "SAR {{price}}",
         "perOrder": "per order",
-        "discountNote": "Save SAR {{amount}}",
-        "twoLambDiscountNote": "Extra SAR 100 off",
+        "discountNote": "SAR {{amount}} Off",
+        "twoLambDiscountNote": "SAR 900 Off",
         "inclusionsTitle": "Every Order Includes",
-        "inclusionsText": "All orders include FREE delivery and our signature sides: Fresh Yogurt, Shatni (Spicy Blended Salad), and Normal Green Salad.",
+        "inclusionsText": "FREE delivery and sides: Fresh Yogurt, Shatni (Spicy Blended Salad), and Green Salad.",
         "packages": {
             "suakniSpring": {
-                "name": "Suakni Spring / Labani",
-                "description": "Tender spring lamb, gently seasoned and slow-cooked for a light, crowd-pleasing flavor."
+                "name": "Suakni",
+                "description": ""
             },
             "whiteSuakni": {
                 "name": "White Suakni",
-                "description": "A refined, mildly spiced lamb with a creamy, aromatic finish — perfect for elegant gatherings."
+                "description": ""
             },
             "hari": {
                 "name": "Hari",
-                "description": "Rich, boldly spiced lamb for those who love deep, traditional flavors and generous portions."
+                "description": ""
             }
         }
     },
@@ -2081,7 +2081,7 @@ module.exports = {
         },
         "step2": {
             "title": "Submit Request",
-            "description": "Fill out the booking form below and we will receive your details instantly."
+            "description": "Call Us, WhatsApp messeage or fill out the booking form below to submit your request."
         },
         "step3": {
             "title": "Down Payment & Confirmation",
@@ -2107,7 +2107,7 @@ module.exports = {
     "booking": {
         "eyebrow": "Reserve Your Date",
         "heading": "Book Your Gathering",
-        "subtext": "Fill in your details and we will prepare your personalized WhatsApp booking message. No backend required — your inquiry goes straight to us.",
+        "subtext": "Fill in your details and we will prepare your personalized WhatsApp booking message.",
         "fields": {
             "name": "Full Name",
             "phone": "Phone / WhatsApp Number",
@@ -2127,7 +2127,7 @@ module.exports = {
             "freeDelivery": "Free delivery included"
         },
         "submit": "Send Booking via WhatsApp",
-        "whatsappMessage": "Hello Kazan Um Ahmed, I would like to book a catering order:\n\nName: {{name}}\nPhone: {{phone}}\nAddress: {{address}}\nEvent Date/Time: {{dateTime}}\nPackage: {{package}}\nGuests: {{guests}}\nTotal Price: SAR {{total}}\n\nSpecial Notes:\n{{notes}}"
+        "whatsappMessage": "Hello Kazan Um Ahmed, I would like to book a catering order:\n\nName: {{name}}\nPhone: {{phone}}\nAddress: {{address}}\nEvent Date/Time: {{dateTime}}\nPackage: {{package}}\n\nSpecial Notes:\n{{notes}}"
     },
     "footer": {
         "tagline": "Premium home-cooked Bukhari rice & specialty lamb, made with heritage and heart.",

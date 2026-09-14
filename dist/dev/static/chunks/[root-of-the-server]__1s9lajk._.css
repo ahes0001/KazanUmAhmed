@@ -843,6 +843,10 @@
     position: fixed;
   }
 
+  .fixed\! {
+    position: fixed !important;
+  }
+
   .relative {
     position: relative;
   }
@@ -1295,6 +1299,10 @@
 
   .w-\(--anchor-width\) {
     width: var(--anchor-width);
+  }
+
+  .w-9 {
+    width: calc(var(--spacing) * 9);
   }
 
   .w-14 {
@@ -1869,6 +1877,20 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .to-background\/80 {
+    --tw-gradient-to: var(--background);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .to-background\/80 {
+      --tw-gradient-to: color-mix(in oklab, var(--background) 80%, transparent);
+    }
+  }
+
+  .to-background\/80 {
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .bg-clip-padding {
     background-clip: padding-box;
   }
@@ -2340,6 +2362,10 @@
 
   .\[app-\:��\4 \] {
     app-: ��;
+  }
+
+  .\[app-\:��\] {
+    app-: ��;
   }
 
   .\[app-\:\6 6\] {

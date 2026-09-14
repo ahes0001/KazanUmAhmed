@@ -76,8 +76,8 @@ function PackageCard({
           <div className="flex items-center gap-2">
             <ChefHat className="size-4 text-primary" />
             {pkg.lambCount === 1
-              ? "1 Lamb"
-              : dictionary.pricing.twoLambDiscountNote}
+              ? "1 Whole Spring Lamb"
+              : "2 Whole Spring Lambs"}
           </div>
         </div>
       </CardContent>

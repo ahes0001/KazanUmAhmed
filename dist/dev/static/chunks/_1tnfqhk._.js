@@ -158,11 +158,11 @@ var _s = __turbopack_context__.k.signature();
 ;
 function PackageCard(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(56);
-    if ($[0] !== "8b13410ee7d4a70894b0b1a6ffd434fe5c8533650e4a29f1b630f3d66bba2aa8") {
+    if ($[0] !== "9e4287ff9c17dc1030db1ac5b1f6443a0e80c6bb5aaacee2bfaeb568326745af") {
         for(let $i = 0; $i < 56; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "8b13410ee7d4a70894b0b1a6ffd434fe5c8533650e4a29f1b630f3d66bba2aa8";
+        $[0] = "9e4287ff9c17dc1030db1ac5b1f6443a0e80c6bb5aaacee2bfaeb568326745af";
     }
     const { pkg, dictionary, isTwoLamb } = t0;
     let t1;
@@ -415,7 +415,7 @@ function PackageCard(t0) {
     } else {
         t19 = $[40];
     }
-    const t20 = pkg.lambCount === 1 ? "1 Lamb" : dictionary.pricing.twoLambDiscountNote;
+    const t20 = pkg.lambCount === 1 ? "1 Whole Spring Lamb" : "2 Whole Spring Lambs";
     let t21;
     if ($[41] !== t20) {
         t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -524,11 +524,11 @@ _c = PackageCard;
 function Pricing() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(54);
-    if ($[0] !== "8b13410ee7d4a70894b0b1a6ffd434fe5c8533650e4a29f1b630f3d66bba2aa8") {
+    if ($[0] !== "9e4287ff9c17dc1030db1ac5b1f6443a0e80c6bb5aaacee2bfaeb568326745af") {
         for(let $i = 0; $i < 54; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "8b13410ee7d4a70894b0b1a6ffd434fe5c8533650e4a29f1b630f3d66bba2aa8";
+        $[0] = "9e4287ff9c17dc1030db1ac5b1f6443a0e80c6bb5aaacee2bfaeb568326745af";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
