@@ -13,7 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { LinkButton } from "@/components/link-button";
 import { packages, type Package } from "@/lib/data";
 import { t as interpolate } from "@/lib/i18n";
-import { Users, ChefHat } from "lucide-react";
+import { Users } from "lucide-react";
 
 function PackageCard({
   pkg,
@@ -74,7 +74,9 @@ function PackageCard({
             {feedsText}
           </div>
           <div className="flex items-center gap-2">
-            <ChefHat className="size-4 text-primary" />
+            <span className="text-base" aria-label="Lamb" role="img">
+              🐑
+            </span>
             {pkg.lambCount === 1
               ? "1 Whole Spring Lamb"
               : "2 Whole Spring Lambs"}
@@ -107,6 +109,9 @@ export function Pricing() {
           eyebrow={t.pricing.eyebrow}
           heading={t.pricing.heading}
         />
+        <p className="mx-auto -mt-8 mb-12 max-w-2xl text-center text-base text-muted-foreground md:text-lg">
+          {t.pricing.subheading}
+        </p>
 
         {/* 1-lamb options */}
         <div className="mb-14">
@@ -140,14 +145,6 @@ export function Pricing() {
               />
             ))}
           </div>
-        </div>
-
-        {/* Inclusions callout */}
-        <div className="mx-auto max-w-3xl rounded-2xl border border-primary/10 bg-primary/5 p-6 text-center md:p-8">
-          <h4 className="mb-3 text-lg font-medium text-foreground">
-            {t.pricing.inclusionsTitle}
-          </h4>
-          <p className="text-foreground/80">{t.pricing.inclusionsText}</p>
         </div>
       </div>
     </section>

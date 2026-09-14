@@ -37,8 +37,8 @@ Update in the following files:
 
 ## a. Hero Section (`src/components/hero.tsx`)
 
-- [ ] Hero background image — replace `<PlaceholderImage label={t.hero.imageLabel} />` with real image or Next.js `<Image>`
-- [ ] Eyebrow tagline (currently: `Premium Home Kitchen Catering`)
+- [ ] Hero floating logo — replace `/images/logo.png` in the `<Image>` component (keeps the slow spin animation)
+- [ ] Eyebrow tagline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.eyebrow`)
 - [ ] Headline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.headline`)
 - [ ] Sub-headline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.subHeadline`)
 - [ ] CTA button labels — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.ctaBook`, `hero.ctaMenu`)
@@ -57,7 +57,7 @@ Update in the following files:
 - [ ] Guest counts per package — `src/lib/data.ts` (`feeds`)
 - [ ] Original and current prices — `src/lib/data.ts` (`originalPrice`, `currentPrice`)
 - [ ] Section headings — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.oneLambTitle`, `pricing.twoLambTitle`)
-- [ ] Inclusions callout text — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.inclusionsTitle`, `pricing.inclusionsText`)
+- [ ] Inclusions subtitle under the main heading — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.subheading`)
 
 ## d. How It Works Section (`src/components/how-it-works.tsx`)
 
@@ -81,15 +81,23 @@ Update in the following files:
 - [ ] WhatsApp message template — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`booking.whatsappMessage`)
 - [ ] Submit button label — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`booking.submit`)
 - [ ] WhatsApp number — `src/lib/data.ts` (`WHATSAPP_NUMBER`)
+- [ ] Note: the phone number field has been removed — customers send the booking directly from their own WhatsApp number
 
-## g. Footer (`src/components/footer.tsx`)
+## g. Footer (`src/components/footer.tsx` + `src/components/social-links.tsx`)
 
-- [ ] Tagline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.tagline`)
+- [ ] Follow Us heading — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.followUs`)
+- [ ] Social platform labels — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.social.*`)
+- [ ] Actual social profile URLs — `src/components/social-links.tsx` (`socials[].href`):
+  - [ ] TikTok
+  - [ ] Instagram
+  - [ ] Facebook
+  - [ ] YouTube
+  - [ ] X (Twitter)
+- [ ] Quick Links heading — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.quickLinks`)
 - [ ] Quick link labels — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.links.*`)
 - [ ] Contact info — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.contact.*`)
 - [ ] Working hours — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.hours.*`)
 - [ ] Copyright — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`footer.copyright`)
-- [ ] Attribution line in component footer (currently: `Crafted with care for Kazan Um Ahmed.`)
 
 ## Floating WhatsApp Button (`src/components/whatsapp-fab.tsx`)
 
@@ -98,14 +106,15 @@ Update in the following files:
 
 ## Images — Recommended Sizes
 
-- Hero background: 1920×1080 (16:9), warm and appetizing, optimized < 300 KB
+- Hero floating logo: 512×512 or larger PNG with transparent background
 - About photo: 1200×900 (4:3), kitchen or prep scene
 - Gallery photos: 1200×900 (4:3) each
 
 ## Notes
 
-- All image placeholders use the `PlaceholderImage` component in `src/components/placeholder-image.tsx`.
+- Image placeholders use the `PlaceholderImage` component in `src/components/placeholder-image.tsx`.
+- The hero logo is loaded directly via Next.js `<Image src="/images/logo.png" />`.
 - To replace a placeholder, swap the component for a Next.js `<Image>` or a `<img>` tag.
-- Keep filenames descriptive (e.g., `hero-kazan-bg.jpg`, `about-kitchen.jpg`, `gallery-platter-1.jpg`).
+- Keep filenames descriptive (e.g., `logo.png`, `about-kitchen.jpg`, `gallery-platter-1.jpg`).
 
 

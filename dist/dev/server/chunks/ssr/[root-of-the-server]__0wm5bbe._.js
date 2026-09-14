@@ -128,6 +128,7 @@ module.exports = {
         "book": "احجز الآن"
     },
     "hero": {
+        "eyebrow": "تمويل منزلي فاخر",
         "headline": "أرز بخاري و لحم مميز بطعم البيت الأصيل",
         "subHeadline": "نعدّ كل طلب بكميات محدودة وعالية الجودة للمناسبات العائلية والتجمعات الصغيرة.",
         "ctaBook": "احجز مناسبتك",
@@ -148,6 +149,7 @@ module.exports = {
     "pricing": {
         "eyebrow": "القائمة والأسعار",
         "heading": "باقاتنا وأسعارنا",
+        "subheading": "التوصيل والمرافق مشمولة: لبن طازج، سلطة حارة، وسلطة خضراء.",
         "oneLambTitle": "باقات الخروف الواحد",
         "twoLambTitle": "باقات الخروفين",
         "feedsUpTo": "يكفي حتى {{count}} شخص",
@@ -156,8 +158,6 @@ module.exports = {
         "perOrder": "للطلب",
         "discountNote": "وفر {{amount}} ريال",
         "twoLambDiscountNote": "خصم إضافي 100 ريال",
-        "inclusionsTitle": "جميع الطلبات تشمل",
-        "inclusionsText": "جميع الطلبات تشمل توصيل مجاني ومرافقنا المميزة: لبن طازج، شتني (سلطة حارة مطحونة)، والسلطة الخضراء العادية.",
         "packages": {
             "suakniSpring": {
                 "name": "صوكني ربيعي / لباني",
@@ -211,9 +211,9 @@ module.exports = {
         "subtext": "املأ بياناتك وسنجهّز رسالة حجز مخصصة عبر الواتساب. لا يوجد خادم خلفي — طلبك يصل إلينا مباشرة.",
         "fields": {
             "name": "الاسم الكامل",
-            "phone": "رقم الجوال / الواتساب",
             "address": "عنوان التوصيل / الحي",
-            "dateTime": "تاريخ ووقت المناسبة",
+            "date": "تاريخ المناسبة",
+            "time": "وقت المناسبة",
             "package": "اختر الباقة",
             "notes": "ملاحظات خاصة للتوصيل أو التحضير"
         },
@@ -228,10 +228,18 @@ module.exports = {
             "freeDelivery": "التوصيل مجاني"
         },
         "submit": "إرسال الحجز عبر الواتساب",
-        "whatsappMessage": "مرحباً كازان أم أحمد، أرغب بحجز طلب كاترينج:\n\nالاسم: {{name}}\nالجوال: {{phone}}\nالعنوان: {{address}}\nتاريخ/وقت المناسبة: {{dateTime}}\nالباقة: {{package}}\nالضيوف: {{guests}}\nالإجمالي: {{total}} ريال\n\nملاحظات:\n{{notes}}"
+        "whatsappMessage": "مرحباً كازان أم أحمد، أرغب بحجز طلب كاترينج:\n\nالاسم: {{name}}\nالعنوان: {{address}}\nتاريخ المناسبة: {{date}}\nوقت المناسبة: {{time}}\nالباقة: {{package}}\nالضيوف: {{guests}}\nالإجمالي: {{total}} ريال\n\nملاحظات:\n{{notes}}"
     },
     "footer": {
-        "tagline": "أرز بخاري ولحم مميز من مطبق منزلي فاخر، محضّر بإرث وقلب.",
+        "followUs": "تابعونا",
+        "quickLinks": "روابط سريعة",
+        "social": {
+            "tiktok": "تيك توك",
+            "instagram": "إنستغرام",
+            "facebook": "فيسبوك",
+            "youtube": "يوتيوب",
+            "x": "إكس"
+        },
         "links": {
             "home": "الرئيسية",
             "about": "قصتنا",
@@ -269,6 +277,7 @@ module.exports = {
         "book": "Book Now"
     },
     "hero": {
+        "eyebrow": "Premium Home Kitchen Catering",
         "headline": "Specialty Lamb Bukhari",
         "subHeadline": "Authenticly prepared with fresh quality ingredients.",
         "ctaBook": "Book Your Event",
@@ -289,6 +298,7 @@ module.exports = {
     "pricing": {
         "eyebrow": "Menu & Pricing",
         "heading": "Our Packages & Pricing",
+        "subheading": "Included delivery and sides: Fresh Yogurt, Spicy Salad, and Green Salad.",
         "oneLambTitle": "One Lamb Options",
         "twoLambTitle": "Two Lamb Options",
         "feedsUpTo": "Feeds {{count}} people",
@@ -297,8 +307,6 @@ module.exports = {
         "perOrder": "per order",
         "discountNote": "SAR {{amount}} Off",
         "twoLambDiscountNote": "SAR 900 Off",
-        "inclusionsTitle": "Every Order Includes",
-        "inclusionsText": "FREE delivery and sides: Fresh Yogurt, Shatni (Spicy Blended Salad), and Green Salad.",
         "packages": {
             "suakniSpring": {
                 "name": "Suakni",
@@ -352,9 +360,9 @@ module.exports = {
         "subtext": "Fill in your details and we will prepare your personalized WhatsApp booking message.",
         "fields": {
             "name": "Full Name",
-            "phone": "Phone / WhatsApp Number",
             "address": "Delivery Address / Neighborhood",
-            "dateTime": "Date & Time of Event",
+            "date": "Event Date",
+            "time": "Event Time",
             "package": "Select Your Package",
             "notes": "Special Delivery / Prep Notes"
         },
@@ -369,10 +377,18 @@ module.exports = {
             "freeDelivery": "Free delivery included"
         },
         "submit": "Send Booking via WhatsApp",
-        "whatsappMessage": "Hello Kazan Um Ahmed, I would like to book a catering order:\n\nName: {{name}}\nPhone: {{phone}}\nAddress: {{address}}\nEvent Date/Time: {{dateTime}}\nPackage: {{package}}\n\nSpecial Notes:\n{{notes}}"
+        "whatsappMessage": "Hello Kazan Um Ahmed, I would like to book a catering order:\n\nName: {{name}}\nAddress: {{address}}\nEvent Date: {{date}}\nEvent Time: {{time}}\nPackage: {{package}}\nGuests: {{guests}}\nTotal Price: SAR {{total}}\n\nSpecial Notes:\n{{notes}}"
     },
     "footer": {
-        "tagline": "Premium home-cooked Bukhari rice & specialty lamb, made with heritage and heart.",
+        "followUs": "Follow Us",
+        "quickLinks": "Quick Links",
+        "social": {
+            "tiktok": "TikTok",
+            "instagram": "Instagram",
+            "facebook": "Facebook",
+            "youtube": "YouTube",
+            "x": "X"
+        },
         "links": {
             "home": "Home",
             "about": "Our Story",

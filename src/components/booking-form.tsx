@@ -28,9 +28,9 @@ export function BookingForm() {
   const { t, dir, locale } = useLanguage();
   const [formData, setFormData] = useState({
     name: "",
-    phone: "",
     address: "",
-    dateTime: "",
+    date: "",
+    time: "",
     packageId: "" as PackageId | "",
     notes: "",
   });
@@ -47,11 +47,11 @@ export function BookingForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!formData.name || !formData.phone || !formData.packageId) {
+    if (!formData.name || !formData.date || !formData.time || !formData.packageId) {
       alert(
         locale === "ar"
-          ? "يرجى ملء الاسم ورقم الجوال واختيار الباقة."
-          : "Please fill in your name, phone number, and select a package."
+          ? "يرجى ملء الاسم والتاريخ والوقت واختيار الباقة."
+          : "Please fill in your name, event date, event time, and select a package."
       );
       return;
     }
@@ -59,12 +59,14 @@ export function BookingForm() {
     const pkg = getPackageById(formData.packageId);
     if (!pkg) return;
 
+    const packageLabel = `${pkg.lambCount === 2 ? "2x " : ""}${t.pricing.packages[pkg.key].name}`;
+
     const message = interpolate(t.booking.whatsappMessage, {
       name: formData.name,
-      phone: formData.phone,
       address: formData.address || (locale === "ar" ? "غير محدد" : "Not provided"),
-      dateTime: formData.dateTime || (locale === "ar" ? "غير محدد" : "Not provided"),
-      package: `${pkg.lambCount === 2 ? "2x " : ""}${t.pricing.packages[pkg.key].name}`,
+      date: formData.date,
+      time: formData.time,
+      package: packageLabel,
       guests: pkg.feeds,
       total: pkg.currentPrice.toLocaleString(),
       notes: formData.notes || (locale === "ar" ? "لا يوجد" : "None"),
@@ -103,32 +105,17 @@ export function BookingForm() {
           <form
             onSubmit={handleSubmit}
             className="space-y-5 lg:col-span-2"
-            noValidate
           >
-            <div className="grid gap-5 sm:grid-cols-2">
-              <div className="space-y-2">
-                <Label htmlFor="name">{t.booking.fields.name}</Label>
-                <Input
-                  id="name"
-                  type="text"
-                  value={formData.name}
-                  onChange={(e) => handleChange("name", e.target.value)}
-                  placeholder={t.booking.fields.name}
-                  required
-                />
-              </div>
-
-              <div className="space-y-2">
-                <Label htmlFor="phone">{t.booking.fields.phone}</Label>
-                <Input
-                  id="phone"
-                  type="tel"
-                  value={formData.phone}
-                  onChange={(e) => handleChange("phone", e.target.value)}
-                  placeholder="+966 50 000 0000"
-                  required
-                />
-              </div>
+            <div className="space-y-2">
+              <Label htmlFor="name">{t.booking.fields.name}</Label>
+              <Input
+                id="name"
+                type="text"
+                value={formData.name}
+                onChange={(e) => handleChange("name", e.target.value)}
+                placeholder={t.booking.fields.name}
+                required
+              />
             </div>
 
             <div className="space-y-2">
@@ -144,38 +131,49 @@ export function BookingForm() {
 
             <div className="grid gap-5 sm:grid-cols-2">
               <div className="space-y-2">
-                <Label htmlFor="dateTime">{t.booking.fields.dateTime}</Label>
+                <Label htmlFor="date">{t.booking.fields.date}</Label>
                 <Input
-                  id="dateTime"
-                  type="text"
-                  value={formData.dateTime}
-                  onChange={(e) => handleChange("dateTime", e.target.value)}
-                  placeholder="DD/MM/YYYY, 7:00 PM"
+                  id="date"
+                  type="date"
+                  value={formData.date}
+                  onChange={(e) => handleChange("date", e.target.value)}
+                  required
                 />
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="package">{t.booking.fields.package}</Label>
-                <Select
-                  value={formData.packageId}
-                  onValueChange={(value) =>
-                    handleChange("packageId", value as PackageId)
-                  }
-                >
-                  <SelectTrigger id="package" className="w-full">
-                    <SelectValue placeholder={t.booking.packagePlaceholder} />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {packages.map((pkg) => (
-                      <SelectItem key={pkg.id} value={pkg.id}>
-                        {pkg.lambCount === 2 ? "2x " : ""}
-                        {t.pricing.packages[pkg.key].name} —{" "}
-                        {interpolate(t.pricing.feedsUpTo, { count: pkg.feeds })}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <Label htmlFor="time">{t.booking.fields.time}</Label>
+                <Input
+                  id="time"
+                  type="time"
+                  value={formData.time}
+                  onChange={(e) => handleChange("time", e.target.value)}
+                  required
+                />
               </div>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="package">{t.booking.fields.package}</Label>
+              <Select
+                value={formData.packageId}
+                onValueChange={(value) =>
+                  handleChange("packageId", value as PackageId)
+                }
+              >
+                <SelectTrigger id="package" className="w-full">
+                  <SelectValue placeholder={t.booking.packagePlaceholder} />
+                </SelectTrigger>
+                <SelectContent>
+                  {packages.map((pkg) => (
+                    <SelectItem key={pkg.id} value={pkg.id}>
+                      {pkg.lambCount === 2 ? "2x " : ""}
+                      {t.pricing.packages[pkg.key].name} —{" "}
+                      {interpolate(t.pricing.feedsUpTo, { count: pkg.feeds })}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             </div>
 
             <div className="space-y-2">
@@ -193,7 +191,6 @@ export function BookingForm() {
               {t.booking.submit}
             </Button>
           </form>
-
 
           <aside className="lg:col-span-1">
             <Card className="sticky top-24 border-foreground/10">
@@ -255,4 +252,3 @@ export function BookingForm() {
     </section>
   );
 }
-

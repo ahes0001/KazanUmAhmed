@@ -9,6 +9,7 @@
     "book": "Book Now"
   },
   "hero": {
+    "eyebrow": "Premium Home Kitchen Catering",
     "headline": "Specialty Lamb Bukhari",
     "subHeadline": "Authenticly prepared with fresh quality ingredients.",
     "ctaBook": "Book Your Event",
@@ -29,6 +30,7 @@
   "pricing": {
     "eyebrow": "Menu & Pricing",
     "heading": "Our Packages & Pricing",
+    "subheading": "Included delivery and sides: Fresh Yogurt, Spicy Salad, and Green Salad.",
     "oneLambTitle": "One Lamb Options",
     "twoLambTitle": "Two Lamb Options",
     "feedsUpTo": "Feeds {{count}} people",
@@ -37,8 +39,6 @@
     "perOrder": "per order",
     "discountNote": "SAR {{amount}} Off",
     "twoLambDiscountNote": "SAR 900 Off",
-    "inclusionsTitle": "Every Order Includes",
-    "inclusionsText": "FREE delivery and sides: Fresh Yogurt, Shatni (Spicy Blended Salad), and Green Salad.",
     "packages": {
       "suakniSpring": {
         "name": "Suakni",
@@ -92,9 +92,9 @@
     "subtext": "Fill in your details and we will prepare your personalized WhatsApp booking message.",
     "fields": {
       "name": "Full Name",
-      "phone": "Phone / WhatsApp Number",
       "address": "Delivery Address / Neighborhood",
-      "dateTime": "Date & Time of Event",
+      "date": "Event Date",
+      "time": "Event Time",
       "package": "Select Your Package",
       "notes": "Special Delivery / Prep Notes"
     },
@@ -109,10 +109,18 @@
       "freeDelivery": "Free delivery included"
     },
     "submit": "Send Booking via WhatsApp",
-    "whatsappMessage": "Hello Kazan Um Ahmed, I would like to book a catering order:\n\nName: {{name}}\nPhone: {{phone}}\nAddress: {{address}}\nEvent Date/Time: {{dateTime}}\nPackage: {{package}}\n\nSpecial Notes:\n{{notes}}"
+    "whatsappMessage": "Hello Kazan Um Ahmed, I would like to book a catering order:\n\nName: {{name}}\nAddress: {{address}}\nEvent Date: {{date}}\nEvent Time: {{time}}\nPackage: {{package}}\nGuests: {{guests}}\nTotal Price: SAR {{total}}\n\nSpecial Notes:\n{{notes}}"
   },
   "footer": {
-    "tagline": "Premium home-cooked Bukhari rice & specialty lamb, made with heritage and heart.",
+    "followUs": "Follow Us",
+    "quickLinks": "Quick Links",
+    "social": {
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "youtube": "YouTube",
+      "x": "X"
+    },
     "links": {
       "home": "Home",
       "about": "Our Story",

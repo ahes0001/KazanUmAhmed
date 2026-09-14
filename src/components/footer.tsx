@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/components/language-provider";
+import { SocialLinks } from "@/components/social-links";
 import { Separator } from "@/components/ui/separator";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
@@ -19,7 +20,7 @@ export function Footer() {
     <footer className="border-t bg-background py-14" dir={dir}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-          {/* Brand */}
+          {/* Brand + Socials */}
           <div className="lg:col-span-2">
             <a
               href="#home"
@@ -27,15 +28,13 @@ export function Footer() {
             >
               {t.businessName}
             </a>
-            <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-              {t.footer.tagline}
-            </p>
+            <SocialLinks className="mt-5" />
           </div>
 
           {/* Quick links */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-foreground">
-              Quick Links
+              {t.footer.quickLinks}
             </h4>
             <ul className="mt-4 space-y-2 text-sm">
               {footerLinks.map((link) => (
@@ -84,12 +83,9 @@ export function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 text-center text-sm text-muted-foreground sm:flex-row sm:text-start">
           <p>{t.footer.copyright.replace("{{year}}", String(year))}</p>
-          <p>
-            {/* REPLACE: attribution / built-by line */}
-            Crafted with care for Kazan Um Ahmed.
-          </p>
         </div>
       </div>
     </footer>
   );
 }
+

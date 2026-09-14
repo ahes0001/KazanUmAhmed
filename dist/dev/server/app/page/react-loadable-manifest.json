@@ -8,7 +8,7 @@
   "[project]/src/components/pricing.tsx [app-client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/src/components/pricing.tsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
-      "static/chunks/_1tnfqhk._.js"
+      "static/chunks/_079z3rn._.js"
     ]
   },
   "[project]/src/components/how-it-works.tsx [app-client] (ecmascript, next/dynamic entry)": {
@@ -33,7 +33,7 @@
   "[project]/src/components/footer.tsx [app-client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/src/components/footer.tsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
-      "static/chunks/_13p--um._.js"
+      "static/chunks/_0gc8pxm._.js"
     ]
   }
 }
