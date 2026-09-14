@@ -1,0 +1,39 @@
+{
+  "[project]/src/components/about.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/about.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_0-rwn27._.js"
+    ]
+  },
+  "[project]/src/components/pricing.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/pricing.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_1tnfqhk._.js"
+    ]
+  },
+  "[project]/src/components/how-it-works.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/how-it-works.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_0l-1wgi._.js"
+    ]
+  },
+  "[project]/src/components/gallery.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/gallery.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_19x76df._.js"
+    ]
+  },
+  "[project]/src/components/booking-form.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/booking-form.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_0e8eg6k._.js",
+      "static/chunks/node_modules_1e3z2rq._.js"
+    ]
+  },
+  "[project]/src/components/footer.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/footer.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_13p--um._.js"
+    ]
+  }
+}

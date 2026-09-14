@@ -198,4 +198,15 @@
   html {
     @apply font-sans;
   }
+  html[lang="ar"] body {
+    font-family: var(--font-arabic), "Cairo", "Noto Sans Arabic", ui-sans-serif, sans-serif, system-ui;
+  }
+  html[lang="ar"] h1,
+  html[lang="ar"] h2,
+  html[lang="ar"] h3,
+  html[lang="ar"] h4,
+  html[lang="ar"] h5,
+  html[lang="ar"] h6 {
+    font-family: var(--font-arabic), "Cairo", "Noto Sans Arabic", ui-sans-serif, sans-serif, system-ui;
+  }
 }

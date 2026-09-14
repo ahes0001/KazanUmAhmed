@@ -1,0 +1,138 @@
+{
+  "businessName": "Kazan Um Ahmed",
+  "nav": {
+    "home": "Home",
+    "about": "Our Story",
+    "pricing": "Menu & Pricing",
+    "howItWorks": "How It Works",
+    "gallery": "Gallery",
+    "book": "Book Now"
+  },
+  "hero": {
+    "headline": "Authentic Home-Cooked Bukhari Rice & Specialty Lamb",
+    "subHeadline": "Freshly prepared in small, high-quality batches for family gatherings and intimate events.",
+    "ctaBook": "Book Your Event",
+    "ctaMenu": "View Menu & Pricing",
+    "trust1": "Free Delivery Included",
+    "trust2": "Signature Sides Included",
+    "trust3": "Max 2 Lambs / Order",
+    "imageLabel": "[HERO KAZAN BACKGROUND]"
+  },
+  "about": {
+    "eyebrow": "The Kazan Um Ahmed Story",
+    "heading": "Heritage, Quality & The Comfort of Home",
+    "paragraph1": "Every dish that leaves our kitchen carries generations of tradition. We believe great food is never rushed, which is why we prepare every order in small, carefully managed batches.",
+    "paragraph2": "We source premium local and imported lamb breeds, selecting each cut for tenderness, flavor, and the unmistakable aroma that only slow, home-style cooking can create.",
+    "paragraph3": "From intimate family dinners to small celebrations, our home kitchen is built on trust, hospitality, and the promise of food that tastes like it was made for family — because it is.",
+    "imageLabel": "[HOME KITCHEN PREP PHOTO]"
+  },
+  "pricing": {
+    "eyebrow": "Menu & Pricing",
+    "heading": "Our Packages & Pricing",
+    "oneLambTitle": "One Lamb Options",
+    "twoLambTitle": "Two Lamb Options",
+    "feedsUpTo": "Feeds up to {{count}} people",
+    "was": "Was SAR {{price}}",
+    "now": "SAR {{price}}",
+    "perOrder": "per order",
+    "discountNote": "Save SAR {{amount}}",
+    "twoLambDiscountNote": "Extra SAR 100 off",
+    "inclusionsTitle": "Every Order Includes",
+    "inclusionsText": "All orders include FREE delivery and our signature sides: Fresh Yogurt, Shatni (Spicy Blended Salad), and Normal Green Salad.",
+    "packages": {
+      "suakniSpring": {
+        "name": "Suakni Spring / Labani",
+        "description": "Tender spring lamb, gently seasoned and slow-cooked for a light, crowd-pleasing flavor."
+      },
+      "whiteSuakni": {
+        "name": "White Suakni",
+        "description": "A refined, mildly spiced lamb with a creamy, aromatic finish — perfect for elegant gatherings."
+      },
+      "hari": {
+        "name": "Hari",
+        "description": "Rich, boldly spiced lamb for those who love deep, traditional flavors and generous portions."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Simple Booking",
+    "heading": "How It Works",
+    "step1": {
+      "title": "Select Your Lamb & Date",
+      "description": "Choose your package and event date. Remember: max 2 lambs or 60 servings per order."
+    },
+    "step2": {
+      "title": "Submit Request",
+      "description": "Fill out the booking form below and we will receive your details instantly."
+    },
+    "step3": {
+      "title": "Down Payment & Confirmation",
+      "description": "Lock in your event date with a deposit arranged quickly and securely via WhatsApp."
+    },
+    "step4": {
+      "title": "Fresh Delivery to Your Door",
+      "description": "Your order arrives piping hot with all included sides, ready to impress your guests."
+    }
+  },
+  "gallery": {
+    "eyebrow": "A Taste of the Experience",
+    "heading": "Photo Gallery",
+    "imageLabels": {
+      "one": "[FOOD PRESENTATION 1]",
+      "two": "[CHAFING DISH SETUP]",
+      "three": "[LAMB PLATTER CLOSE-UP]",
+      "four": "[FAMILY GATHERING TABLE]",
+      "five": "[SIDE DISHES SPREAD]",
+      "six": "[PACKED DELIVERY TRAY]"
+    }
+  },
+  "booking": {
+    "eyebrow": "Reserve Your Date",
+    "heading": "Book Your Gathering",
+    "subtext": "Fill in your details and we will prepare your personalized WhatsApp booking message. No backend required — your inquiry goes straight to us.",
+    "fields": {
+      "name": "Full Name",
+      "phone": "Phone / WhatsApp Number",
+      "address": "Delivery Address / Neighborhood",
+      "dateTime": "Date & Time of Event",
+      "package": "Select Your Package",
+      "notes": "Special Delivery / Prep Notes"
+    },
+    "packagePlaceholder": "Choose a package",
+    "orderPreview": {
+      "title": "Order Preview",
+      "selectedPackage": "Selected package",
+      "guests": "Guests",
+      "originalPrice": "Original price",
+      "discount": "Discount",
+      "total": "Total to pay",
+      "freeDelivery": "Free delivery included"
+    },
+    "submit": "Send Booking via WhatsApp",
+    "whatsappMessage": "Hello Kazan Um Ahmed, I would like to book a catering order:\n\nName: {{name}}\nPhone: {{phone}}\nAddress: {{address}}\nEvent Date/Time: {{dateTime}}\nPackage: {{package}}\nGuests: {{guests}}\nTotal Price: SAR {{total}}\n\nSpecial Notes:\n{{notes}}"
+  },
+  "footer": {
+    "tagline": "Premium home-cooked Bukhari rice & specialty lamb, made with heritage and heart.",
+    "links": {
+      "home": "Home",
+      "about": "Our Story",
+      "pricing": "Pricing",
+      "book": "Book Now"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+966 50 000 0000",
+      "email": "hello@kazanumahmed.com",
+      "location": "Kazan Um Ahmed Home Kitchen, Saudi Arabia"
+    },
+    "hours": {
+      "title": "Working Hours",
+      "weekdays": "Sun – Thu: 10:00 AM – 8:00 PM",
+      "weekend": "Fri – Sat: 12:00 PM – 8:00 PM"
+    },
+    "copyright": "© {{year}} Kazan Um Ahmed. All rights reserved."
+  },
+  "whatsappFab": {
+    "label": "Chat on WhatsApp"
+  }
+}
