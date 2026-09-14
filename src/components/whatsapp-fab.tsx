@@ -8,8 +8,8 @@ export function WhatsAppFab() {
 
   const message =
     locale === "ar"
-      ? "مرحباً كازان أم أحمد، أرغب بالاستفسار عن باقاتكم المتوفرة."
-      : "Hello Kazan Um Ahmed, I would like to inquire about your available packages.";
+      ? "مرحباً كازان أم أحمد"
+      : "Hello Kazan Um Ahmed Kitchen";
 
   return (
     <a

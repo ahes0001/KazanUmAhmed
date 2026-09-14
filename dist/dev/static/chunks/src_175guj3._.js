@@ -1081,14 +1081,14 @@ var _s = __turbopack_context__.k.signature();
 function WhatsAppFab() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(7);
-    if ($[0] !== "bc4cdeeb20a986d8c75d513acdcefb667af06d800aed4c4b26cbb0143e3bd68e") {
+    if ($[0] !== "57baa326e7c519d77c22e1826364a9e4a60afd4254820344acee3cd2d4d90416") {
         for(let $i = 0; $i < 7; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "bc4cdeeb20a986d8c75d513acdcefb667af06d800aed4c4b26cbb0143e3bd68e";
+        $[0] = "57baa326e7c519d77c22e1826364a9e4a60afd4254820344acee3cd2d4d90416";
     }
     const { t, locale } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
-    const message = locale === "ar" ? "\u0645\u0631\u062D\u0628\u0627\u064B \u0643\u0627\u0632\u0627\u0646 \u0623\u0645 \u0623\u062D\u0645\u062F\u060C \u0623\u0631\u063A\u0628 \u0628\u0627\u0644\u0627\u0633\u062A\u0641\u0633\u0627\u0631 \u0639\u0646 \u0628\u0627\u0642\u0627\u062A\u0643\u0645 \u0627\u0644\u0645\u062A\u0648\u0641\u0631\u0629." : "Hello Kazan Um Ahmed, I would like to inquire about your available packages.";
+    const message = locale === "ar" ? "\u0645\u0631\u062D\u0628\u0627\u064B \u0643\u0627\u0632\u0627\u0646 \u0623\u0645 \u0623\u062D\u0645\u062F" : "Hello Kazan Um Ahmed Kitchen";
     let t0;
     if ($[1] !== message) {
         t0 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["buildWhatsAppUrl"])(message);
