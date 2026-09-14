@@ -1,5 +1,5 @@
 // REPLACE: Update the WhatsApp number before launching.
-export const WHATSAPP_NUMBER = "+966500000000";
+export const WHATSAPP_NUMBER = "+966502466713";
 
 export const BUSINESS_NAME = "Kazan Um Ahmed | كازان أم أحمد";
 

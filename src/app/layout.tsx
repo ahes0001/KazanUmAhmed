@@ -63,8 +63,8 @@ const schema = {
       description:
         "Premium home-kitchen catering specializing in authentic Bukhari rice and specialty lamb.",
       url: "https://kazanumahmed.com",
-      telephone: "+966500000000",
-      email: "hello@kazanumahmed.com",
+      telephone: "+966502466713",
+      email: "kazanumahmed@gmail.com",
       address: {
         "@type": "PostalAddress",
         addressCountry: "SA",
@@ -80,13 +80,13 @@ const schema = {
           "@type": "OpeningHoursSpecification",
           dayOfWeek: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
           opens: "10:00",
-          closes: "20:00",
+          closes: "23:00",
         },
         {
           "@type": "OpeningHoursSpecification",
           dayOfWeek: ["Friday", "Saturday"],
           opens: "12:00",
-          closes: "20:00",
+          closes: "23:00",
         },
       ],
     },

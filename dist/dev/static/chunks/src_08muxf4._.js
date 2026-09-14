@@ -1281,7 +1281,7 @@ __turbopack_context__.s([
     "packages",
     ()=>packages
 ]);
-const WHATSAPP_NUMBER = "+966500000000";
+const WHATSAPP_NUMBER = "+966502466713";
 const BUSINESS_NAME = "Kazan Um Ahmed | كازان أم أحمد";
 const packages = [
     {

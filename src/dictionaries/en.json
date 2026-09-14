@@ -121,14 +121,14 @@
     },
     "contact": {
       "title": "Contact",
-      "phone": "+966 50 000 0000",
-      "email": "hello@kazanumahmed.com",
-      "location": "Kazan Um Ahmed Home Kitchen, Saudi Arabia"
+      "phone": "+966 50 246 6713",
+      "email": "kazanumahmed@gmail.com",
+      "location": "Al Jameah, Jeddah, Saudi Arabia"
     },
     "hours": {
       "title": "Working Hours",
-      "weekdays": "Sun – Thu: 10:00 AM – 8:00 PM",
-      "weekend": "Fri – Sat: 12:00 PM – 8:00 PM"
+      "weekdays": "Sun – Thu: 10:00 AM – 11:00 PM",
+      "weekend": "Fri – Sat: 10:00 AM – 11:00 PM"
     },
     "copyright": "© {{year}} Kazan Um Ahmed. All rights reserved."
   },

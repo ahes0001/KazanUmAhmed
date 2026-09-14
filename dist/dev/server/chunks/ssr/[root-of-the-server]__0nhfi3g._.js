@@ -149,8 +149,8 @@ const schema = {
             name: "Kazan Um Ahmed | كازان أم أحمد",
             description: "Premium home-kitchen catering specializing in authentic Bukhari rice and specialty lamb.",
             url: "https://kazanumahmed.com",
-            telephone: "+966500000000",
-            email: "hello@kazanumahmed.com",
+            telephone: "+966502466713",
+            email: "kazanumahmed@gmail.com",
             address: {
                 "@type": "PostalAddress",
                 addressCountry: "SA",
@@ -177,7 +177,7 @@ const schema = {
                         "Thursday"
                     ],
                     opens: "10:00",
-                    closes: "20:00"
+                    closes: "23:00"
                 },
                 {
                     "@type": "OpeningHoursSpecification",
@@ -186,7 +186,7 @@ const schema = {
                         "Saturday"
                     ],
                     opens: "12:00",
-                    closes: "20:00"
+                    closes: "23:00"
                 }
             ]
         },

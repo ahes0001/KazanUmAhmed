@@ -1995,14 +1995,14 @@ module.exports = {
         },
         "contact": {
             "title": "تواصل معنا",
-            "phone": "+966 50 000 0000",
-            "email": "hello@kazanumahmed.com",
-            "location": "مطبق كازان أم أحمد المنزلي، المملكة العربية السعودية"
+            "phone": "+966 50 234 6713",
+            "email": "kazanumahmed@gmail.com",
+            "location": "حي الجامعة، جدة، المملكة العربية السعودية"
         },
         "hours": {
             "title": "أوقات العمل",
-            "weekdays": "الأحد – الخميس: 10:00 ص – 8:00 م",
-            "weekend": "الجمعة – السبت: 12:00 ظ – 8:00 م"
+            "weekdays": "الأحد – الخميس: 10:00 ص – 11:00 م",
+            "weekend": "الجمعة – السبت: 10:00 ظ – 11:00 م"
         },
         "copyright": "© {{year}} كازان أم أحمد. جميع الحقوق محفوظة."
     },
@@ -2139,14 +2139,14 @@ module.exports = {
         },
         "contact": {
             "title": "Contact",
-            "phone": "+966 50 000 0000",
-            "email": "hello@kazanumahmed.com",
-            "location": "Kazan Um Ahmed Home Kitchen, Saudi Arabia"
+            "phone": "+966 50 246 6713",
+            "email": "kazanumahmed@gmail.com",
+            "location": "Al Jameah, Jeddah, Saudi Arabia"
         },
         "hours": {
             "title": "Working Hours",
-            "weekdays": "Sun – Thu: 10:00 AM – 8:00 PM",
-            "weekend": "Fri – Sat: 12:00 PM – 8:00 PM"
+            "weekdays": "Sun – Thu: 10:00 AM – 11:00 PM",
+            "weekend": "Fri – Sat: 10:00 AM – 11:00 PM"
         },
         "copyright": "© {{year}} Kazan Um Ahmed. All rights reserved."
     },
