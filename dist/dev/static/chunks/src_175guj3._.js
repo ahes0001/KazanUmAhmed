@@ -234,12 +234,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Hero() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(32);
-    if ($[0] !== "4b6dbe377b9c8f96ad1d4c0b63342b54ad7b8cb1b10ff847a1cb58e8f138ebab") {
-        for(let $i = 0; $i < 32; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(31);
+    if ($[0] !== "555556613fb2dd172ffb2e20c9d3f3d0dd83079e36553e40ac32ede53deab569") {
+        for(let $i = 0; $i < 31; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "4b6dbe377b9c8f96ad1d4c0b63342b54ad7b8cb1b10ff847a1cb58e8f138ebab";
+        $[0] = "555556613fb2dd172ffb2e20c9d3f3d0dd83079e36553e40ac32ede53deab569";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -342,13 +342,12 @@ function Hero() {
         t5 = $[13];
     }
     let t6;
-    if ($[14] !== t.hero.trust1 || $[15] !== t.hero.trust2 || $[16] !== t.hero.trust3) {
+    if ($[14] !== t.hero.trust1 || $[15] !== t.hero.trust2) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium text-foreground/80",
             children: [
                 t.hero.trust1,
-                t.hero.trust2,
-                t.hero.trust3
+                t.hero.trust2
             ].map(_HeroAnonymous)
         }, void 0, false, {
             fileName: "[project]/src/components/hero.tsx",
@@ -357,13 +356,12 @@ function Hero() {
         }, this);
         $[14] = t.hero.trust1;
         $[15] = t.hero.trust2;
-        $[16] = t.hero.trust3;
-        $[17] = t6;
+        $[16] = t6;
     } else {
-        t6 = $[17];
+        t6 = $[16];
     }
     let t7;
-    if ($[18] !== t0 || $[19] !== t1 || $[20] !== t2 || $[21] !== t5 || $[22] !== t6) {
+    if ($[17] !== t0 || $[18] !== t1 || $[19] !== t2 || $[20] !== t5 || $[21] !== t6) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative z-10 max-w-3xl",
             children: [
@@ -375,20 +373,20 @@ function Hero() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/hero.tsx",
-            lineNumber: 81,
+            lineNumber: 80,
             columnNumber: 10
         }, this);
-        $[18] = t0;
-        $[19] = t1;
-        $[20] = t2;
-        $[21] = t5;
-        $[22] = t6;
-        $[23] = t7;
+        $[17] = t0;
+        $[18] = t1;
+        $[19] = t2;
+        $[20] = t5;
+        $[21] = t6;
+        $[22] = t7;
     } else {
-        t7 = $[23];
+        t7 = $[22];
     }
     let t8;
-    if ($[24] !== t.businessName) {
+    if ($[23] !== t.businessName) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "pointer-events-none absolute top-1/2 end-4 -z-10 hidden -translate-y-1/2 md:block lg:end-16",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -402,26 +400,26 @@ function Hero() {
                     priority: true
                 }, void 0, false, {
                     fileName: "[project]/src/components/hero.tsx",
-                    lineNumber: 93,
+                    lineNumber: 92,
                     columnNumber: 165
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/hero.tsx",
-                lineNumber: 93,
+                lineNumber: 92,
                 columnNumber: 119
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/hero.tsx",
-            lineNumber: 93,
+            lineNumber: 92,
             columnNumber: 10
         }, this);
-        $[24] = t.businessName;
-        $[25] = t8;
+        $[23] = t.businessName;
+        $[24] = t8;
     } else {
-        t8 = $[25];
+        t8 = $[24];
     }
     let t9;
-    if ($[26] !== t7 || $[27] !== t8) {
+    if ($[25] !== t7 || $[26] !== t8) {
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 lg:px-8",
             children: [
@@ -430,17 +428,17 @@ function Hero() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/hero.tsx",
-            lineNumber: 101,
+            lineNumber: 100,
             columnNumber: 10
         }, this);
-        $[26] = t7;
-        $[27] = t8;
-        $[28] = t9;
+        $[25] = t7;
+        $[26] = t8;
+        $[27] = t9;
     } else {
-        t9 = $[28];
+        t9 = $[27];
     }
     let t10;
-    if ($[29] !== dir || $[30] !== t9) {
+    if ($[28] !== dir || $[29] !== t9) {
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             id: "home",
             className: "relative flex min-h-[90vh] items-center overflow-hidden pt-16",
@@ -448,14 +446,14 @@ function Hero() {
             children: t9
         }, void 0, false, {
             fileName: "[project]/src/components/hero.tsx",
-            lineNumber: 110,
+            lineNumber: 109,
             columnNumber: 11
         }, this);
-        $[29] = dir;
-        $[30] = t9;
-        $[31] = t10;
+        $[28] = dir;
+        $[29] = t9;
+        $[30] = t10;
     } else {
-        t10 = $[31];
+        t10 = $[30];
     }
     return t10;
 }
@@ -475,19 +473,19 @@ function _HeroAnonymous(item) {
                     className: "size-3"
                 }, void 0, false, {
                     fileName: "[project]/src/components/hero.tsx",
-                    lineNumber: 120,
+                    lineNumber: 119,
                     columnNumber: 169
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/hero.tsx",
-                lineNumber: 120,
+                lineNumber: 119,
                 columnNumber: 62
             }, this),
             item
         ]
     }, item, true, {
         fileName: "[project]/src/components/hero.tsx",
-        lineNumber: 120,
+        lineNumber: 119,
         columnNumber: 10
     }, this);
 }

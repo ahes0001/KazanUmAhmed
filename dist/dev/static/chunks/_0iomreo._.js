@@ -1884,68 +1884,69 @@ module.exports = {
     },
     "hero": {
         "eyebrow": "تمويل منزلي فاخر",
-        "headline": "متخصصين في بخاري لحام",
-        "subHeadline": "نعدّ كل طلب بكميات محدودة وعالية الجودة للمناسبات العائلية والتجمعات الصغيرة.",
+        "headline": "متخصصين في بخاري لحم",
+        "subHeadline": "نستقبل طلبات بكميات محدودة وعالية الجودة للمناسبات والتجمعات",
         "ctaBook": "احجز مناسبتك",
         "ctaMenu": "شاهد القائمة والأسعار",
         "trust1": "توصيل مجاني",
         "trust2": "مرافق إضافية مشمولة",
-        "trust3": "حد أقصى 2 خروف / طلب",
         "imageLabel": "[خلفية البطل - كازان]"
     },
     "about": {
         "eyebrow": "قصة كازان أم أحمد",
-        "heading": "إرث، جودة، ودفء المنزل",
-        "paragraph1": "كل طبق يخرج من مطبخنا يحمل أجيالاً من التقاليد. نؤمن بأن الطيب لا يُستعجل، لذلك نحضّر كل طلب بكميات محدودة وعناية فائقة.",
-        "paragraph2": "نختار أفضل سلالات الغنم المحلية والمستوردة، منتقين كل قطعة من حيث الطراوة والنكهة والرائحة التي لا تتحقق إلا بالطهي البطيء على طريقة البيت.",
-        "paragraph3": "من العشاء العائلي الصغير إلى الاحتفالات المتواضعة، مطبخنا المنزلي يقوم على الثقة والكرم ووعد بطعام يشعرك بأنه مُعدّ للعائلة — لأنه فعلاً كذلك.",
+        "heading": "بداية قصتي مع البخاري من الغربة",
+        "paragraph1": "خلال سنوات ابتعاثي، كان الطبخ بالنسبة لي أكثر من مجرد إعداد وجبة؛ كان شغفًا يجمعني بالأصدقاء والعائلات حول مائدة واحدة. بدأت بتجربة إعداد البخاري للتجمعات، وجرّبت وصفات وطرقًا عديدة، واستمعت إلى آراء واقتراحات من حولي، حتى وصلت مع الوقت إلى خلطتي الخاصة ونكهتي التي تميزني.",
+        "paragraph2": "ومع كل طبق كنت أعدّه، كان الشغف يكبر… إلى أن قررت أن أحوّل هذا الحب إلى مشروع، وأن أحمل تجربتي معي إلى جدة.",
+        "paragraph3": "اليوم، كل طبق يخرج من مطبخي يحمل عبق التقاليد، وخلاصة سنوات من التجربة والشغف. ولهذا اخترت أن أُحضّر الطلبات بكميات محدودة، لأمنح كل طلب ما يستحقه من عناية، وأحافظ على مستوى عالٍ من الجودة والطعم.",
+        "paragraph4": "كما أحرص على اختيار أجود سلالات اللحوم المحلية والمستوردة بعناية، لضمان الطراوة، والجودة، والنكهة الأصيلة في كل طبق.",
+        "paragraph5": "كما أحرص على اختيار أجود سلالات اللحوم المحلية والمستوردة بعناية، لضمان الطراوة، والجودة، والنكهة الأصيلة في كل طبق.",
         "imageLabel": "[صورة تحضير في المطبخ المنزلي]"
     },
     "pricing": {
         "eyebrow": "القائمة والأسعار",
         "heading": "باقاتنا وأسعارنا",
-        "subheading": "التوصيل والمرافق مشمولة: لبن طازج، سلطة حارة، وسلطة خضراء.",
+        "subheading": "التوصيل والسلطات مشمولة: لبن طازج، سلطة حارة، وسلطة خضراء.",
         "oneLambTitle": "باقات الخروف الواحد",
         "twoLambTitle": "باقات الخروفين",
         "feedsUpTo": "يكفي حتى {{count}} شخص",
         "was": "كان {{price}} ريال",
         "now": "{{price}} ريال",
         "perOrder": "للطلب",
-        "discountNote": "وفر {{amount}} ريال",
-        "twoLambDiscountNote": "خصم إضافي 100 ريال",
+        "discountNote": "خصم {{amount}} ريال",
+        "twoLambDiscountNote": "خصم 900 ريال",
         "packages": {
             "suakniSpring": {
-                "name": "صوكني ربيعي / لباني",
-                "description": "خروف ربيعي طري، متبل بلطف و مطهو ببطء بنكهة خفيفة تناسب الجميع."
+                "name": "سواكني",
+                "description": ""
             },
             "whiteSuakni": {
-                "name": "صوكني أبيض",
-                "description": "خروف راقٍ بنكهة لطيفة وملمس كريمي عطري — مثالي للمناسبات الأنيقة."
+                "name": "سواكني أبيض",
+                "description": ""
             },
             "hari": {
                 "name": "حري",
-                "description": "خروف غني بالتوابل العميقة والنكهات التقليدية القوية، للذين يحبون الطعم الأصيل."
+                "description": ""
             }
         }
     },
     "howItWorks": {
-        "eyebrow": "حجز بسيط",
+        "eyebrow": "الحجوزات",
         "heading": "كيفية الطلب",
         "step1": {
             "title": "اختر الخروف والتاريخ",
-            "description": "اختر باقتك وتاريخ المناسبة. تذكر: حد أقصى خروفين أو 60 حصة للطلب الواحد."
+            "description": "اختر باقتك وتاريخ المناسبة."
         },
         "step2": {
             "title": "أرسل الطلب",
-            "description": "املأ نموذج الحجز أدناه وسنستلم تفاصيلك فوراً."
+            "description": "اتصل علينا او ارسل واتساب او املأ نموذج الحجز أدناه وسنستلم تفاصيلك فوراً"
         },
         "step3": {
-            "title": "الدفع المقدم والتأكيد",
-            "description": "احجز تاريخ مناسبتك بعربون يُرتّب بسرعة وأمان عبر الواتساب."
+            "title": "العربون للتاكيد",
+            "description": "ادفع للتاكيد واتمام الطلب "
         },
         "step4": {
             "title": "توصيل طازج لباب منزلك",
-            "description": "يصل طلبك ساخناً مع جميع المرافق المشمولة، جاهزاً لإبهار ضيوفك."
+            "description": "يصل طلبك ساخناً مع السلطات. ويُستكمل المبلغ المتبقي عند الاستلام."
         }
     },
     "gallery": {
@@ -1963,7 +1964,7 @@ module.exports = {
     "booking": {
         "eyebrow": "احجز موعدك",
         "heading": "احجز مناسبتك",
-        "subtext": "املأ بياناتك وسنجهّز رسالة حجز مخصصة عبر الواتساب. لا يوجد خادم خلفي — طلبك يصل إلينا مباشرة.",
+        "subtext": "املأ بياناتك وسنجهّز رسالة حجز مخصصة عبر الواتساب.",
         "fields": {
             "name": "الاسم الكامل",
             "address": "عنوان التوصيل / الحي",
@@ -2042,15 +2043,16 @@ module.exports = {
         "ctaMenu": "View Menu & Pricing",
         "trust1": "Free Delivery Included",
         "trust2": "Sides Included",
-        "trust3": "Max 2 Lambs / Order",
         "imageLabel": "[HERO KAZAN BACKGROUND]"
     },
     "about": {
         "eyebrow": "The Kazan Um Ahmed Story",
-        "heading": "Centuries of Tradition, Perfected at Home",
-        "paragraph1": "Every dish that leaves our kitchen carries generations of tradition. We believe great food is never rushed, which is why we prepare every order in small, carefully managed batches.",
-        "paragraph2": "We source premium local and imported lamb breeds, selecting each cut for tenderness, flavor, and the unmistakable aroma that only slow, home-style cooking can create.",
-        "paragraph3": "From intimate family dinners to small celebrations, our home kitchen is built on trust, hospitality, and the promise of food that tastes like it was made for family.",
+        "heading": "My Bukhari story began far from home",
+        "paragraph1": "During my years studying abroad, cooking became much more than simply preparing a meal. It became a passion, a way of bringing friends and families together around one table.",
+        "paragraph2": "I began preparing Bukhari rice for gatherings, experimenting with different recipes and techniques, and listening to the feedback and suggestions of those who tasted my food. Over time, after countless trials and refinements, I created my own signature blend and distinctive flavor.",
+        "paragraph3": "With every dish I prepared, my passion grew stronger… until I decided to turn that passion into something more and bring my culinary journey home to Jeddah.",
+        "paragraph4": "Today, every dish that leaves my kitchen carries the aroma of tradition, years of experience, and a genuine love for what I do. That is why I choose to prepare my orders in limited quantities, allowing me to give each one the attention it deserves while maintaining exceptional quality and flavor.",
+        "paragraph5": "I also carefully select premium local and imported cuts of meat, chosen for their quality, tenderness, and ability to deliver the rich, authentic flavor that defines every dish.",
         "imageLabel": "[HOME KITCHEN PREP PHOTO]"
     },
     "pricing": {
@@ -2067,11 +2069,11 @@ module.exports = {
         "twoLambDiscountNote": "SAR 900 Off",
         "packages": {
             "suakniSpring": {
-                "name": "Suakni",
+                "name": "Sawakni",
                 "description": ""
             },
             "whiteSuakni": {
-                "name": "White Suakni",
+                "name": "White Sawakni",
                 "description": ""
             },
             "hari": {

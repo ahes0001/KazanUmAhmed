@@ -43,7 +43,7 @@ export function Hero() {
           </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium text-foreground/80">
-            {[t.hero.trust1, t.hero.trust2, t.hero.trust3].map((item) => (
+            {[t.hero.trust1, t.hero.trust2].map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <span className="flex size-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                   <Check className="size-3" />

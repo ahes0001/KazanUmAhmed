@@ -3,6 +3,7 @@
 import { useLanguage } from "@/components/language-provider";
 import { SectionHeading } from "@/components/section-heading";
 import { PlaceholderImage } from "@/components/placeholder-image";
+import Image from "next/image";
 
 export function About() {
   const { t, dir } = useLanguage();
@@ -18,14 +19,23 @@ export function About() {
             <p>{t.about.paragraph1}</p>
             <p>{t.about.paragraph2}</p>
             <p>{t.about.paragraph3}</p>
+            <p>{t.about.paragraph4}</p>
+            <p>{t.about.paragraph5}</p>
           </div>
 
-          <div className="order-1 lg:order-2">
-            <PlaceholderImage
+          <div className="order-1 lg:order-2 pointer-events-none top-1/2 end-4 -z-10 hidden -translate-y-1/2 md:block lg:end-16">
+            <Image
+              src="/images/about.png"
+              alt={t.about.imageLabel}
+              width={280}
+              height={280}
+              className="h-40 w-40 object-contain md:h-56 md:w-56 lg:h-72 lg:w-72"
+              ></Image>
+            {/* <PlaceholderImage
               label={t.about.imageLabel}
               containerClassName="aspect-[4/3] w-full"
               rounded="2xl"
-            />
+            /> */}
           </div>
         </div>
       </div>

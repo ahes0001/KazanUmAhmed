@@ -16,15 +16,16 @@
     "ctaMenu": "View Menu & Pricing",
     "trust1": "Free Delivery Included",
     "trust2": "Sides Included",
-    "trust3": "Max 2 Lambs / Order",
     "imageLabel": "[HERO KAZAN BACKGROUND]"
   },
   "about": {
     "eyebrow": "The Kazan Um Ahmed Story",
-    "heading": "Centuries of Tradition, Perfected at Home",
-    "paragraph1": "Every dish that leaves our kitchen carries generations of tradition. We believe great food is never rushed, which is why we prepare every order in small, carefully managed batches.",
-    "paragraph2": "We source premium local and imported lamb breeds, selecting each cut for tenderness, flavor, and the unmistakable aroma that only slow, home-style cooking can create.",
-    "paragraph3": "From intimate family dinners to small celebrations, our home kitchen is built on trust, hospitality, and the promise of food that tastes like it was made for family.",
+    "heading": "My Bukhari story began far from home",
+    "paragraph1": "During my years studying abroad, cooking became much more than simply preparing a meal. It became a passion, a way of bringing friends and families together around one table.",
+    "paragraph2": "I began preparing Bukhari rice for gatherings, experimenting with different recipes and techniques, and listening to the feedback and suggestions of those who tasted my food. Over time, after countless trials and refinements, I created my own signature blend and distinctive flavor.",
+    "paragraph3": "With every dish I prepared, my passion grew stronger… until I decided to turn that passion into something more and bring my culinary journey home to Jeddah.",
+    "paragraph4": "Today, every dish that leaves my kitchen carries the aroma of tradition, years of experience, and a genuine love for what I do. That is why I choose to prepare my orders in limited quantities, allowing me to give each one the attention it deserves while maintaining exceptional quality and flavor.",
+    "paragraph5": "I also carefully select premium local and imported cuts of meat, chosen for their quality, tenderness, and ability to deliver the rich, authentic flavor that defines every dish.",
     "imageLabel": "[HOME KITCHEN PREP PHOTO]"
   },
   "pricing": {
@@ -41,11 +42,11 @@
     "twoLambDiscountNote": "SAR 900 Off",
     "packages": {
       "suakniSpring": {
-        "name": "Suakni",
+        "name": "Sawakni",
         "description": ""
       },
       "whiteSuakni": {
-        "name": "White Suakni",
+        "name": "White Sawakni",
         "description": ""
       },
       "hari": {

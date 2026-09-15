@@ -3,7 +3,7 @@
 
 __turbopack_context__.v((parentImport) => {
     return Promise.all([
-  "static/chunks/src_components_1lj__o0._.js"
+  "static/chunks/src_components_0-rwn27._.js"
 ].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
         return parentImport("[project]/src/components/about.tsx [app-client] (ecmascript, next/dynamic entry)");
     });
