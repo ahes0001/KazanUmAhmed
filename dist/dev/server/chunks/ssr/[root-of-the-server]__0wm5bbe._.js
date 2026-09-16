@@ -161,7 +161,7 @@ module.exports = {
         "twoLambDiscountNote": "خصم 900 ريال",
         "packages": {
             "suakniSpring": {
-                "name": "سواكني",
+                "name": "سواكني أحمر",
                 "description": ""
             },
             "whiteSuakni": {
@@ -311,7 +311,7 @@ module.exports = {
         "twoLambDiscountNote": "SAR 900 Off",
         "packages": {
             "suakniSpring": {
-                "name": "Sawakni",
+                "name": "Red Sawakni",
                 "description": ""
             },
             "whiteSuakni": {

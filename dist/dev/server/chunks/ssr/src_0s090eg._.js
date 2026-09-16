@@ -699,24 +699,24 @@ const packages = [
         key: "suakniSpring",
         lambCount: 1,
         feeds: 30,
-        originalPrice: 2200,
-        currentPrice: 1800
+        originalPrice: 2300,
+        currentPrice: 1900
     },
     {
         id: "white-suakni-1",
         key: "whiteSuakni",
         lambCount: 1,
         feeds: 20,
-        originalPrice: 2200,
-        currentPrice: 1800
+        originalPrice: 2300,
+        currentPrice: 1900
     },
     {
         id: "hari-1",
         key: "hari",
         lambCount: 1,
         feeds: 20,
-        originalPrice: 2500,
-        currentPrice: 2100
+        originalPrice: 2600,
+        currentPrice: 2200
     },
     {
         id: "suakni-spring-2",
