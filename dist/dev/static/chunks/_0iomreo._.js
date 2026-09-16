@@ -1906,6 +1906,7 @@ module.exports = {
         "eyebrow": "القائمة والأسعار",
         "heading": "باقاتنا وأسعارنا",
         "subheading": "التوصيل والسلطات مشمولة: لبن طازج، سلطة حارة، وسلطة خضراء.",
+        "halfLambTitle": "باقات نصف الخروف",
         "oneLambTitle": "باقات الخروف الواحد",
         "twoLambTitle": "باقات الخروفين",
         "feedsUpTo": "يكفي حتى {{count}} شخص",
@@ -1913,13 +1914,21 @@ module.exports = {
         "now": "{{price}} ريال",
         "perOrder": "للطلب",
         "discountNote": "خصم {{amount}} ريال",
-        "twoLambDiscountNote": "خصم 900 ريال",
+        "sizeLabels": {
+            "half": "نصف خروف",
+            "whole": "خروف كامل",
+            "double": "خروفين كاملين"
+        },
+        "oiliness": {
+            "lessOily": "أقل دهونًا",
+            "moreOily": "أكثر دهونًا"
+        },
         "packages": {
-            "suakniSpring": {
+            "redSawakani": {
                 "name": "سواكني أحمر",
                 "description": ""
             },
-            "whiteSuakni": {
+            "whiteSawakni": {
                 "name": "سواكني أبيض",
                 "description": ""
             },
@@ -2031,7 +2040,7 @@ module.exports = {
         "home": "Home",
         "about": "Our Story",
         "pricing": "Menu & Pricing",
-        "howItWorks": "How It Works",
+        "howItWorks": "Order Steps",
         "gallery": "Gallery",
         "book": "Book Now"
     },
@@ -2059,6 +2068,7 @@ module.exports = {
         "eyebrow": "Menu & Pricing",
         "heading": "Our Packages & Pricing",
         "subheading": "Included delivery and sides: Fresh Yogurt, Spicy Salad, and Green Salad.",
+        "halfLambTitle": "Half Lamb Options",
         "oneLambTitle": "One Lamb Options",
         "twoLambTitle": "Two Lamb Options",
         "feedsUpTo": "Feeds {{count}} people",
@@ -2066,13 +2076,21 @@ module.exports = {
         "now": "SAR {{price}}",
         "perOrder": "per order",
         "discountNote": "SAR {{amount}} Off",
-        "twoLambDiscountNote": "SAR 900 Off",
+        "sizeLabels": {
+            "half": "Half Lamb",
+            "whole": "1 Whole Lamb",
+            "double": "2 Whole Lambs"
+        },
+        "oiliness": {
+            "lessOily": "Less oily",
+            "moreOily": "More oily"
+        },
         "packages": {
-            "suakniSpring": {
+            "redSawakani": {
                 "name": "Red Sawakni",
                 "description": ""
             },
-            "whiteSuakni": {
+            "whiteSawakni": {
                 "name": "White Sawakni",
                 "description": ""
             },
@@ -2084,10 +2102,10 @@ module.exports = {
     },
     "howItWorks": {
         "eyebrow": "Simple Booking",
-        "heading": "How It Works",
+        "heading": "Order Steps",
         "step1": {
             "title": "Select Your Lamb & Date",
-            "description": "Choose your package and event date. Remember: max 2 lambs or 60 servings per order."
+            "description": "Choose your package and event date."
         },
         "step2": {
             "title": "Submit Request",

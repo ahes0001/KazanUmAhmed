@@ -34,7 +34,7 @@ __turbopack_context__.v((parentImport) => {
 
 __turbopack_context__.v((parentImport) => {
     return Promise.all([
-  "static/chunks/src_components_1o4x7nw._.js"
+  "static/chunks/src_components_19x76df._.js"
 ].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
         return parentImport("[project]/src/components/gallery.tsx [app-client] (ecmascript, next/dynamic entry)");
     });

@@ -24,6 +24,15 @@ import { Separator } from "@/components/ui/separator";
 import { getPackageById, packages, buildWhatsAppUrl, type PackageId } from "@/lib/data";
 import { t as interpolate } from "@/lib/i18n";
 
+function getPackageLabel(
+  pkg: NonNullable<ReturnType<typeof getPackageById>>,
+  t: ReturnType<typeof useLanguage>["t"]
+) {
+  const name = t.pricing.packages[pkg.key].name;
+  const size = t.pricing.sizeLabels[pkg.size];
+  return `${name} (${size})`;
+}
+
 export function BookingForm() {
   const { t, dir, locale } = useLanguage();
   const [formData, setFormData] = useState({
@@ -59,7 +68,7 @@ export function BookingForm() {
     const pkg = getPackageById(formData.packageId);
     if (!pkg) return;
 
-    const packageLabel = `${pkg.lambCount === 2 ? "2x " : ""}${t.pricing.packages[pkg.key].name}`;
+    const packageLabel = getPackageLabel(pkg, t);
 
     const message = interpolate(t.booking.whatsappMessage, {
       name: formData.name,
@@ -86,7 +95,7 @@ export function BookingForm() {
     : "—";
   const guests = selectedPackage ? selectedPackage.feeds : "—";
   const packageName = selectedPackage
-    ? `${selectedPackage.lambCount === 2 ? "2x " : ""}${t.pricing.packages[selectedPackage.key].name}`
+    ? getPackageLabel(selectedPackage, t)
     : t.booking.packagePlaceholder;
 
   return (
@@ -167,8 +176,7 @@ export function BookingForm() {
                 <SelectContent>
                   {packages.map((pkg) => (
                     <SelectItem key={pkg.id} value={pkg.id}>
-                      {pkg.lambCount === 2 ? "2x " : ""}
-                      {t.pricing.packages[pkg.key].name} —{" "}
+                      {getPackageLabel(pkg, t)} —{" "}
                       {interpolate(t.pricing.feedsUpTo, { count: pkg.feeds })}
                     </SelectItem>
                   ))}

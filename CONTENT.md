@@ -42,11 +42,11 @@ Update in the following files:
 - [ ] Headline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.headline`)
 - [ ] Sub-headline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.subHeadline`)
 - [ ] CTA button labels — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.ctaBook`, `hero.ctaMenu`)
-- [ ] Trust strip items — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.trust1`, `hero.trust2`, `hero.trust3`)
+- [ ] Trust strip items — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.trust1`, `hero.trust2`)
 
 ## b. About Us Section (`src/components/about.tsx`)
 
-- [ ] Home kitchen prep photo — replace `<PlaceholderImage label={t.about.imageLabel} />`
+- [x] Home kitchen prep photo — `/images/about.png` (loaded with Next.js `<Image>`)
 - [ ] Eyebrow — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`about.eyebrow`)
 - [ ] Heading — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`about.heading`)
 - [ ] Company story paragraphs — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`about.paragraph1`, `about.paragraph2`, `about.paragraph3`)
@@ -54,9 +54,12 @@ Update in the following files:
 ## c. Pricing Section (`src/components/pricing.tsx` + `src/lib/data.ts`)
 
 - [ ] Package names & descriptions — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.packages.*`)
-- [ ] Guest counts per package — `src/lib/data.ts` (`feeds`)
-- [ ] Original and current prices — `src/lib/data.ts` (`originalPrice`, `currentPrice`)
-- [ ] Section headings — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.oneLambTitle`, `pricing.twoLambTitle`)
+- [ ] Oiliness labels per lamb type — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.oiliness.*`) and `src/lib/data.ts` (`oiliness`)
+- [ ] Half / whole / double size labels — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.sizeLabels.*`)
+- [ ] Half-lamb package prices & guest counts — `src/lib/data.ts`
+- [ ] One-lamb package prices & guest counts — `src/lib/data.ts`
+- [ ] Two-lamb package prices & guest counts — `src/lib/data.ts`
+- [ ] Section headings — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.halfLambTitle`, `pricing.oneLambTitle`, `pricing.twoLambTitle`)
 - [ ] Inclusions subtitle under the main heading — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`pricing.subheading`)
 
 ## d. How It Works Section (`src/components/how-it-works.tsx`)
@@ -65,12 +68,12 @@ Update in the following files:
 
 ## e. Photo Gallery (`src/components/gallery.tsx`)
 
-- [ ] Gallery image 1 — replace `[FOOD PRESENTATION 1]` placeholder
-- [ ] Gallery image 2 — replace `[CHAFING DISH SETUP]` placeholder
-- [ ] Gallery image 3 — replace `[LAMB PLATTER CLOSE-UP]` placeholder
-- [ ] Gallery image 4 — replace `[FAMILY GATHERING TABLE]` placeholder
-- [ ] Gallery image 5 — replace `[SIDE DISHES SPREAD]` placeholder
-- [ ] Gallery image 6 — replace `[PACKED DELIVERY TRAY]` placeholder
+- [x] Gallery image 1 — `/images/Gallery1.jpg`
+- [x] Gallery image 2 — `/images/Gallery2.jpg`
+- [x] Gallery image 3 — `/images/Gallery3.png`
+- [x] Gallery image 4 — `/images/Gallery4.png`
+- [x] Gallery image 5 — `/images/Gallery5.png`
+- [x] Gallery image 6 — `/images/Gallery6.png`
 - [ ] Gallery labels — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`gallery.imageLabels.*`)
 
 ## f. Booking Form (`src/components/booking-form.tsx`)

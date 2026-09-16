@@ -1,19 +1,53 @@
-{"timestamp":"00:00:06.458","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:24.928","source":"Server","level":"LOG","message":"✓ Compiled in 133ms"}
-{"timestamp":"00:03:31.726","source":"Server","level":"LOG","message":"✓ Compiled in 110ms"}
-{"timestamp":"00:04:03.426","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
-{"timestamp":"00:06:12.131","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:06:12.192","source":"Server","level":"LOG","message":"✓ Compiled in 65ms"}
-{"timestamp":"00:06:32.989","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:06:33.048","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
-{"timestamp":"00:06:34.817","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:06:34.867","source":"Server","level":"LOG","message":"✓ Compiled in 69ms"}
-{"timestamp":"00:06:40.000","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:06:40.049","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
-{"timestamp":"00:11:27.744","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:11:30.069","source":"Server","level":"LOG","message":"✓ Compiled in 62ms"}
-{"timestamp":"00:11:32.548","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
-{"timestamp":"00:11:35.569","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:11:39.716","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
-{"timestamp":"00:11:43.110","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
-{"timestamp":"00:22:35.741","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:05.348","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:08.376","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:00:22.341","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:46.176","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:14:54.693","source":"Server","level":"LOG","message":"✓ Compiled in 230ms"}
+{"timestamp":"00:15:07.866","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"00:15:19.381","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:15:22.204","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"00:15:59.222","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"00:16:13.900","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"00:20:36.063","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:20:36.063","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:20:36.171","source":"Server","level":"LOG","message":"✓ Compiled in 65ms"}
+{"timestamp":"00:20:36.221","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:20:36.323","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:20:51.186","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:20:51.191","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:20:51.247","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"00:20:51.336","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:20:51.443","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:21:06.278","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:21:06.279","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:21:06.335","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
+{"timestamp":"00:21:06.410","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:21:06.513","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:28:33.988","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:28:35.632","source":"Server","level":"LOG","message":"✓ Compiled in 69ms"}
+{"timestamp":"00:28:39.981","source":"Server","level":"LOG","message":"✓ Compiled in 84ms"}
+{"timestamp":"00:28:44.694","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
+{"timestamp":"00:28:46.236","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
+{"timestamp":"00:28:52.639","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:28:56.132","source":"Server","level":"LOG","message":"✓ Compiled in 54ms"}
+{"timestamp":"00:28:59.068","source":"Server","level":"LOG","message":"✓ Compiled in 62ms"}
+{"timestamp":"00:29:01.410","source":"Server","level":"LOG","message":"✓ Compiled in 68ms"}
+{"timestamp":"00:29:05.070","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"00:29:07.945","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
+{"timestamp":"00:29:14.451","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"00:29:15.687","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
+{"timestamp":"00:29:21.749","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:29:24.087","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:29:28.792","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:29:44.100","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:29:47.308","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:29:49.094","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:30:50.015","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:30:52.637","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:30:53.084","source":"Browser","level":"WARN","message":"Image with src \"/images/about.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:30:53.102","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/about.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:30:58.431","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
+{"timestamp":"00:31:00.837","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:31:03.744","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:31:09.000","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:31:13.500","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}

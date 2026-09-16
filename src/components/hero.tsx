@@ -11,11 +11,12 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[90vh] items-center overflow-hidden pt-16"
+      className="flex min-h-[90vh] items-center pt-16"
       dir={dir}
     >
-      <div className="mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <div className="relative z-10 max-w-3xl">
+      <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-10 px-4 py-20 text-center sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8 lg:text-start">
+        {/* Text content */}
+        <div className="flex w-full flex-col items-center lg:w-[55%] lg:items-start">
           <span className="mb-4 inline-block text-sm font-medium uppercase tracking-widest text-primary">
             {t.hero.eyebrow}
           </span>
@@ -42,7 +43,7 @@ export function Hero() {
             </LinkButton>
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium text-foreground/80">
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-medium text-foreground/80 lg:justify-start">
             {[t.hero.trust1, t.hero.trust2].map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <span className="flex size-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
@@ -54,15 +55,15 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Floating spinning logo */}
-        <div className="pointer-events-none absolute top-1/2 end-4 -z-10 hidden -translate-y-1/2 md:block lg:end-16">
+        {/* Spinning logo */}
+        <div className="flex w-full justify-center lg:w-[40%] lg:justify-end">
           <div className="animate-spin-slow opacity-90">
             <Image
               src="/images/logo.png"
               alt={t.businessName}
               width={280}
               height={280}
-              className="h-40 w-40 object-contain md:h-56 md:w-56 lg:h-72 lg:w-72"
+              className="h-56 w-56 object-contain sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-80 lg:w-80"
               priority
             />
           </div>
@@ -71,4 +72,3 @@ export function Hero() {
     </section>
   );
 }
-

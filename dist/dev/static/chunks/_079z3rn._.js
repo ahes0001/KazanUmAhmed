@@ -107,14 +107,14 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 function PackageCard(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(56);
-    if ($[0] !== "339f3755e558693759a27a00673c209e417d9ba6c8a8920fc2b78259c01bbef5") {
-        for(let $i = 0; $i < 56; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(57);
+    if ($[0] !== "c43ccfef3676d99219dd79f64e44433aa5a7e924879953b23e74c480ac9dfb9c") {
+        for(let $i = 0; $i < 57; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "339f3755e558693759a27a00673c209e417d9ba6c8a8920fc2b78259c01bbef5";
+        $[0] = "c43ccfef3676d99219dd79f64e44433aa5a7e924879953b23e74c480ac9dfb9c";
     }
-    const { pkg, dictionary, isTwoLamb } = t0;
+    const { pkg, dictionary } = t0;
     let t1;
     if ($[1] !== dictionary.pricing.was || $[2] !== pkg.originalPrice) {
         t1 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["t"])(dictionary.pricing.was, {
@@ -153,282 +153,312 @@ function PackageCard(t0) {
     const feedsText = t3;
     const discountAmount = pkg.originalPrice - pkg.currentPrice;
     let t4;
-    if ($[10] !== dictionary.pricing.discountNote || $[11] !== dictionary.pricing.twoLambDiscountNote || $[12] !== discountAmount || $[13] !== isTwoLamb) {
-        t4 = isTwoLamb ? dictionary.pricing.twoLambDiscountNote : (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["t"])(dictionary.pricing.discountNote, {
+    if ($[10] !== dictionary.pricing.discountNote || $[11] !== discountAmount) {
+        t4 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["t"])(dictionary.pricing.discountNote, {
             amount: discountAmount
         });
         $[10] = dictionary.pricing.discountNote;
-        $[11] = dictionary.pricing.twoLambDiscountNote;
-        $[12] = discountAmount;
-        $[13] = isTwoLamb;
-        $[14] = t4;
+        $[11] = discountAmount;
+        $[12] = t4;
     } else {
-        t4 = $[14];
+        t4 = $[12];
     }
     const discountLabel = t4;
-    const t5 = pkg.lambCount === 2 ? "2x " : "";
-    const t6 = dictionary.pricing.packages[pkg.key];
-    let t7;
-    if ($[15] !== t5 || $[16] !== t6.name) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
+    const sizeLabel = dictionary.pricing.sizeLabels[pkg.size];
+    const oilinessLabel = dictionary.pricing.oiliness[pkg.oiliness];
+    const t5 = dictionary.pricing.packages[pkg.key];
+    let t6;
+    if ($[13] !== t5.name) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
             className: "font-heading text-xl",
-            children: [
-                t5,
-                t6.name
-            ]
-        }, void 0, true, {
+            children: t5.name
+        }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 80,
+            lineNumber: 78,
             columnNumber: 10
         }, this);
-        $[15] = t5;
-        $[16] = t6.name;
-        $[17] = t7;
+        $[13] = t5.name;
+        $[14] = t6;
     } else {
-        t7 = $[17];
+        t6 = $[14];
     }
-    let t8;
-    if ($[18] !== discountLabel) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
+    let t7;
+    if ($[15] !== discountLabel) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
             variant: "secondary",
             className: "shrink-0",
             children: discountLabel
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 89,
+            lineNumber: 86,
             columnNumber: 10
         }, this);
-        $[18] = discountLabel;
+        $[15] = discountLabel;
+        $[16] = t7;
+    } else {
+        t7 = $[16];
+    }
+    let t8;
+    if ($[17] !== t6 || $[18] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-start justify-between gap-3",
+            children: [
+                t6,
+                t7
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 94,
+            columnNumber: 10
+        }, this);
+        $[17] = t6;
+        $[18] = t7;
         $[19] = t8;
     } else {
         t8 = $[19];
     }
-    let t9;
-    if ($[20] !== t7 || $[21] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-start justify-between gap-3",
+    const t9 = dictionary.pricing.packages[pkg.key];
+    let t10;
+    if ($[20] !== t9.description) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "mt-2 text-sm leading-relaxed text-muted-foreground",
+            children: t9.description
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 104,
+            columnNumber: 11
+        }, this);
+        $[20] = t9.description;
+        $[21] = t10;
+    } else {
+        t10 = $[21];
+    }
+    let t11;
+    if ($[22] !== t10 || $[23] !== t8) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
+            className: "pb-2",
             children: [
-                t7,
-                t8
+                t8,
+                t10
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 97,
-            columnNumber: 10
-        }, this);
-        $[20] = t7;
-        $[21] = t8;
-        $[22] = t9;
-    } else {
-        t9 = $[22];
-    }
-    const t10 = dictionary.pricing.packages[pkg.key];
-    let t11;
-    if ($[23] !== t10.description) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "mt-2 text-sm leading-relaxed text-muted-foreground",
-            children: t10.description
-        }, void 0, false, {
-            fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 107,
+            lineNumber: 112,
             columnNumber: 11
         }, this);
-        $[23] = t10.description;
+        $[22] = t10;
+        $[23] = t8;
         $[24] = t11;
     } else {
         t11 = $[24];
     }
     let t12;
-    if ($[25] !== t11 || $[26] !== t9) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
-            className: "pb-2",
-            children: [
-                t9,
-                t11
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 115,
-            columnNumber: 11
-        }, this);
-        $[25] = t11;
-        $[26] = t9;
-        $[27] = t12;
-    } else {
-        t12 = $[27];
-    }
-    let t13;
-    if ($[28] !== currentText) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+    if ($[25] !== currentText) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "text-3xl font-semibold text-foreground",
             children: currentText
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 124,
+            lineNumber: 121,
             columnNumber: 11
         }, this);
-        $[28] = currentText;
-        $[29] = t13;
+        $[25] = currentText;
+        $[26] = t12;
     } else {
-        t13 = $[29];
+        t12 = $[26];
     }
-    let t14;
-    if ($[30] !== originalText) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+    let t13;
+    if ($[27] !== originalText) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "text-sm text-muted-foreground line-through",
             children: originalText
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 132,
+            lineNumber: 129,
             columnNumber: 11
         }, this);
-        $[30] = originalText;
+        $[27] = originalText;
+        $[28] = t13;
+    } else {
+        t13 = $[28];
+    }
+    let t14;
+    if ($[29] !== t12 || $[30] !== t13) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-end gap-3",
+            children: [
+                t12,
+                t13
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 137,
+            columnNumber: 11
+        }, this);
+        $[29] = t12;
+        $[30] = t13;
         $[31] = t14;
     } else {
         t14 = $[31];
     }
     let t15;
-    if ($[32] !== t13 || $[33] !== t14) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-end gap-3",
-            children: [
-                t13,
-                t14
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 140,
-            columnNumber: 11
-        }, this);
-        $[32] = t13;
-        $[33] = t14;
-        $[34] = t15;
-    } else {
-        t15 = $[34];
-    }
-    let t16;
-    if ($[35] !== dictionary.pricing.perOrder) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+    if ($[32] !== dictionary.pricing.perOrder) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "mt-1 text-xs text-muted-foreground",
             children: dictionary.pricing.perOrder
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 149,
+            lineNumber: 146,
             columnNumber: 11
         }, this);
-        $[35] = dictionary.pricing.perOrder;
-        $[36] = t16;
+        $[32] = dictionary.pricing.perOrder;
+        $[33] = t15;
     } else {
-        t16 = $[36];
+        t15 = $[33];
     }
-    let t17;
-    if ($[37] === Symbol.for("react.memo_cache_sentinel")) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+    let t16;
+    if ($[34] === Symbol.for("react.memo_cache_sentinel")) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
             className: "size-4 text-primary"
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 157,
+            lineNumber: 154,
             columnNumber: 11
         }, this);
-        $[37] = t17;
+        $[34] = t16;
     } else {
-        t17 = $[37];
+        t16 = $[34];
     }
-    let t18;
-    if ($[38] !== feedsText) {
-        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t17;
+    if ($[35] !== feedsText) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center gap-2",
             children: [
-                t17,
+                t16,
                 feedsText
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 164,
+            lineNumber: 161,
             columnNumber: 11
         }, this);
-        $[38] = feedsText;
-        $[39] = t18;
+        $[35] = feedsText;
+        $[36] = t17;
     } else {
-        t18 = $[39];
+        t17 = $[36];
     }
-    let t19;
-    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
-        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+    let t18;
+    if ($[37] === Symbol.for("react.memo_cache_sentinel")) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "text-base",
             "aria-label": "Lamb",
             role: "img",
             children: "🐑"
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 172,
+            lineNumber: 169,
             columnNumber: 11
         }, this);
-        $[40] = t19;
+        $[37] = t18;
     } else {
-        t19 = $[40];
+        t18 = $[37];
     }
-    const t20 = pkg.lambCount === 1 ? "1 Whole Spring Lamb" : "2 Whole Spring Lambs";
-    let t21;
-    if ($[41] !== t20) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t19;
+    if ($[38] !== sizeLabel) {
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center gap-2",
             children: [
-                t19,
-                t20
+                t18,
+                sizeLabel
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 180,
+            lineNumber: 176,
             columnNumber: 11
         }, this);
-        $[41] = t20;
+        $[38] = sizeLabel;
+        $[39] = t19;
+    } else {
+        t19 = $[39];
+    }
+    let t20;
+    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-base",
+            "aria-label": "Oiliness",
+            role: "img",
+            children: "🫒"
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 184,
+            columnNumber: 11
+        }, this);
+        $[40] = t20;
+    } else {
+        t20 = $[40];
+    }
+    let t21;
+    if ($[41] !== oilinessLabel) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center gap-2",
+            children: [
+                t20,
+                oilinessLabel
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 191,
+            columnNumber: 11
+        }, this);
+        $[41] = oilinessLabel;
         $[42] = t21;
     } else {
         t21 = $[42];
     }
     let t22;
-    if ($[43] !== t18 || $[44] !== t21) {
+    if ($[43] !== t17 || $[44] !== t19 || $[45] !== t21) {
         t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mt-5 space-y-2 text-sm text-foreground/80",
             children: [
-                t18,
+                t17,
+                t19,
                 t21
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 188,
+            lineNumber: 199,
             columnNumber: 11
         }, this);
-        $[43] = t18;
-        $[44] = t21;
-        $[45] = t22;
+        $[43] = t17;
+        $[44] = t19;
+        $[45] = t21;
+        $[46] = t22;
     } else {
-        t22 = $[45];
+        t22 = $[46];
     }
     let t23;
-    if ($[46] !== t15 || $[47] !== t16 || $[48] !== t22) {
+    if ($[47] !== t14 || $[48] !== t15 || $[49] !== t22) {
         t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
             className: "flex-1",
             children: [
+                t14,
                 t15,
-                t16,
                 t22
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 197,
+            lineNumber: 209,
             columnNumber: 11
         }, this);
-        $[46] = t15;
-        $[47] = t16;
-        $[48] = t22;
-        $[49] = t23;
+        $[47] = t14;
+        $[48] = t15;
+        $[49] = t22;
+        $[50] = t23;
     } else {
-        t23 = $[49];
+        t23 = $[50];
     }
     let t24;
-    if ($[50] !== dictionary.nav.book) {
+    if ($[51] !== dictionary.nav.book) {
         t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardFooter"], {
             className: "border-t bg-muted/30",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$link$2d$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LinkButton"], {
@@ -437,325 +467,299 @@ function PackageCard(t0) {
                 children: dictionary.nav.book
             }, void 0, false, {
                 fileName: "[project]/src/components/pricing.tsx",
-                lineNumber: 207,
+                lineNumber: 219,
                 columnNumber: 56
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 207,
+            lineNumber: 219,
             columnNumber: 11
         }, this);
-        $[50] = dictionary.nav.book;
-        $[51] = t24;
+        $[51] = dictionary.nav.book;
+        $[52] = t24;
     } else {
-        t24 = $[51];
+        t24 = $[52];
     }
     let t25;
-    if ($[52] !== t12 || $[53] !== t23 || $[54] !== t24) {
+    if ($[53] !== t11 || $[54] !== t23 || $[55] !== t24) {
         t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
             className: "relative flex h-full flex-col overflow-hidden border-foreground/10",
             children: [
-                t12,
+                t11,
                 t23,
                 t24
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 215,
+            lineNumber: 227,
             columnNumber: 11
         }, this);
-        $[52] = t12;
-        $[53] = t23;
-        $[54] = t24;
-        $[55] = t25;
+        $[53] = t11;
+        $[54] = t23;
+        $[55] = t24;
+        $[56] = t25;
     } else {
-        t25 = $[55];
+        t25 = $[56];
     }
     return t25;
 }
 _c = PackageCard;
-function Pricing() {
-    _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(50);
-    if ($[0] !== "339f3755e558693759a27a00673c209e417d9ba6c8a8920fc2b78259c01bbef5") {
-        for(let $i = 0; $i < 50; $i += 1){
+function PackageGrid(t0) {
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
+    if ($[0] !== "c43ccfef3676d99219dd79f64e44433aa5a7e924879953b23e74c480ac9dfb9c") {
+        for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "339f3755e558693759a27a00673c209e417d9ba6c8a8920fc2b78259c01bbef5";
+        $[0] = "c43ccfef3676d99219dd79f64e44433aa5a7e924879953b23e74c480ac9dfb9c";
+    }
+    const { title, items, dictionary } = t0;
+    let t1;
+    if ($[1] !== title) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+            className: "mb-6 text-center text-xl font-medium text-foreground md:text-2xl",
+            children: title
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 252,
+            columnNumber: 10
+        }, this);
+        $[1] = title;
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    let t2;
+    if ($[3] !== dictionary || $[4] !== items) {
+        let t3;
+        if ($[6] !== dictionary) {
+            t3 = ({
+                "PackageGrid[items.map()]": (pkg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PackageCard, {
+                        pkg: pkg,
+                        dictionary: dictionary
+                    }, pkg.id, false, {
+                        fileName: "[project]/src/components/pricing.tsx",
+                        lineNumber: 263,
+                        columnNumber: 44
+                    }, this)
+            })["PackageGrid[items.map()]"];
+            $[6] = dictionary;
+            $[7] = t3;
+        } else {
+            t3 = $[7];
+        }
+        t2 = items.map(t3);
+        $[3] = dictionary;
+        $[4] = items;
+        $[5] = t2;
+    } else {
+        t2 = $[5];
+    }
+    let t3;
+    if ($[8] !== t2) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "grid gap-6 sm:grid-cols-2 lg:grid-cols-3",
+            children: t2
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 279,
+            columnNumber: 10
+        }, this);
+        $[8] = t2;
+        $[9] = t3;
+    } else {
+        t3 = $[9];
+    }
+    let t4;
+    if ($[10] !== t1 || $[11] !== t3) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mb-14",
+            children: [
+                t1,
+                t3
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 287,
+            columnNumber: 10
+        }, this);
+        $[10] = t1;
+        $[11] = t3;
+        $[12] = t4;
+    } else {
+        t4 = $[12];
+    }
+    return t4;
+}
+_c1 = PackageGrid;
+function Pricing() {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(22);
+    if ($[0] !== "c43ccfef3676d99219dd79f64e44433aa5a7e924879953b23e74c480ac9dfb9c") {
+        for(let $i = 0; $i < 22; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "c43ccfef3676d99219dd79f64e44433aa5a7e924879953b23e74c480ac9dfb9c";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].filter(_PricingPackagesFilter);
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    const halfLambPackages = t0;
     let t1;
-    let t10;
+    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].filter(_PricingPackagesFilter2);
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    const oneLambPackages = t1;
     let t2;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].filter(_PricingPackagesFilter3);
+        $[3] = t2;
+    } else {
+        t2 = $[3];
+    }
+    const twoLambPackages = t2;
     let t3;
+    if ($[4] !== t.pricing.eyebrow || $[5] !== t.pricing.heading) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2d$heading$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionHeading"], {
+            eyebrow: t.pricing.eyebrow,
+            heading: t.pricing.heading
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 334,
+            columnNumber: 10
+        }, this);
+        $[4] = t.pricing.eyebrow;
+        $[5] = t.pricing.heading;
+        $[6] = t3;
+    } else {
+        t3 = $[6];
+    }
     let t4;
+    if ($[7] !== t.pricing.subheading) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "mx-auto -mt-8 mb-12 max-w-2xl text-center text-base text-muted-foreground md:text-lg",
+            children: t.pricing.subheading
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 343,
+            columnNumber: 10
+        }, this);
+        $[7] = t.pricing.subheading;
+        $[8] = t4;
+    } else {
+        t4 = $[8];
+    }
     let t5;
     let t6;
     let t7;
-    let t8;
-    let t9;
-    if ($[1] !== dir || $[2] !== t) {
-        const oneLambPackages = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].filter(_PricingPackagesFilter);
-        const twoLambPackages = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].filter(_PricingPackagesFilter2);
-        t8 = "pricing";
-        t9 = "bg-muted/30 py-20 md:py-28";
-        t10 = dir;
-        t4 = "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8";
-        if ($[14] !== t.pricing.eyebrow || $[15] !== t.pricing.heading) {
-            t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2d$heading$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionHeading"], {
-                eyebrow: t.pricing.eyebrow,
-                heading: t.pricing.heading
-            }, void 0, false, {
-                fileName: "[project]/src/components/pricing.tsx",
-                lineNumber: 256,
-                columnNumber: 12
-            }, this);
-            $[14] = t.pricing.eyebrow;
-            $[15] = t.pricing.heading;
-            $[16] = t5;
-        } else {
-            t5 = $[16];
-        }
-        if ($[17] !== t.pricing.subheading) {
-            t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "mx-auto -mt-8 mb-12 max-w-2xl text-center text-base text-muted-foreground md:text-lg",
-                children: t.pricing.subheading
-            }, void 0, false, {
-                fileName: "[project]/src/components/pricing.tsx",
-                lineNumber: 264,
-                columnNumber: 12
-            }, this);
-            $[17] = t.pricing.subheading;
-            $[18] = t6;
-        } else {
-            t6 = $[18];
-        }
-        let t11;
-        if ($[19] !== t.pricing.oneLambTitle) {
-            t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "mb-6 text-center text-xl font-medium text-foreground md:text-2xl",
-                children: t.pricing.oneLambTitle
-            }, void 0, false, {
-                fileName: "[project]/src/components/pricing.tsx",
-                lineNumber: 272,
-                columnNumber: 13
-            }, this);
-            $[19] = t.pricing.oneLambTitle;
-            $[20] = t11;
-        } else {
-            t11 = $[20];
-        }
-        let t12;
-        if ($[21] !== t) {
-            t12 = ({
-                "Pricing[oneLambPackages.map()]": (pkg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PackageCard, {
-                        pkg: pkg,
-                        dictionary: t,
-                        isTwoLamb: false
-                    }, pkg.id, false, {
-                        fileName: "[project]/src/components/pricing.tsx",
-                        lineNumber: 281,
-                        columnNumber: 50
-                    }, this)
-            })["Pricing[oneLambPackages.map()]"];
-            $[21] = t;
-            $[22] = t12;
-        } else {
-            t12 = $[22];
-        }
-        const t13 = oneLambPackages.map(t12);
-        let t14;
-        if ($[23] !== t13) {
-            t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid gap-6 sm:grid-cols-2 lg:grid-cols-3",
-                children: t13
-            }, void 0, false, {
-                fileName: "[project]/src/components/pricing.tsx",
-                lineNumber: 291,
-                columnNumber: 13
-            }, this);
-            $[23] = t13;
-            $[24] = t14;
-        } else {
-            t14 = $[24];
-        }
-        if ($[25] !== t11 || $[26] !== t14) {
-            t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-14",
-                children: [
-                    t11,
-                    t14
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/pricing.tsx",
-                lineNumber: 298,
-                columnNumber: 12
-            }, this);
-            $[25] = t11;
-            $[26] = t14;
-            $[27] = t7;
-        } else {
-            t7 = $[27];
-        }
-        t2 = "mb-14";
-        if ($[28] !== t.pricing.twoLambTitle) {
-            t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "mb-6 text-center text-xl font-medium text-foreground md:text-2xl",
-                children: t.pricing.twoLambTitle
-            }, void 0, false, {
-                fileName: "[project]/src/components/pricing.tsx",
-                lineNumber: 307,
-                columnNumber: 12
-            }, this);
-            $[28] = t.pricing.twoLambTitle;
-            $[29] = t3;
-        } else {
-            t3 = $[29];
-        }
-        t0 = "grid gap-6 sm:grid-cols-2 lg:grid-cols-3";
-        let t15;
-        if ($[30] !== t) {
-            t15 = ({
-                "Pricing[twoLambPackages.map()]": (pkg_0)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PackageCard, {
-                        pkg: pkg_0,
-                        dictionary: t,
-                        isTwoLamb: true
-                    }, pkg_0.id, false, {
-                        fileName: "[project]/src/components/pricing.tsx",
-                        lineNumber: 317,
-                        columnNumber: 52
-                    }, this)
-            })["Pricing[twoLambPackages.map()]"];
-            $[30] = t;
-            $[31] = t15;
-        } else {
-            t15 = $[31];
-        }
-        t1 = twoLambPackages.map(t15);
-        $[1] = dir;
-        $[2] = t;
-        $[3] = t0;
-        $[4] = t1;
-        $[5] = t10;
-        $[6] = t2;
-        $[7] = t3;
-        $[8] = t4;
-        $[9] = t5;
-        $[10] = t6;
-        $[11] = t7;
-        $[12] = t8;
-        $[13] = t9;
-    } else {
-        t0 = $[3];
-        t1 = $[4];
-        t10 = $[5];
-        t2 = $[6];
-        t3 = $[7];
-        t4 = $[8];
-        t5 = $[9];
-        t6 = $[10];
-        t7 = $[11];
-        t8 = $[12];
-        t9 = $[13];
-    }
-    let t11;
-    if ($[32] !== t0 || $[33] !== t1) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t0,
-            children: t1
+    if ($[9] !== t) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PackageGrid, {
+            title: t.pricing.halfLambTitle,
+            items: halfLambPackages,
+            dictionary: t
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
             lineNumber: 353,
-            columnNumber: 11
+            columnNumber: 10
         }, this);
-        $[32] = t0;
-        $[33] = t1;
-        $[34] = t11;
-    } else {
-        t11 = $[34];
-    }
-    let t12;
-    if ($[35] !== t11 || $[36] !== t2 || $[37] !== t3) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t2,
-            children: [
-                t3,
-                t11
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 362,
-            columnNumber: 11
-        }, this);
-        $[35] = t11;
-        $[36] = t2;
-        $[37] = t3;
-        $[38] = t12;
-    } else {
-        t12 = $[38];
-    }
-    let t13;
-    if ($[39] !== t12 || $[40] !== t4 || $[41] !== t5 || $[42] !== t6 || $[43] !== t7) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t4,
-            children: [
-                t5,
-                t6,
-                t7,
-                t12
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 372,
-            columnNumber: 11
-        }, this);
-        $[39] = t12;
-        $[40] = t4;
-        $[41] = t5;
-        $[42] = t6;
-        $[43] = t7;
-        $[44] = t13;
-    } else {
-        t13 = $[44];
-    }
-    let t14;
-    if ($[45] !== t10 || $[46] !== t13 || $[47] !== t8 || $[48] !== t9) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            id: t8,
-            className: t9,
-            dir: t10,
-            children: t13
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PackageGrid, {
+            title: t.pricing.oneLambTitle,
+            items: oneLambPackages,
+            dictionary: t
         }, void 0, false, {
             fileName: "[project]/src/components/pricing.tsx",
-            lineNumber: 384,
-            columnNumber: 11
+            lineNumber: 354,
+            columnNumber: 10
         }, this);
-        $[45] = t10;
-        $[46] = t13;
-        $[47] = t8;
-        $[48] = t9;
-        $[49] = t14;
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PackageGrid, {
+            title: t.pricing.twoLambTitle,
+            items: twoLambPackages,
+            dictionary: t
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 355,
+            columnNumber: 10
+        }, this);
+        $[9] = t;
+        $[10] = t5;
+        $[11] = t6;
+        $[12] = t7;
     } else {
-        t14 = $[49];
+        t5 = $[10];
+        t6 = $[11];
+        t7 = $[12];
     }
-    return t14;
+    let t8;
+    if ($[13] !== t3 || $[14] !== t4 || $[15] !== t5 || $[16] !== t6 || $[17] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8",
+            children: [
+                t3,
+                t4,
+                t5,
+                t6,
+                t7
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 367,
+            columnNumber: 10
+        }, this);
+        $[13] = t3;
+        $[14] = t4;
+        $[15] = t5;
+        $[16] = t6;
+        $[17] = t7;
+        $[18] = t8;
+    } else {
+        t8 = $[18];
+    }
+    let t9;
+    if ($[19] !== dir || $[20] !== t8) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            id: "pricing",
+            className: "bg-muted/30 py-20 md:py-28",
+            dir: dir,
+            children: t8
+        }, void 0, false, {
+            fileName: "[project]/src/components/pricing.tsx",
+            lineNumber: 379,
+            columnNumber: 10
+        }, this);
+        $[19] = dir;
+        $[20] = t8;
+        $[21] = t9;
+    } else {
+        t9 = $[21];
+    }
+    return t9;
 }
 _s(Pricing, "3rolTSOVQgm4tFX9sc1sWkG6o1k=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"]
     ];
 });
-_c1 = Pricing;
+_c2 = Pricing;
+function _PricingPackagesFilter3(p_1) {
+    return p_1.size === "double";
+}
 function _PricingPackagesFilter2(p_0) {
-    return p_0.lambCount === 2;
+    return p_0.size === "whole";
 }
 function _PricingPackagesFilter(p) {
-    return p.lambCount === 1;
+    return p.size === "half";
 }
-var _c, _c1;
+var _c, _c1, _c2;
 __turbopack_context__.k.register(_c, "PackageCard");
-__turbopack_context__.k.register(_c1, "Pricing");
+__turbopack_context__.k.register(_c1, "PackageGrid");
+__turbopack_context__.k.register(_c2, "Pricing");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

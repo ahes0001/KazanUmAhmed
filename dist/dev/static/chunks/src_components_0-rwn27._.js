@@ -8,9 +8,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/language-provider.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2d$heading$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section-heading.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -20,12 +20,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 function About() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(31);
-    if ($[0] !== "474b3426a59255227ffe6878b8c5242fef399eb960f817c7d5cbcb48a955c6c3") {
-        for(let $i = 0; $i < 31; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(25);
+    if ($[0] !== "b5fce677b7aac7bb405b981eabab094542ae921b0aeac735427dea973ca01cbb") {
+        for(let $i = 0; $i < 25; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "474b3426a59255227ffe6878b8c5242fef399eb960f817c7d5cbcb48a955c6c3";
+        $[0] = "b5fce677b7aac7bb405b981eabab094542ae921b0aeac735427dea973ca01cbb";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -33,10 +33,11 @@ function About() {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2d$heading$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionHeading"], {
             eyebrow: t.about.eyebrow,
             heading: t.about.heading,
-            align: "start"
+            align: "start",
+            className: "lg:text-start"
         }, void 0, false, {
             fileName: "[project]/src/components/about.tsx",
-            lineNumber: 22,
+            lineNumber: 21,
             columnNumber: 10
         }, this);
         $[1] = t.about.eyebrow;
@@ -51,7 +52,7 @@ function About() {
             children: t.about.paragraph1
         }, void 0, false, {
             fileName: "[project]/src/components/about.tsx",
-            lineNumber: 31,
+            lineNumber: 30,
             columnNumber: 10
         }, this);
         $[4] = t.about.paragraph1;
@@ -65,7 +66,7 @@ function About() {
             children: t.about.paragraph2
         }, void 0, false, {
             fileName: "[project]/src/components/about.tsx",
-            lineNumber: 39,
+            lineNumber: 38,
             columnNumber: 10
         }, this);
         $[6] = t.about.paragraph2;
@@ -79,7 +80,7 @@ function About() {
             children: t.about.paragraph3
         }, void 0, false, {
             fileName: "[project]/src/components/about.tsx",
-            lineNumber: 47,
+            lineNumber: 46,
             columnNumber: 10
         }, this);
         $[8] = t.about.paragraph3;
@@ -88,140 +89,115 @@ function About() {
         t3 = $[9];
     }
     let t4;
-    if ($[10] !== t.about.paragraph4) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            children: t.about.paragraph4
-        }, void 0, false, {
-            fileName: "[project]/src/components/about.tsx",
-            lineNumber: 55,
-            columnNumber: 10
-        }, this);
-        $[10] = t.about.paragraph4;
-        $[11] = t4;
-    } else {
-        t4 = $[11];
-    }
-    let t5;
-    if ($[12] !== t.about.paragraph5) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            children: t.about.paragraph5
-        }, void 0, false, {
-            fileName: "[project]/src/components/about.tsx",
-            lineNumber: 63,
-            columnNumber: 10
-        }, this);
-        $[12] = t.about.paragraph5;
-        $[13] = t5;
-    } else {
-        t5 = $[13];
-    }
-    let t6;
-    if ($[14] !== t1 || $[15] !== t2 || $[16] !== t3 || $[17] !== t4 || $[18] !== t5) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "order-2 space-y-5 text-base leading-relaxed text-foreground/80 lg:order-1",
+    if ($[10] !== t1 || $[11] !== t2 || $[12] !== t3) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "space-y-5 text-base leading-relaxed text-foreground/80",
             children: [
                 t1,
                 t2,
-                t3,
-                t4,
-                t5
+                t3
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/about.tsx",
-            lineNumber: 71,
+            lineNumber: 54,
             columnNumber: 10
         }, this);
-        $[14] = t1;
-        $[15] = t2;
-        $[16] = t3;
-        $[17] = t4;
-        $[18] = t5;
-        $[19] = t6;
+        $[10] = t1;
+        $[11] = t2;
+        $[12] = t3;
+        $[13] = t4;
     } else {
-        t6 = $[19];
+        t4 = $[13];
     }
-    let t7;
-    if ($[20] !== t.about.imageLabel) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "order-1 lg:order-2 pointer-events-none top-1/2 end-4 -z-10 hidden -translate-y-1/2 md:block lg:end-16",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                src: "/images/about.png",
-                alt: t.about.imageLabel,
-                width: 280,
-                height: 280,
-                className: "h-40 w-40 object-contain md:h-56 md:w-56 lg:h-72 lg:w-72"
+    let t5;
+    if ($[14] !== t0 || $[15] !== t4) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-full lg:w-1/2",
+            children: [
+                t0,
+                t4
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/about.tsx",
+            lineNumber: 64,
+            columnNumber: 10
+        }, this);
+        $[14] = t0;
+        $[15] = t4;
+        $[16] = t5;
+    } else {
+        t5 = $[16];
+    }
+    let t6;
+    if ($[17] !== t.about.imageLabel) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex w-full justify-center lg:w-1/2 lg:justify-end",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative aspect-[4/3] w-full max-w-lg overflow-hidden rounded-2xl",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/images/about.png",
+                    alt: t.about.imageLabel,
+                    fill: true,
+                    className: "object-cover",
+                    sizes: "(max-width: 1024px) 100vw, 50vw"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/about.tsx",
+                    lineNumber: 73,
+                    columnNumber: 161
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/about.tsx",
-                lineNumber: 83,
-                columnNumber: 129
+                lineNumber: 73,
+                columnNumber: 78
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/about.tsx",
-            lineNumber: 83,
+            lineNumber: 73,
             columnNumber: 10
         }, this);
-        $[20] = t.about.imageLabel;
+        $[17] = t.about.imageLabel;
+        $[18] = t6;
+    } else {
+        t6 = $[18];
+    }
+    let t7;
+    if ($[19] !== t5 || $[20] !== t6) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mx-auto flex w-full max-w-7xl flex-col items-center gap-10 px-4 sm:px-6 lg:flex-row lg:items-center lg:gap-16 lg:px-8",
+            children: [
+                t5,
+                t6
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/about.tsx",
+            lineNumber: 81,
+            columnNumber: 10
+        }, this);
+        $[19] = t5;
+        $[20] = t6;
         $[21] = t7;
     } else {
         t7 = $[21];
     }
     let t8;
-    if ($[22] !== t6 || $[23] !== t7) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16",
-            children: [
-                t6,
-                t7
-            ]
-        }, void 0, true, {
+    if ($[22] !== dir || $[23] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            id: "about",
+            className: "py-20 md:py-28",
+            dir: dir,
+            children: t7
+        }, void 0, false, {
             fileName: "[project]/src/components/about.tsx",
-            lineNumber: 91,
+            lineNumber: 90,
             columnNumber: 10
         }, this);
-        $[22] = t6;
+        $[22] = dir;
         $[23] = t7;
         $[24] = t8;
     } else {
         t8 = $[24];
     }
-    let t9;
-    if ($[25] !== t0 || $[26] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8",
-            children: [
-                t0,
-                t8
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/about.tsx",
-            lineNumber: 100,
-            columnNumber: 10
-        }, this);
-        $[25] = t0;
-        $[26] = t8;
-        $[27] = t9;
-    } else {
-        t9 = $[27];
-    }
-    let t10;
-    if ($[28] !== dir || $[29] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            id: "about",
-            className: "py-20 md:py-28",
-            dir: dir,
-            children: t9
-        }, void 0, false, {
-            fileName: "[project]/src/components/about.tsx",
-            lineNumber: 109,
-            columnNumber: 11
-        }, this);
-        $[28] = dir;
-        $[29] = t9;
-        $[30] = t10;
-    } else {
-        t10 = $[30];
-    }
-    return t10;
+    return t8;
 }
 _s(About, "3rolTSOVQgm4tFX9sc1sWkG6o1k=", false, function() {
     return [

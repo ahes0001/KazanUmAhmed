@@ -235,11 +235,11 @@ var _s = __turbopack_context__.k.signature();
 function Hero() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(31);
-    if ($[0] !== "555556613fb2dd172ffb2e20c9d3f3d0dd83079e36553e40ac32ede53deab569") {
+    if ($[0] !== "6b7fce79cac2bad2697f3bc6f47102d7130a7915688b0877fa22e18c6a095c4e") {
         for(let $i = 0; $i < 31; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "555556613fb2dd172ffb2e20c9d3f3d0dd83079e36553e40ac32ede53deab569";
+        $[0] = "6b7fce79cac2bad2697f3bc6f47102d7130a7915688b0877fa22e18c6a095c4e";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -344,7 +344,7 @@ function Hero() {
     let t6;
     if ($[14] !== t.hero.trust1 || $[15] !== t.hero.trust2) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium text-foreground/80",
+            className: "mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-medium text-foreground/80 lg:justify-start",
             children: [
                 t.hero.trust1,
                 t.hero.trust2
@@ -363,7 +363,7 @@ function Hero() {
     let t7;
     if ($[17] !== t0 || $[18] !== t1 || $[19] !== t2 || $[20] !== t5 || $[21] !== t6) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative z-10 max-w-3xl",
+            className: "flex w-full flex-col items-center lg:w-[55%] lg:items-start",
             children: [
                 t0,
                 t1,
@@ -388,7 +388,7 @@ function Hero() {
     let t8;
     if ($[23] !== t.businessName) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "pointer-events-none absolute top-1/2 end-4 -z-10 hidden -translate-y-1/2 md:block lg:end-16",
+            className: "flex w-full justify-center lg:w-[40%] lg:justify-end",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "animate-spin-slow opacity-90",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -396,17 +396,17 @@ function Hero() {
                     alt: t.businessName,
                     width: 280,
                     height: 280,
-                    className: "h-40 w-40 object-contain md:h-56 md:w-56 lg:h-72 lg:w-72",
+                    className: "h-56 w-56 object-contain sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-80 lg:w-80",
                     priority: true
                 }, void 0, false, {
                     fileName: "[project]/src/components/hero.tsx",
                     lineNumber: 92,
-                    columnNumber: 165
+                    columnNumber: 126
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/hero.tsx",
                 lineNumber: 92,
-                columnNumber: 119
+                columnNumber: 80
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/hero.tsx",
@@ -421,7 +421,7 @@ function Hero() {
     let t9;
     if ($[25] !== t7 || $[26] !== t8) {
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 lg:px-8",
+            className: "mx-auto flex w-full max-w-7xl flex-col items-center gap-10 px-4 py-20 text-center sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8 lg:text-start",
             children: [
                 t7,
                 t8
@@ -441,7 +441,7 @@ function Hero() {
     if ($[28] !== dir || $[29] !== t9) {
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             id: "home",
-            className: "relative flex min-h-[90vh] items-center overflow-hidden pt-16",
+            className: "flex min-h-[90vh] items-center pt-16",
             dir: dir,
             children: t9
         }, void 0, false, {
@@ -1172,53 +1172,89 @@ __turbopack_context__.s([
 const WHATSAPP_NUMBER = "+966502466713";
 const BUSINESS_NAME = "Kazan Um Ahmed | كازان أم أحمد";
 const packages = [
+    // Half lamb options
     {
-        id: "suakni-spring-1",
-        key: "suakniSpring",
-        lambCount: 1,
+        id: "red-sawakani-half",
+        key: "redSawakani",
+        size: "half",
+        feeds: 15,
+        originalPrice: 1350,
+        currentPrice: 1150,
+        oiliness: "lessOily"
+    },
+    {
+        id: "white-sawakni-half",
+        key: "whiteSawakni",
+        size: "half",
+        feeds: 15,
+        originalPrice: 1350,
+        currentPrice: 1150,
+        oiliness: "moreOily"
+    },
+    {
+        id: "hari-half",
+        key: "hari",
+        size: "half",
+        feeds: 15,
+        originalPrice: 1550,
+        currentPrice: 1350,
+        oiliness: "moreOily"
+    },
+    // One lamb options
+    {
+        id: "red-sawakani-whole",
+        key: "redSawakani",
+        size: "whole",
         feeds: 30,
         originalPrice: 2300,
-        currentPrice: 1900
+        currentPrice: 1900,
+        oiliness: "lessOily"
     },
     {
-        id: "white-suakni-1",
-        key: "whiteSuakni",
-        lambCount: 1,
+        id: "white-sawakni-whole",
+        key: "whiteSawakni",
+        size: "whole",
         feeds: 20,
         originalPrice: 2300,
-        currentPrice: 1900
+        currentPrice: 1900,
+        oiliness: "moreOily"
     },
     {
-        id: "hari-1",
+        id: "hari-whole",
         key: "hari",
-        lambCount: 1,
+        size: "whole",
         feeds: 20,
         originalPrice: 2600,
-        currentPrice: 2200
+        currentPrice: 2200,
+        oiliness: "moreOily"
     },
+    // Two lamb options
     {
-        id: "suakni-spring-2",
-        key: "suakniSpring",
-        lambCount: 2,
+        id: "red-sawakani-double",
+        key: "redSawakani",
+        size: "double",
         feeds: 60,
-        originalPrice: 4400,
-        currentPrice: 3500
+        originalPrice: 4600,
+        currentPrice: 3600,
+        oiliness: "lessOily"
     },
     {
-        id: "white-suakni-2",
-        key: "whiteSuakni",
-        lambCount: 2,
+        id: "white-sawakni-double",
+        key: "whiteSawakni",
+        size: "double",
         feeds: 40,
-        originalPrice: 4400,
-        currentPrice: 3500
+        originalPrice: 4600,
+        currentPrice: 3600,
+        oiliness: "moreOily"
     },
     {
-        id: "hari-2",
+        id: "hari-double",
         key: "hari",
-        lambCount: 2,
+        size: "double",
         feeds: 40,
-        originalPrice: 5000,
-        currentPrice: 4100
+        originalPrice: 5200,
+        currentPrice: 4200,
+        oiliness: "moreOily"
     }
 ];
 function getPackageById(id) {

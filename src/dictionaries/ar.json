@@ -32,6 +32,7 @@
     "eyebrow": "القائمة والأسعار",
     "heading": "باقاتنا وأسعارنا",
     "subheading": "التوصيل والسلطات مشمولة: لبن طازج، سلطة حارة، وسلطة خضراء.",
+    "halfLambTitle": "باقات نصف الخروف",
     "oneLambTitle": "باقات الخروف الواحد",
     "twoLambTitle": "باقات الخروفين",
     "feedsUpTo": "يكفي حتى {{count}} شخص",
@@ -39,13 +40,21 @@
     "now": "{{price}} ريال",
     "perOrder": "للطلب",
     "discountNote": "خصم {{amount}} ريال",
-    "twoLambDiscountNote": "خصم 900 ريال",
+    "sizeLabels": {
+      "half": "نصف خروف",
+      "whole": "خروف كامل",
+      "double": "خروفين كاملين"
+    },
+    "oiliness": {
+      "lessOily": "أقل دهونًا",
+      "moreOily": "أكثر دهونًا"
+    },
     "packages": {
-      "suakniSpring": {
+      "redSawakani": {
         "name": "سواكني أحمر",
         "description": ""
       },
-      "whiteSuakni": {
+      "whiteSawakni": {
         "name": "سواكني أبيض",
         "description": ""
       },

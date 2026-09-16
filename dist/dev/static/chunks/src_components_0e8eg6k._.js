@@ -36,14 +36,19 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+function getPackageLabel(pkg, t) {
+    const name = t.pricing.packages[pkg.key].name;
+    const size = t.pricing.sizeLabels[pkg.size];
+    return `${name} (${size})`;
+}
 function BookingForm() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(159);
-    if ($[0] !== "608607ba0520239e5d7a78c97b496793d5b056e221e761cf4b6f300dd186ad7d") {
-        for(let $i = 0; $i < 159; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(161);
+    if ($[0] !== "422abbdd3203f09faa06e89e450807ee2ff3eb4e240915d8f4416a04f7e67bcb") {
+        for(let $i = 0; $i < 161; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "608607ba0520239e5d7a78c97b496793d5b056e221e761cf4b6f300dd186ad7d";
+        $[0] = "422abbdd3203f09faa06e89e450807ee2ff3eb4e240915d8f4416a04f7e67bcb";
     }
     const { t, dir, locale } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -88,7 +93,7 @@ function BookingForm() {
     }
     const handleChange = t2;
     let t3;
-    if ($[5] !== formData.address || $[6] !== formData.date || $[7] !== formData.name || $[8] !== formData.notes || $[9] !== formData.packageId || $[10] !== formData.time || $[11] !== locale || $[12] !== t.booking.whatsappMessage || $[13] !== t.pricing) {
+    if ($[5] !== formData.address || $[6] !== formData.date || $[7] !== formData.name || $[8] !== formData.notes || $[9] !== formData.packageId || $[10] !== formData.time || $[11] !== locale || $[12] !== t) {
         t3 = ({
             "BookingForm[handleSubmit]": (e)=>{
                 e.preventDefault();
@@ -100,7 +105,7 @@ function BookingForm() {
                 if (!pkg) {
                     return;
                 }
-                const packageLabel = `${pkg.lambCount === 2 ? "2x " : ""}${t.pricing.packages[pkg.key].name}`;
+                const packageLabel = getPackageLabel(pkg, t);
                 const message = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["t"])(t.booking.whatsappMessage, {
                     name: formData.name,
                     address: formData.address || (locale === "ar" ? "\u063A\u064A\u0631 \u0645\u062D\u062F\u062F" : "Not provided"),
@@ -121,394 +126,401 @@ function BookingForm() {
         $[9] = formData.packageId;
         $[10] = formData.time;
         $[11] = locale;
-        $[12] = t.booking.whatsappMessage;
-        $[13] = t.pricing;
-        $[14] = t3;
+        $[12] = t;
+        $[13] = t3;
     } else {
-        t3 = $[14];
+        t3 = $[13];
     }
     const handleSubmit = t3;
     let t4;
-    if ($[15] !== selectedPackage) {
+    if ($[14] !== selectedPackage) {
         t4 = selectedPackage ? selectedPackage.originalPrice.toLocaleString() : "\u2014";
-        $[15] = selectedPackage;
-        $[16] = t4;
+        $[14] = selectedPackage;
+        $[15] = t4;
     } else {
-        t4 = $[16];
+        t4 = $[15];
     }
     const originalPrice = t4;
     let t5;
-    if ($[17] !== selectedPackage) {
+    if ($[16] !== selectedPackage) {
         t5 = selectedPackage ? (selectedPackage.originalPrice - selectedPackage.currentPrice).toLocaleString() : "\u2014";
-        $[17] = selectedPackage;
-        $[18] = t5;
+        $[16] = selectedPackage;
+        $[17] = t5;
     } else {
-        t5 = $[18];
+        t5 = $[17];
     }
     const discount = t5;
     let t6;
-    if ($[19] !== selectedPackage) {
+    if ($[18] !== selectedPackage) {
         t6 = selectedPackage ? selectedPackage.currentPrice.toLocaleString() : "\u2014";
-        $[19] = selectedPackage;
-        $[20] = t6;
+        $[18] = selectedPackage;
+        $[19] = t6;
     } else {
-        t6 = $[20];
+        t6 = $[19];
     }
     const total = t6;
     const guests = selectedPackage ? selectedPackage.feeds : "\u2014";
-    const packageName = selectedPackage ? `${selectedPackage.lambCount === 2 ? "2x " : ""}${t.pricing.packages[selectedPackage.key].name}` : t.booking.packagePlaceholder;
     let t7;
-    if ($[21] !== t.booking.eyebrow || $[22] !== t.booking.heading) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2d$heading$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionHeading"], {
+    if ($[20] !== selectedPackage || $[21] !== t) {
+        t7 = selectedPackage ? getPackageLabel(selectedPackage, t) : t.booking.packagePlaceholder;
+        $[20] = selectedPackage;
+        $[21] = t;
+        $[22] = t7;
+    } else {
+        t7 = $[22];
+    }
+    const packageName = t7;
+    let t8;
+    if ($[23] !== t.booking.eyebrow || $[24] !== t.booking.heading) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2d$heading$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionHeading"], {
             eyebrow: t.booking.eyebrow,
             heading: t.booking.heading
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 142,
+            lineNumber: 155,
             columnNumber: 10
         }, this);
-        $[21] = t.booking.eyebrow;
-        $[22] = t.booking.heading;
-        $[23] = t7;
-    } else {
-        t7 = $[23];
-    }
-    let t8;
-    if ($[24] !== t.booking.subtext) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "mx-auto -mt-6 mb-12 max-w-2xl text-center text-foreground/80",
-            children: t.booking.subtext
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 151,
-            columnNumber: 10
-        }, this);
-        $[24] = t.booking.subtext;
+        $[23] = t.booking.eyebrow;
+        $[24] = t.booking.heading;
         $[25] = t8;
     } else {
         t8 = $[25];
     }
     let t9;
-    if ($[26] !== t.booking.fields.name) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
-            htmlFor: "name",
-            children: t.booking.fields.name
+    if ($[26] !== t.booking.subtext) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "mx-auto -mt-6 mb-12 max-w-2xl text-center text-foreground/80",
+            children: t.booking.subtext
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 159,
+            lineNumber: 164,
             columnNumber: 10
         }, this);
-        $[26] = t.booking.fields.name;
+        $[26] = t.booking.subtext;
         $[27] = t9;
     } else {
         t9 = $[27];
     }
     let t10;
-    if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
-        t10 = ({
-            "BookingForm[<Input>.onChange]": (e_0)=>handleChange("name", e_0.target.value)
-        })["BookingForm[<Input>.onChange]"];
-        $[28] = t10;
+    if ($[28] !== t.booking.fields.name) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
+            htmlFor: "name",
+            children: t.booking.fields.name
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 172,
+            columnNumber: 11
+        }, this);
+        $[28] = t.booking.fields.name;
+        $[29] = t10;
     } else {
-        t10 = $[28];
+        t10 = $[29];
     }
     let t11;
-    if ($[29] !== formData.name || $[30] !== t.booking.fields.name) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
+    if ($[30] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = ({
+            "BookingForm[<Input>.onChange]": (e_0)=>handleChange("name", e_0.target.value)
+        })["BookingForm[<Input>.onChange]"];
+        $[30] = t11;
+    } else {
+        t11 = $[30];
+    }
+    let t12;
+    if ($[31] !== formData.name || $[32] !== t.booking.fields.name) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
             id: "name",
             type: "text",
             value: formData.name,
-            onChange: t10,
+            onChange: t11,
             placeholder: t.booking.fields.name,
             required: true
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 176,
+            lineNumber: 189,
             columnNumber: 11
         }, this);
-        $[29] = formData.name;
-        $[30] = t.booking.fields.name;
-        $[31] = t11;
+        $[31] = formData.name;
+        $[32] = t.booking.fields.name;
+        $[33] = t12;
     } else {
-        t11 = $[31];
+        t12 = $[33];
     }
-    let t12;
-    if ($[32] !== t11 || $[33] !== t9) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t13;
+    if ($[34] !== t10 || $[35] !== t12) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "space-y-2",
             children: [
-                t9,
-                t11
+                t10,
+                t12
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 185,
+            lineNumber: 198,
             columnNumber: 11
         }, this);
-        $[32] = t11;
-        $[33] = t9;
-        $[34] = t12;
-    } else {
-        t12 = $[34];
-    }
-    let t13;
-    if ($[35] !== t.booking.fields.address) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
-            htmlFor: "address",
-            children: t.booking.fields.address
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 194,
-            columnNumber: 11
-        }, this);
-        $[35] = t.booking.fields.address;
+        $[34] = t10;
+        $[35] = t12;
         $[36] = t13;
     } else {
         t13 = $[36];
     }
     let t14;
-    if ($[37] === Symbol.for("react.memo_cache_sentinel")) {
-        t14 = ({
-            "BookingForm[<Input>.onChange]": (e_1)=>handleChange("address", e_1.target.value)
-        })["BookingForm[<Input>.onChange]"];
-        $[37] = t14;
+    if ($[37] !== t.booking.fields.address) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
+            htmlFor: "address",
+            children: t.booking.fields.address
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 207,
+            columnNumber: 11
+        }, this);
+        $[37] = t.booking.fields.address;
+        $[38] = t14;
     } else {
-        t14 = $[37];
+        t14 = $[38];
     }
     let t15;
-    if ($[38] !== formData.address || $[39] !== t.booking.fields.address) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
+    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
+        t15 = ({
+            "BookingForm[<Input>.onChange]": (e_1)=>handleChange("address", e_1.target.value)
+        })["BookingForm[<Input>.onChange]"];
+        $[39] = t15;
+    } else {
+        t15 = $[39];
+    }
+    let t16;
+    if ($[40] !== formData.address || $[41] !== t.booking.fields.address) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
             id: "address",
             type: "text",
             value: formData.address,
-            onChange: t14,
+            onChange: t15,
             placeholder: t.booking.fields.address
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 211,
+            lineNumber: 224,
             columnNumber: 11
         }, this);
-        $[38] = formData.address;
-        $[39] = t.booking.fields.address;
-        $[40] = t15;
+        $[40] = formData.address;
+        $[41] = t.booking.fields.address;
+        $[42] = t16;
     } else {
-        t15 = $[40];
+        t16 = $[42];
     }
-    let t16;
-    if ($[41] !== t13 || $[42] !== t15) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t17;
+    if ($[43] !== t14 || $[44] !== t16) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "space-y-2",
             children: [
-                t13,
-                t15
+                t14,
+                t16
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 220,
+            lineNumber: 233,
             columnNumber: 11
         }, this);
-        $[41] = t13;
-        $[42] = t15;
-        $[43] = t16;
-    } else {
-        t16 = $[43];
-    }
-    let t17;
-    if ($[44] !== t.booking.fields.date) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
-            htmlFor: "date",
-            children: t.booking.fields.date
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 229,
-            columnNumber: 11
-        }, this);
-        $[44] = t.booking.fields.date;
+        $[43] = t14;
+        $[44] = t16;
         $[45] = t17;
     } else {
         t17 = $[45];
     }
     let t18;
-    if ($[46] === Symbol.for("react.memo_cache_sentinel")) {
-        t18 = ({
-            "BookingForm[<Input>.onChange]": (e_2)=>handleChange("date", e_2.target.value)
-        })["BookingForm[<Input>.onChange]"];
-        $[46] = t18;
-    } else {
-        t18 = $[46];
-    }
-    let t19;
-    if ($[47] !== formData.date) {
-        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
-            id: "date",
-            type: "date",
-            value: formData.date,
-            onChange: t18,
-            required: true
+    if ($[46] !== t.booking.fields.date) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
+            htmlFor: "date",
+            children: t.booking.fields.date
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 246,
+            lineNumber: 242,
             columnNumber: 11
         }, this);
-        $[47] = formData.date;
+        $[46] = t.booking.fields.date;
+        $[47] = t18;
+    } else {
+        t18 = $[47];
+    }
+    let t19;
+    if ($[48] === Symbol.for("react.memo_cache_sentinel")) {
+        t19 = ({
+            "BookingForm[<Input>.onChange]": (e_2)=>handleChange("date", e_2.target.value)
+        })["BookingForm[<Input>.onChange]"];
         $[48] = t19;
     } else {
         t19 = $[48];
     }
     let t20;
-    if ($[49] !== t17 || $[50] !== t19) {
-        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[49] !== formData.date) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
+            id: "date",
+            type: "date",
+            value: formData.date,
+            onChange: t19,
+            required: true
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 259,
+            columnNumber: 11
+        }, this);
+        $[49] = formData.date;
+        $[50] = t20;
+    } else {
+        t20 = $[50];
+    }
+    let t21;
+    if ($[51] !== t18 || $[52] !== t20) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "space-y-2",
             children: [
-                t17,
-                t19
+                t18,
+                t20
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 254,
+            lineNumber: 267,
             columnNumber: 11
         }, this);
-        $[49] = t17;
-        $[50] = t19;
-        $[51] = t20;
-    } else {
-        t20 = $[51];
-    }
-    let t21;
-    if ($[52] !== t.booking.fields.time) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
-            htmlFor: "time",
-            children: t.booking.fields.time
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 263,
-            columnNumber: 11
-        }, this);
-        $[52] = t.booking.fields.time;
+        $[51] = t18;
+        $[52] = t20;
         $[53] = t21;
     } else {
         t21 = $[53];
     }
     let t22;
-    if ($[54] === Symbol.for("react.memo_cache_sentinel")) {
-        t22 = ({
-            "BookingForm[<Input>.onChange]": (e_3)=>handleChange("time", e_3.target.value)
-        })["BookingForm[<Input>.onChange]"];
-        $[54] = t22;
-    } else {
-        t22 = $[54];
-    }
-    let t23;
-    if ($[55] !== formData.time) {
-        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
-            id: "time",
-            type: "time",
-            value: formData.time,
-            onChange: t22,
-            required: true
+    if ($[54] !== t.booking.fields.time) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
+            htmlFor: "time",
+            children: t.booking.fields.time
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 280,
+            lineNumber: 276,
             columnNumber: 11
         }, this);
-        $[55] = formData.time;
+        $[54] = t.booking.fields.time;
+        $[55] = t22;
+    } else {
+        t22 = $[55];
+    }
+    let t23;
+    if ($[56] === Symbol.for("react.memo_cache_sentinel")) {
+        t23 = ({
+            "BookingForm[<Input>.onChange]": (e_3)=>handleChange("time", e_3.target.value)
+        })["BookingForm[<Input>.onChange]"];
         $[56] = t23;
     } else {
         t23 = $[56];
     }
     let t24;
-    if ($[57] !== t21 || $[58] !== t23) {
-        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "space-y-2",
-            children: [
-                t21,
-                t23
-            ]
-        }, void 0, true, {
+    if ($[57] !== formData.time) {
+        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
+            id: "time",
+            type: "time",
+            value: formData.time,
+            onChange: t23,
+            required: true
+        }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 288,
+            lineNumber: 293,
             columnNumber: 11
         }, this);
-        $[57] = t21;
-        $[58] = t23;
-        $[59] = t24;
+        $[57] = formData.time;
+        $[58] = t24;
     } else {
-        t24 = $[59];
+        t24 = $[58];
     }
     let t25;
-    if ($[60] !== t20 || $[61] !== t24) {
+    if ($[59] !== t22 || $[60] !== t24) {
         t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid gap-5 sm:grid-cols-2",
+            className: "space-y-2",
             children: [
-                t20,
+                t22,
                 t24
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 297,
+            lineNumber: 301,
             columnNumber: 11
         }, this);
-        $[60] = t20;
-        $[61] = t24;
-        $[62] = t25;
+        $[59] = t22;
+        $[60] = t24;
+        $[61] = t25;
     } else {
-        t25 = $[62];
+        t25 = $[61];
     }
     let t26;
-    if ($[63] !== t.booking.fields.package) {
-        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
-            htmlFor: "package",
-            children: t.booking.fields.package
-        }, void 0, false, {
+    if ($[62] !== t21 || $[63] !== t25) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "grid gap-5 sm:grid-cols-2",
+            children: [
+                t21,
+                t25
+            ]
+        }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 306,
+            lineNumber: 310,
             columnNumber: 11
         }, this);
-        $[63] = t.booking.fields.package;
+        $[62] = t21;
+        $[63] = t25;
         $[64] = t26;
     } else {
         t26 = $[64];
     }
-    const t27 = formData.packageId;
-    let t28;
-    if ($[65] === Symbol.for("react.memo_cache_sentinel")) {
-        t28 = ({
+    let t27;
+    if ($[65] !== t.booking.fields.package) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
+            htmlFor: "package",
+            children: t.booking.fields.package
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 319,
+            columnNumber: 11
+        }, this);
+        $[65] = t.booking.fields.package;
+        $[66] = t27;
+    } else {
+        t27 = $[66];
+    }
+    const t28 = formData.packageId;
+    let t29;
+    if ($[67] === Symbol.for("react.memo_cache_sentinel")) {
+        t29 = ({
             "BookingForm[<Select>.onValueChange]": (value_0)=>handleChange("packageId", value_0)
         })["BookingForm[<Select>.onValueChange]"];
-        $[65] = t28;
+        $[67] = t29;
     } else {
-        t28 = $[65];
+        t29 = $[67];
     }
-    let t29;
-    if ($[66] !== t.booking.packagePlaceholder) {
-        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectTrigger"], {
+    let t30;
+    if ($[68] !== t.booking.packagePlaceholder) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectTrigger"], {
             id: "package",
             className: "w-full",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectValue"], {
                 placeholder: t.booking.packagePlaceholder
             }, void 0, false, {
                 fileName: "[project]/src/components/booking-form.tsx",
-                lineNumber: 324,
+                lineNumber: 337,
                 columnNumber: 58
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 324,
+            lineNumber: 337,
             columnNumber: 11
         }, this);
-        $[66] = t.booking.packagePlaceholder;
-        $[67] = t29;
+        $[68] = t.booking.packagePlaceholder;
+        $[69] = t30;
     } else {
-        t29 = $[67];
+        t30 = $[69];
     }
-    let t30;
-    if ($[68] !== t.pricing) {
-        t30 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].map({
+    let t31;
+    if ($[70] !== t) {
+        t31 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].map({
             "BookingForm[packages.map()]": (pkg_0)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
                     value: pkg_0.id,
                     children: [
-                        pkg_0.lambCount === 2 ? "2x " : "",
-                        t.pricing.packages[pkg_0.key].name,
+                        getPackageLabel(pkg_0, t),
                         " —",
                         " ",
                         (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["t"])(t.pricing.feedsUpTo, {
@@ -517,325 +529,325 @@ function BookingForm() {
                     ]
                 }, pkg_0.id, true, {
                     fileName: "[project]/src/components/booking-form.tsx",
-                    lineNumber: 333,
+                    lineNumber: 346,
                     columnNumber: 47
                 }, this)
         }["BookingForm[packages.map()]"]);
-        $[68] = t.pricing;
-        $[69] = t30;
-    } else {
-        t30 = $[69];
-    }
-    let t31;
-    if ($[70] !== t30) {
-        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
-            children: t30
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 344,
-            columnNumber: 11
-        }, this);
-        $[70] = t30;
+        $[70] = t;
         $[71] = t31;
     } else {
         t31 = $[71];
     }
     let t32;
-    if ($[72] !== formData.packageId || $[73] !== t29 || $[74] !== t31) {
-        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
-            value: t27,
-            onValueChange: t28,
-            children: [
-                t29,
-                t31
-            ]
-        }, void 0, true, {
+    if ($[72] !== t31) {
+        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
+            children: t31
+        }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 352,
+            lineNumber: 357,
             columnNumber: 11
         }, this);
-        $[72] = formData.packageId;
-        $[73] = t29;
-        $[74] = t31;
-        $[75] = t32;
+        $[72] = t31;
+        $[73] = t32;
     } else {
-        t32 = $[75];
+        t32 = $[73];
     }
     let t33;
-    if ($[76] !== t26 || $[77] !== t32) {
-        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "space-y-2",
+    if ($[74] !== formData.packageId || $[75] !== t30 || $[76] !== t32) {
+        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
+            value: t28,
+            onValueChange: t29,
             children: [
-                t26,
+                t30,
                 t32
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 362,
+            lineNumber: 365,
             columnNumber: 11
         }, this);
-        $[76] = t26;
-        $[77] = t32;
-        $[78] = t33;
+        $[74] = formData.packageId;
+        $[75] = t30;
+        $[76] = t32;
+        $[77] = t33;
     } else {
-        t33 = $[78];
+        t33 = $[77];
     }
     let t34;
-    if ($[79] !== t.booking.fields.notes) {
-        t34 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
-            htmlFor: "notes",
-            children: t.booking.fields.notes
-        }, void 0, false, {
+    if ($[78] !== t27 || $[79] !== t33) {
+        t34 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "space-y-2",
+            children: [
+                t27,
+                t33
+            ]
+        }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 371,
+            lineNumber: 375,
             columnNumber: 11
         }, this);
-        $[79] = t.booking.fields.notes;
+        $[78] = t27;
+        $[79] = t33;
         $[80] = t34;
     } else {
         t34 = $[80];
     }
     let t35;
-    if ($[81] === Symbol.for("react.memo_cache_sentinel")) {
-        t35 = ({
-            "BookingForm[<Textarea>.onChange]": (e_4)=>handleChange("notes", e_4.target.value)
-        })["BookingForm[<Textarea>.onChange]"];
-        $[81] = t35;
+    if ($[81] !== t.booking.fields.notes) {
+        t35 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
+            htmlFor: "notes",
+            children: t.booking.fields.notes
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 384,
+            columnNumber: 11
+        }, this);
+        $[81] = t.booking.fields.notes;
+        $[82] = t35;
     } else {
-        t35 = $[81];
+        t35 = $[82];
     }
     let t36;
-    if ($[82] !== formData.notes || $[83] !== t.booking.fields.notes) {
-        t36 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
+    if ($[83] === Symbol.for("react.memo_cache_sentinel")) {
+        t36 = ({
+            "BookingForm[<Textarea>.onChange]": (e_4)=>handleChange("notes", e_4.target.value)
+        })["BookingForm[<Textarea>.onChange]"];
+        $[83] = t36;
+    } else {
+        t36 = $[83];
+    }
+    let t37;
+    if ($[84] !== formData.notes || $[85] !== t.booking.fields.notes) {
+        t37 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
             id: "notes",
             value: formData.notes,
-            onChange: t35,
+            onChange: t36,
             placeholder: t.booking.fields.notes,
             rows: 4
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 388,
+            lineNumber: 401,
             columnNumber: 11
         }, this);
-        $[82] = formData.notes;
-        $[83] = t.booking.fields.notes;
-        $[84] = t36;
+        $[84] = formData.notes;
+        $[85] = t.booking.fields.notes;
+        $[86] = t37;
     } else {
-        t36 = $[84];
+        t37 = $[86];
     }
-    let t37;
-    if ($[85] !== t34 || $[86] !== t36) {
-        t37 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t38;
+    if ($[87] !== t35 || $[88] !== t37) {
+        t38 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "space-y-2",
             children: [
-                t34,
-                t36
+                t35,
+                t37
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 397,
+            lineNumber: 410,
             columnNumber: 11
         }, this);
-        $[85] = t34;
-        $[86] = t36;
-        $[87] = t37;
+        $[87] = t35;
+        $[88] = t37;
+        $[89] = t38;
     } else {
-        t37 = $[87];
+        t38 = $[89];
     }
-    let t38;
-    if ($[88] !== t.booking.submit) {
-        t38 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+    let t39;
+    if ($[90] !== t.booking.submit) {
+        t39 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
             type: "submit",
             size: "lg",
             className: "w-full text-base sm:w-auto",
             children: t.booking.submit
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 406,
+            lineNumber: 419,
             columnNumber: 11
         }, this);
-        $[88] = t.booking.submit;
-        $[89] = t38;
+        $[90] = t.booking.submit;
+        $[91] = t39;
     } else {
-        t38 = $[89];
+        t39 = $[91];
     }
-    let t39;
-    if ($[90] !== handleSubmit || $[91] !== t12 || $[92] !== t16 || $[93] !== t25 || $[94] !== t33 || $[95] !== t37 || $[96] !== t38) {
-        t39 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+    let t40;
+    if ($[92] !== handleSubmit || $[93] !== t13 || $[94] !== t17 || $[95] !== t26 || $[96] !== t34 || $[97] !== t38 || $[98] !== t39) {
+        t40 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
             onSubmit: handleSubmit,
             className: "space-y-5 lg:col-span-2",
             children: [
-                t12,
-                t16,
-                t25,
-                t33,
-                t37,
-                t38
+                t13,
+                t17,
+                t26,
+                t34,
+                t38,
+                t39
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 414,
+            lineNumber: 427,
             columnNumber: 11
         }, this);
-        $[90] = handleSubmit;
-        $[91] = t12;
-        $[92] = t16;
-        $[93] = t25;
-        $[94] = t33;
-        $[95] = t37;
-        $[96] = t38;
-        $[97] = t39;
-    } else {
-        t39 = $[97];
-    }
-    let t40;
-    if ($[98] !== t.booking.orderPreview.title) {
-        t40 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
-                className: "font-heading text-lg",
-                children: t.booking.orderPreview.title
-            }, void 0, false, {
-                fileName: "[project]/src/components/booking-form.tsx",
-                lineNumber: 428,
-                columnNumber: 23
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 428,
-            columnNumber: 11
-        }, this);
-        $[98] = t.booking.orderPreview.title;
+        $[92] = handleSubmit;
+        $[93] = t13;
+        $[94] = t17;
+        $[95] = t26;
+        $[96] = t34;
+        $[97] = t38;
+        $[98] = t39;
         $[99] = t40;
     } else {
         t40 = $[99];
     }
     let t41;
-    if ($[100] !== t.booking.orderPreview.selectedPackage) {
-        t41 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-muted-foreground",
-            children: t.booking.orderPreview.selectedPackage
+    if ($[100] !== t.booking.orderPreview.title) {
+        t41 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
+                className: "font-heading text-lg",
+                children: t.booking.orderPreview.title
+            }, void 0, false, {
+                fileName: "[project]/src/components/booking-form.tsx",
+                lineNumber: 441,
+                columnNumber: 23
+            }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 436,
+            lineNumber: 441,
             columnNumber: 11
         }, this);
-        $[100] = t.booking.orderPreview.selectedPackage;
+        $[100] = t.booking.orderPreview.title;
         $[101] = t41;
     } else {
         t41 = $[101];
     }
     let t42;
-    if ($[102] !== packageName) {
+    if ($[102] !== t.booking.orderPreview.selectedPackage) {
         t42 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "max-w-[55%] text-end font-medium",
-            children: packageName
+            className: "text-muted-foreground",
+            children: t.booking.orderPreview.selectedPackage
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 444,
+            lineNumber: 449,
             columnNumber: 11
         }, this);
-        $[102] = packageName;
+        $[102] = t.booking.orderPreview.selectedPackage;
         $[103] = t42;
     } else {
         t42 = $[103];
     }
     let t43;
-    if ($[104] !== t41 || $[105] !== t42) {
-        t43 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[104] !== packageName) {
+        t43 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "max-w-[55%] text-end font-medium",
+            children: packageName
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 457,
+            columnNumber: 11
+        }, this);
+        $[104] = packageName;
+        $[105] = t43;
+    } else {
+        t43 = $[105];
+    }
+    let t44;
+    if ($[106] !== t42 || $[107] !== t43) {
+        t44 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-between text-sm",
             children: [
-                t41,
-                t42
+                t42,
+                t43
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 452,
+            lineNumber: 465,
             columnNumber: 11
         }, this);
-        $[104] = t41;
-        $[105] = t42;
-        $[106] = t43;
-    } else {
-        t43 = $[106];
-    }
-    let t44;
-    if ($[107] !== t.booking.orderPreview.guests) {
-        t44 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-muted-foreground",
-            children: t.booking.orderPreview.guests
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 461,
-            columnNumber: 11
-        }, this);
-        $[107] = t.booking.orderPreview.guests;
+        $[106] = t42;
+        $[107] = t43;
         $[108] = t44;
     } else {
         t44 = $[108];
     }
     let t45;
-    if ($[109] !== guests) {
+    if ($[109] !== t.booking.orderPreview.guests) {
         t45 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "font-medium",
-            children: guests
+            className: "text-muted-foreground",
+            children: t.booking.orderPreview.guests
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 469,
+            lineNumber: 474,
             columnNumber: 11
         }, this);
-        $[109] = guests;
+        $[109] = t.booking.orderPreview.guests;
         $[110] = t45;
     } else {
         t45 = $[110];
     }
     let t46;
-    if ($[111] !== t44 || $[112] !== t45) {
-        t46 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[111] !== guests) {
+        t46 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "font-medium",
+            children: guests
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 482,
+            columnNumber: 11
+        }, this);
+        $[111] = guests;
+        $[112] = t46;
+    } else {
+        t46 = $[112];
+    }
+    let t47;
+    if ($[113] !== t45 || $[114] !== t46) {
+        t47 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-between text-sm",
             children: [
-                t44,
-                t45
+                t45,
+                t46
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 477,
+            lineNumber: 490,
             columnNumber: 11
         }, this);
-        $[111] = t44;
-        $[112] = t45;
-        $[113] = t46;
+        $[113] = t45;
+        $[114] = t46;
+        $[115] = t47;
     } else {
-        t46 = $[113];
-    }
-    let t47;
-    if ($[114] === Symbol.for("react.memo_cache_sentinel")) {
-        t47 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 486,
-            columnNumber: 11
-        }, this);
-        $[114] = t47;
-    } else {
-        t47 = $[114];
+        t47 = $[115];
     }
     let t48;
-    if ($[115] !== t.booking.orderPreview.originalPrice) {
-        t48 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-muted-foreground",
-            children: t.booking.orderPreview.originalPrice
-        }, void 0, false, {
+    if ($[116] === Symbol.for("react.memo_cache_sentinel")) {
+        t48 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 493,
+            lineNumber: 499,
             columnNumber: 11
         }, this);
-        $[115] = t.booking.orderPreview.originalPrice;
         $[116] = t48;
     } else {
         t48 = $[116];
     }
     let t49;
-    if ($[117] !== originalPrice) {
+    if ($[117] !== t.booking.orderPreview.originalPrice) {
         t49 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-muted-foreground",
+            children: t.booking.orderPreview.originalPrice
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 506,
+            columnNumber: 11
+        }, this);
+        $[117] = t.booking.orderPreview.originalPrice;
+        $[118] = t49;
+    } else {
+        t49 = $[118];
+    }
+    let t50;
+    if ($[119] !== originalPrice) {
+        t50 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "font-medium line-through",
             children: [
                 "SAR ",
@@ -843,51 +855,51 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 501,
+            lineNumber: 514,
             columnNumber: 11
         }, this);
-        $[117] = originalPrice;
-        $[118] = t49;
+        $[119] = originalPrice;
+        $[120] = t50;
     } else {
-        t49 = $[118];
+        t50 = $[120];
     }
-    let t50;
-    if ($[119] !== t48 || $[120] !== t49) {
-        t50 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t51;
+    if ($[121] !== t49 || $[122] !== t50) {
+        t51 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-between text-sm",
             children: [
-                t48,
-                t49
+                t49,
+                t50
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 509,
+            lineNumber: 522,
             columnNumber: 11
         }, this);
-        $[119] = t48;
-        $[120] = t49;
-        $[121] = t50;
-    } else {
-        t50 = $[121];
-    }
-    let t51;
-    if ($[122] !== t.booking.orderPreview.discount) {
-        t51 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-muted-foreground",
-            children: t.booking.orderPreview.discount
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 518,
-            columnNumber: 11
-        }, this);
-        $[122] = t.booking.orderPreview.discount;
+        $[121] = t49;
+        $[122] = t50;
         $[123] = t51;
     } else {
         t51 = $[123];
     }
     let t52;
-    if ($[124] !== discount) {
+    if ($[124] !== t.booking.orderPreview.discount) {
         t52 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-muted-foreground",
+            children: t.booking.orderPreview.discount
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 531,
+            columnNumber: 11
+        }, this);
+        $[124] = t.booking.orderPreview.discount;
+        $[125] = t52;
+    } else {
+        t52 = $[125];
+    }
+    let t53;
+    if ($[126] !== discount) {
+        t53 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "font-medium text-destructive",
             children: [
                 "-SAR ",
@@ -895,223 +907,223 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 526,
+            lineNumber: 539,
             columnNumber: 11
         }, this);
-        $[124] = discount;
-        $[125] = t52;
+        $[126] = discount;
+        $[127] = t53;
     } else {
-        t52 = $[125];
+        t53 = $[127];
     }
-    let t53;
-    if ($[126] !== t51 || $[127] !== t52) {
-        t53 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t54;
+    if ($[128] !== t52 || $[129] !== t53) {
+        t54 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-between text-sm",
             children: [
-                t51,
-                t52
+                t52,
+                t53
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 534,
+            lineNumber: 547,
             columnNumber: 11
         }, this);
-        $[126] = t51;
-        $[127] = t52;
-        $[128] = t53;
+        $[128] = t52;
+        $[129] = t53;
+        $[130] = t54;
     } else {
-        t53 = $[128];
-    }
-    let t54;
-    if ($[129] === Symbol.for("react.memo_cache_sentinel")) {
-        t54 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 543,
-            columnNumber: 11
-        }, this);
-        $[129] = t54;
-    } else {
-        t54 = $[129];
+        t54 = $[130];
     }
     let t55;
-    if ($[130] !== t.booking.orderPreview.total) {
-        t55 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            children: t.booking.orderPreview.total
-        }, void 0, false, {
+    if ($[131] === Symbol.for("react.memo_cache_sentinel")) {
+        t55 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 550,
+            lineNumber: 556,
             columnNumber: 11
         }, this);
-        $[130] = t.booking.orderPreview.total;
         $[131] = t55;
     } else {
         t55 = $[131];
     }
     let t56;
-    if ($[132] !== total) {
+    if ($[132] !== t.booking.orderPreview.total) {
         t56 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            children: t.booking.orderPreview.total
+        }, void 0, false, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 563,
+            columnNumber: 11
+        }, this);
+        $[132] = t.booking.orderPreview.total;
+        $[133] = t56;
+    } else {
+        t56 = $[133];
+    }
+    let t57;
+    if ($[134] !== total) {
+        t57 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             children: [
                 "SAR ",
                 total
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 558,
+            lineNumber: 571,
             columnNumber: 11
         }, this);
-        $[132] = total;
-        $[133] = t56;
+        $[134] = total;
+        $[135] = t57;
     } else {
-        t56 = $[133];
+        t57 = $[135];
     }
-    let t57;
-    if ($[134] !== t55 || $[135] !== t56) {
-        t57 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t58;
+    if ($[136] !== t56 || $[137] !== t57) {
+        t58 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-between text-base font-semibold",
             children: [
-                t55,
-                t56
+                t56,
+                t57
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 566,
+            lineNumber: 579,
             columnNumber: 11
         }, this);
-        $[134] = t55;
-        $[135] = t56;
-        $[136] = t57;
-    } else {
-        t57 = $[136];
-    }
-    let t58;
-    if ($[137] !== t.booking.orderPreview.freeDelivery) {
-        t58 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-xs text-muted-foreground",
-            children: t.booking.orderPreview.freeDelivery
-        }, void 0, false, {
-            fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 575,
-            columnNumber: 11
-        }, this);
-        $[137] = t.booking.orderPreview.freeDelivery;
+        $[136] = t56;
+        $[137] = t57;
         $[138] = t58;
     } else {
         t58 = $[138];
     }
     let t59;
-    if ($[139] !== t43 || $[140] !== t46 || $[141] !== t50 || $[142] !== t53 || $[143] !== t57 || $[144] !== t58) {
-        t59 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-            className: "space-y-4",
-            children: [
-                t43,
-                t46,
-                t47,
-                t50,
-                t53,
-                t54,
-                t57,
-                t58
-            ]
-        }, void 0, true, {
+    if ($[139] !== t.booking.orderPreview.freeDelivery) {
+        t59 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-xs text-muted-foreground",
+            children: t.booking.orderPreview.freeDelivery
+        }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 583,
+            lineNumber: 588,
             columnNumber: 11
         }, this);
-        $[139] = t43;
-        $[140] = t46;
-        $[141] = t50;
-        $[142] = t53;
-        $[143] = t57;
-        $[144] = t58;
-        $[145] = t59;
+        $[139] = t.booking.orderPreview.freeDelivery;
+        $[140] = t59;
     } else {
-        t59 = $[145];
+        t59 = $[140];
     }
     let t60;
-    if ($[146] !== t40 || $[147] !== t59) {
-        t60 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
-            className: "lg:col-span-1",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                className: "sticky top-24 border-foreground/10",
-                children: [
-                    t40,
-                    t59
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/booking-form.tsx",
-                lineNumber: 596,
-                columnNumber: 44
-            }, this)
-        }, void 0, false, {
+    if ($[141] !== t44 || $[142] !== t47 || $[143] !== t51 || $[144] !== t54 || $[145] !== t58 || $[146] !== t59) {
+        t60 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+            className: "space-y-4",
+            children: [
+                t44,
+                t47,
+                t48,
+                t51,
+                t54,
+                t55,
+                t58,
+                t59
+            ]
+        }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
             lineNumber: 596,
             columnNumber: 11
         }, this);
-        $[146] = t40;
-        $[147] = t59;
-        $[148] = t60;
+        $[141] = t44;
+        $[142] = t47;
+        $[143] = t51;
+        $[144] = t54;
+        $[145] = t58;
+        $[146] = t59;
+        $[147] = t60;
     } else {
-        t60 = $[148];
+        t60 = $[147];
     }
     let t61;
-    if ($[149] !== t39 || $[150] !== t60) {
-        t61 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid gap-10 lg:grid-cols-3",
-            children: [
-                t39,
-                t60
-            ]
-        }, void 0, true, {
+    if ($[148] !== t41 || $[149] !== t60) {
+        t61 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
+            className: "lg:col-span-1",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                className: "sticky top-24 border-foreground/10",
+                children: [
+                    t41,
+                    t60
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/booking-form.tsx",
+                lineNumber: 609,
+                columnNumber: 44
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 605,
+            lineNumber: 609,
             columnNumber: 11
         }, this);
-        $[149] = t39;
-        $[150] = t60;
-        $[151] = t61;
+        $[148] = t41;
+        $[149] = t60;
+        $[150] = t61;
     } else {
-        t61 = $[151];
+        t61 = $[150];
     }
     let t62;
-    if ($[152] !== t61 || $[153] !== t7 || $[154] !== t8) {
+    if ($[151] !== t40 || $[152] !== t61) {
         t62 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8",
+            className: "grid gap-10 lg:grid-cols-3",
             children: [
-                t7,
-                t8,
+                t40,
                 t61
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 614,
+            lineNumber: 618,
             columnNumber: 11
         }, this);
+        $[151] = t40;
         $[152] = t61;
-        $[153] = t7;
-        $[154] = t8;
-        $[155] = t62;
+        $[153] = t62;
     } else {
-        t62 = $[155];
+        t62 = $[153];
     }
     let t63;
-    if ($[156] !== dir || $[157] !== t62) {
-        t63 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+    if ($[154] !== t62 || $[155] !== t8 || $[156] !== t9) {
+        t63 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8",
+            children: [
+                t8,
+                t9,
+                t62
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/booking-form.tsx",
+            lineNumber: 627,
+            columnNumber: 11
+        }, this);
+        $[154] = t62;
+        $[155] = t8;
+        $[156] = t9;
+        $[157] = t63;
+    } else {
+        t63 = $[157];
+    }
+    let t64;
+    if ($[158] !== dir || $[159] !== t63) {
+        t64 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             id: "book",
             className: "py-20 md:py-28",
             dir: dir,
-            children: t62
+            children: t63
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 624,
+            lineNumber: 637,
             columnNumber: 11
         }, this);
-        $[156] = dir;
-        $[157] = t62;
-        $[158] = t63;
+        $[158] = dir;
+        $[159] = t63;
+        $[160] = t64;
     } else {
-        t63 = $[158];
+        t64 = $[160];
     }
-    return t63;
+    return t64;
 }
 _s(BookingForm, "WhZzUiMPgR8uhFjgImB7EnLCD+4=", false, function() {
     return [

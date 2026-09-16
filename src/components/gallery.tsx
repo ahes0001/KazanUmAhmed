@@ -1,12 +1,20 @@
 "use client";
 
+import Image from "next/image";
 import { useLanguage } from "@/components/language-provider";
 import { SectionHeading } from "@/components/section-heading";
-import { PlaceholderImage } from "@/components/placeholder-image";
+
+const galleryImages = [
+  { src: "/images/Gallery1.jpg", labelKey: "one" as const },
+  { src: "/images/Gallery2.jpg", labelKey: "two" as const },
+  { src: "/images/Gallery3.png", labelKey: "three" as const },
+  { src: "/images/Gallery4.png", labelKey: "four" as const },
+  { src: "/images/Gallery5.png", labelKey: "five" as const },
+  { src: "/images/Gallery6.png", labelKey: "six" as const },
+];
 
 export function Gallery() {
   const { t, dir } = useLanguage();
-  const labels = Object.values(t.gallery.imageLabels);
 
   return (
     <section id="gallery" className="bg-muted/30 py-20 md:py-28" dir={dir}>
@@ -17,18 +25,23 @@ export function Gallery() {
         />
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {labels.map((label, index) => (
-            <PlaceholderImage
+          {galleryImages.map((image, index) => (
+            <div
               key={index}
-              label={label}
-              containerClassName={`aspect-[4/3] w-full ${
-                index === 0 || index === 3 ? "lg:aspect-[16/10]" : ""
-              }`}
-              rounded="xl"
-            />
+              className="relative aspect-[4/3] w-full overflow-hidden rounded-xl"
+            >
+              <Image
+                src={image.src}
+                alt={t.gallery.imageLabels[image.labelKey]}
+                fill
+                className="object-cover transition-transform duration-500 hover:scale-105"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+            </div>
           ))}
         </div>
       </div>
     </section>
   );
 }
+
