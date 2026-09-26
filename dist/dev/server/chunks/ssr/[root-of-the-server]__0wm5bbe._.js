@@ -160,9 +160,9 @@ module.exports = {
         "perOrder": "للطلب",
         "discountNote": "خصم {{amount}} ريال",
         "sizeLabels": {
-            "half": "نصف خروف",
-            "whole": "خروف كامل",
-            "double": "خروفين كاملين"
+            "half": "نصف خروف لبني",
+            "whole": "خروف لبني كامل",
+            "double": "خروفين لبني كاملين"
         },
         "oiliness": {
             "lessOily": "أقل دهونًا",

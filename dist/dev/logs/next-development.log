@@ -1,64 +1,19 @@
-{"timestamp":"00:00:00.778","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:38.955","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
-{"timestamp":"00:00:41.716","source":"Server","level":"LOG","message":"✓ Compiled in 109ms"}
-{"timestamp":"00:00:44.660","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
-{"timestamp":"00:01:42.011","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:01:42.011","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:01:42.070","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
-{"timestamp":"00:01:44.387","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:01:44.387","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:01:44.479","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
-{"timestamp":"00:02:01.445","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:01.445","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:01.533","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
-{"timestamp":"00:02:03.330","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:03.330","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:03.416","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:02:05.597","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:05.597","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:05.656","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
-{"timestamp":"00:02:09.564","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:09.564","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:09.656","source":"Server","level":"LOG","message":"✓ Compiled in 62ms"}
-{"timestamp":"00:02:11.854","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:11.854","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:11.950","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
-{"timestamp":"00:02:13.108","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:13.108","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:13.159","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
-{"timestamp":"00:03:03.375","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:03.376","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:03.429","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
-{"timestamp":"00:03:03.926","source":"Browser","level":"WARN","message":"Image with src \"/images/about.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"00:03:03.942","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/about.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
-{"timestamp":"00:03:05.277","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:05.332","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
-{"timestamp":"00:03:07.560","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:07.614","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
-{"timestamp":"00:03:09.068","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:09.070","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:09.636","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:09.636","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:09.726","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
-{"timestamp":"00:03:10.182","source":"Browser","level":"WARN","message":"Image with src \"/images/about.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"00:03:10.183","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/about.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
-{"timestamp":"00:03:16.400","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:16.401","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:16.452","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
-{"timestamp":"00:03:16.926","source":"Browser","level":"WARN","message":"Image with src \"/images/about.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"00:03:16.926","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/about.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
-{"timestamp":"00:03:37.096","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:37.096","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:03:37.145","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
-{"timestamp":"00:06:48.159","source":"Server","level":"LOG","message":"✓ Compiled in 80ms"}
-{"timestamp":"00:06:58.150","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
-{"timestamp":"00:07:07.770","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:07:09.971","source":"Server","level":"LOG","message":"✓ Compiled in 71ms"}
-{"timestamp":"00:07:11.891","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
-{"timestamp":"00:07:14.069","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
-{"timestamp":"00:07:16.898","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
-{"timestamp":"00:07:18.345","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
-{"timestamp":"00:07:33.445","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
-{"timestamp":"00:07:36.819","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
-{"timestamp":"00:07:42.215","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
-{"timestamp":"00:07:45.293","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:00:00.716","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:37.357","source":"Server","level":"LOG","message":"✓ Compiled in 78ms"}
+{"timestamp":"00:02:43.314","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:43.366","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"00:02:45.042","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
+{"timestamp":"00:02:59.292","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:59.340","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:03:06.599","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:06.653","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:03:08.591","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:08.652","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:03:11.611","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:11.661","source":"Server","level":"LOG","message":"✓ Compiled in 67ms"}
+{"timestamp":"00:03:12.789","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:12.832","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
+{"timestamp":"00:03:19.506","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:19.561","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
+{"timestamp":"00:03:20.664","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:20.724","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}

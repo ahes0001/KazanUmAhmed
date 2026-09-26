@@ -1872,7 +1872,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/src/dictionaries/ar.json.[json].js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-throw new Error("Unable to make a module from invalid JSON: key must be a string at line 39 column 14");
+throw new Error("Unable to make a module from invalid JSON: expected `,` or `}` at line 47 column 7");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -1912,7 +1912,7 @@ module.exports = {
     "pricing": {
         "eyebrow": "Menu & Pricing",
         "heading": "Our Packages & Pricing",
-        "subheading": "Included delivery and sides: Fresh Yogurt, Spicy Salad, and Green Salad.",
+        "subheading": "Included delivery and sides: Fresh Yogurt, and Spicy Salad.",
         "halfLambTitle": "Half Lamb Options",
         "oneLambTitle": "One Lamb Options",
         "twoLambTitle": "Two Lamb Options",
