@@ -235,11 +235,11 @@ var _s = __turbopack_context__.k.signature();
 function Hero() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(31);
-    if ($[0] !== "6b7fce79cac2bad2697f3bc6f47102d7130a7915688b0877fa22e18c6a095c4e") {
+    if ($[0] !== "66b8c04cefc64f79323002633bc640e0084b1ac9c5ca588e9be434b5a25ef611") {
         for(let $i = 0; $i < 31; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "6b7fce79cac2bad2697f3bc6f47102d7130a7915688b0877fa22e18c6a095c4e";
+        $[0] = "66b8c04cefc64f79323002633bc640e0084b1ac9c5ca588e9be434b5a25ef611";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -1231,7 +1231,7 @@ const packages = [
         size: "double",
         feeds: 60,
         originalPrice: 4600,
-        currentPrice: 3600,
+        currentPrice: 3700,
         oiliness: "lessOily"
     },
     {
@@ -1240,7 +1240,7 @@ const packages = [
         size: "double",
         feeds: 40,
         originalPrice: 4600,
-        currentPrice: 3600,
+        currentPrice: 3700,
         oiliness: "moreOily"
     },
     {
@@ -1249,7 +1249,7 @@ const packages = [
         size: "double",
         feeds: 40,
         originalPrice: 5200,
-        currentPrice: 4200,
+        currentPrice: 4300,
         oiliness: "moreOily"
     }
 ];

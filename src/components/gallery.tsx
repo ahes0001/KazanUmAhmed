@@ -11,6 +11,13 @@ const galleryImages = [
   { src: "/images/Gallery4.png", labelKey: "four" as const },
   { src: "/images/Gallery5.png", labelKey: "five" as const },
   { src: "/images/Gallery6.png", labelKey: "six" as const },
+  { src: "/images/Gallery7.jpg", labelKey: "one" as const },
+  { src: "/images/Gallery8.jpg", labelKey: "two" as const },
+  { src: "/images/Gallery9.png", labelKey: "three" as const },
+  { src: "/images/Gallery10.jpeg", labelKey: "four" as const },
+  { src: "/images/Gallery11.jpeg", labelKey: "five" as const },
+  { src: "/images/Gallery12.jpeg", labelKey: "six" as const },
+
 ];
 
 export function Gallery() {

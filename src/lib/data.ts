@@ -91,7 +91,7 @@ export const packages: Package[] = [
     size: "double",
     feeds: 60,
     originalPrice: 4600,
-    currentPrice: 3600,
+    currentPrice: 3700,
     oiliness: "lessOily",
   },
   {
@@ -100,7 +100,7 @@ export const packages: Package[] = [
     size: "double",
     feeds: 40,
     originalPrice: 4600,
-    currentPrice: 3600,
+    currentPrice: 3700,
     oiliness: "moreOily",
   },
   {
@@ -109,7 +109,7 @@ export const packages: Package[] = [
     size: "double",
     feeds: 40,
     originalPrice: 5200,
-    currentPrice: 4200,
+    currentPrice: 4300,
     oiliness: "moreOily",
   },
 ];

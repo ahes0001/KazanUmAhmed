@@ -129,7 +129,7 @@ module.exports = {
     },
     "hero": {
         "eyebrow": "تمويل منزلي فاخر",
-        "headline": "متخصصين في بخاري لحم",
+        "headline": "تخصصنا بخاري لحم",
         "subHeadline": "نستقبل طلبات بكميات محدودة وعالية الجودة للمناسبات والتجمعات",
         "ctaBook": "احجز مناسبتك",
         "ctaMenu": "شاهد القائمة والأسعار",
@@ -150,7 +150,7 @@ module.exports = {
     "pricing": {
         "eyebrow": "القائمة والأسعار",
         "heading": "باقاتنا وأسعارنا",
-        "subheading": "التوصيل والسلطات مشمولة: لبن طازج، سلطة حارة، وسلطة خضراء.",
+        "subheading": "التوصيل والسلطات مشمولة: لبن طازج، سلطة حارة.",
         "halfLambTitle": "باقات نصف الخروف",
         "oneLambTitle": "باقات الخروف الواحد",
         "twoLambTitle": "باقات الخروفين",
@@ -309,7 +309,7 @@ module.exports = {
     "pricing": {
         "eyebrow": "Menu & Pricing",
         "heading": "Our Packages & Pricing",
-        "subheading": "Included delivery and sides: Fresh Yogurt, Spicy Salad, and Green Salad.",
+        "subheading": "Included delivery and sides: Fresh Yogurt, and Spicy Salad.",
         "halfLambTitle": "Half Lamb Options",
         "oneLambTitle": "One Lamb Options",
         "twoLambTitle": "Two Lamb Options",

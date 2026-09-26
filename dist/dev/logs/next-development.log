@@ -1,19 +1,64 @@
-{"timestamp":"00:00:06.548","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:01:24.522","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:01:24.576","source":"Server","level":"LOG","message":"✓ Compiled in 1223ms"}
-{"timestamp":"00:02:24.963","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:25.020","source":"Server","level":"LOG","message":"✓ Compiled in 65ms"}
-{"timestamp":"00:02:26.466","source":"Server","level":"LOG","message":"✓ Compiled in 79ms"}
-{"timestamp":"00:02:26.514","source":"Browser","level":"ERROR","message":"./src/dictionaries/ar.json:39:14\nError: Unable to make a module from invalid JSON\n  37 |     \"twoLambTitle\": \"باقات الخروفين\",\n  38 |     \"feedsUpTo\": \"يكفي حتى {{count}} شخص\",\n> 39 |     \"was\":  {{price}} ريال\",\n     |              ^\n  40 |     \"now\": \"{{price}} ريال\",\n  41 |     \"perOrder\": \"للطلب\",\n  42 |     \"discountNote\": \"خصم {{amount}} ريال\",\n\nkey must be a string at line 39 column 14 "}
-{"timestamp":"00:02:26.515","source":"Server","level":"ERROR","message":"[browser] \"./src/dictionaries/ar.json:39:14\\nError: Unable to make a module from invalid JSON\\n  37 |     \\\"twoLambTitle\\\": \\\"باقات الخروفين\\\",\\n  38 |     \\\"feedsUpTo\\\": \\\"يكفي حتى {{count}} شخص\\\",\\n> 39 |     \\\"was\\\":  {{price}} ريال\\\",\\n     |              ^\\n  40 |     \\\"now\\\": \\\"{{price}} ريال\\\",\\n  41 |     \\\"perOrder\\\": \\\"للطلب\\\",\\n  42 |     \\\"discountNote\\\": \\\"خصم {{amount}} ريال\\\",\\n\\nkey must be a string at line 39 column 14\" \"\""}
-{"timestamp":"00:02:26.566","source":"Browser","level":"ERROR","message":"./src/dictionaries/ar.json:39:14\nError: Unable to make a module from invalid JSON\n  37 |     \"twoLambTitle\": \"باقات الخروفين\",\n  38 |     \"feedsUpTo\": \"يكفي حتى {{count}} شخص\",\n> 39 |     \"was\":  {{price}} ريال\",\n     |              ^\n  40 |     \"now\": \"{{price}} ريال\",\n  41 |     \"perOrder\": \"للطلب\",\n  42 |     \"discountNote\": \"خصم {{amount}} ريال\",\n\nkey must be a string at line 39 column 14 "}
-{"timestamp":"00:02:26.566","source":"Server","level":"ERROR","message":"[browser] \"./src/dictionaries/ar.json:39:14\\nError: Unable to make a module from invalid JSON\\n  37 |     \\\"twoLambTitle\\\": \\\"باقات الخروفين\\\",\\n  38 |     \\\"feedsUpTo\\\": \\\"يكفي حتى {{count}} شخص\\\",\\n> 39 |     \\\"was\\\":  {{price}} ريال\\\",\\n     |              ^\\n  40 |     \\\"now\\\": \\\"{{price}} ريال\\\",\\n  41 |     \\\"perOrder\\\": \\\"للطلب\\\",\\n  42 |     \\\"discountNote\\\": \\\"خصم {{amount}} ريال\\\",\\n\\nkey must be a string at line 39 column 14\" \"\""}
-{"timestamp":"00:05:28.784","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
-{"timestamp":"00:05:31.550","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
-{"timestamp":"00:06:12.494","source":"Server","level":"LOG","message":"✓ Compiled in 976ms"}
-{"timestamp":"00:10:55.730","source":"Server","level":"LOG","message":"✓ Compiled in 254ms"}
-{"timestamp":"00:10:56.870","source":"Server","level":"LOG","message":"✓ Compiled in 184ms"}
-{"timestamp":"00:10:58.339","source":"Server","level":"LOG","message":"✓ Compiled in 88ms"}
-{"timestamp":"00:11:30.407","source":"Server","level":"LOG","message":"✓ Compiled in 124ms"}
-{"timestamp":"00:11:33.986","source":"Server","level":"LOG","message":"✓ Compiled in 150ms"}
-{"timestamp":"00:11:37.592","source":"Server","level":"LOG","message":"✓ Compiled in 122ms"}
+{"timestamp":"00:00:00.778","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:38.955","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
+{"timestamp":"00:00:41.716","source":"Server","level":"LOG","message":"✓ Compiled in 109ms"}
+{"timestamp":"00:00:44.660","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"00:01:42.011","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:01:42.011","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:01:42.070","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:01:44.387","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:01:44.387","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:01:44.479","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"00:02:01.445","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:01.445","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:01.533","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
+{"timestamp":"00:02:03.330","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:03.330","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:03.416","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:02:05.597","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:05.597","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:05.656","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
+{"timestamp":"00:02:09.564","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:09.564","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:09.656","source":"Server","level":"LOG","message":"✓ Compiled in 62ms"}
+{"timestamp":"00:02:11.854","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:11.854","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:11.950","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:02:13.108","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:13.108","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:02:13.159","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:03:03.375","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:03.376","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:03.429","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:03:03.926","source":"Browser","level":"WARN","message":"Image with src \"/images/about.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:03:03.942","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/about.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:03:05.277","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:05.332","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
+{"timestamp":"00:03:07.560","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:07.614","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
+{"timestamp":"00:03:09.068","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:09.070","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:09.636","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:09.636","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:09.726","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
+{"timestamp":"00:03:10.182","source":"Browser","level":"WARN","message":"Image with src \"/images/about.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:03:10.183","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/about.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:03:16.400","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:16.401","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:16.452","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:03:16.926","source":"Browser","level":"WARN","message":"Image with src \"/images/about.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:03:16.926","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/about.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:03:37.096","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:37.096","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:03:37.145","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
+{"timestamp":"00:06:48.159","source":"Server","level":"LOG","message":"✓ Compiled in 80ms"}
+{"timestamp":"00:06:58.150","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:07:07.770","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:07:09.971","source":"Server","level":"LOG","message":"✓ Compiled in 71ms"}
+{"timestamp":"00:07:11.891","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"00:07:14.069","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"00:07:16.898","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:07:18.345","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:07:33.445","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
+{"timestamp":"00:07:36.819","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:07:42.215","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:07:45.293","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
