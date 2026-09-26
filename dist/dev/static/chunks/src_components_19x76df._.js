@@ -44,11 +44,11 @@ const galleryImages = [
         labelKey: "six"
     },
     {
-        src: "/images/Gallery7.jpg",
+        src: "/images/Gallery7.jpeg",
         labelKey: "one"
     },
     {
-        src: "/images/Gallery8.jpg",
+        src: "/images/Gallery8.jpeg",
         labelKey: "two"
     },
     {
@@ -71,11 +71,11 @@ const galleryImages = [
 function Gallery() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "0d80f4a05dae0cea34ff07c3976105e87ced79ac2c1452ac45eedb70ffc8fc7c") {
+    if ($[0] !== "f207e68032f92b14dafdac7d131282a0f4f559b9fff6f62c7524fa26be41c4cb") {
         for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0d80f4a05dae0cea34ff07c3976105e87ced79ac2c1452ac45eedb70ffc8fc7c";
+        $[0] = "f207e68032f92b14dafdac7d131282a0f4f559b9fff6f62c7524fa26be41c4cb";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
