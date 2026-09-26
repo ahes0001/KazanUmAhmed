@@ -44,11 +44,11 @@ function getPackageLabel(pkg, t) {
 function BookingForm() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(161);
-    if ($[0] !== "422abbdd3203f09faa06e89e450807ee2ff3eb4e240915d8f4416a04f7e67bcb") {
+    if ($[0] !== "2f272347ad3af3839ec76af033c0595fd8d0609f5eb0bfddd21ffa57e8a9ec53") {
         for(let $i = 0; $i < 161; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "422abbdd3203f09faa06e89e450807ee2ff3eb4e240915d8f4416a04f7e67bcb";
+        $[0] = "2f272347ad3af3839ec76af033c0595fd8d0609f5eb0bfddd21ffa57e8a9ec53";
     }
     const { t, dir, locale } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -519,15 +519,8 @@ function BookingForm() {
         t31 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["packages"].map({
             "BookingForm[packages.map()]": (pkg_0)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
                     value: pkg_0.id,
-                    children: [
-                        getPackageLabel(pkg_0, t),
-                        " —",
-                        " ",
-                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["t"])(t.pricing.feedsUpTo, {
-                            count: pkg_0.feeds
-                        })
-                    ]
-                }, pkg_0.id, true, {
+                    children: getPackageLabel(pkg_0, t)
+                }, pkg_0.id, false, {
                     fileName: "[project]/src/components/booking-form.tsx",
                     lineNumber: 346,
                     columnNumber: 47
@@ -544,7 +537,7 @@ function BookingForm() {
             children: t31
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 357,
+            lineNumber: 355,
             columnNumber: 11
         }, this);
         $[72] = t31;
@@ -563,7 +556,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 365,
+            lineNumber: 363,
             columnNumber: 11
         }, this);
         $[74] = formData.packageId;
@@ -583,7 +576,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 375,
+            lineNumber: 373,
             columnNumber: 11
         }, this);
         $[78] = t27;
@@ -599,7 +592,7 @@ function BookingForm() {
             children: t.booking.fields.notes
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 384,
+            lineNumber: 382,
             columnNumber: 11
         }, this);
         $[81] = t.booking.fields.notes;
@@ -626,7 +619,7 @@ function BookingForm() {
             rows: 4
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 401,
+            lineNumber: 399,
             columnNumber: 11
         }, this);
         $[84] = formData.notes;
@@ -645,7 +638,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 410,
+            lineNumber: 408,
             columnNumber: 11
         }, this);
         $[87] = t35;
@@ -663,7 +656,7 @@ function BookingForm() {
             children: t.booking.submit
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 419,
+            lineNumber: 417,
             columnNumber: 11
         }, this);
         $[90] = t.booking.submit;
@@ -686,7 +679,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 427,
+            lineNumber: 425,
             columnNumber: 11
         }, this);
         $[92] = handleSubmit;
@@ -708,12 +701,12 @@ function BookingForm() {
                 children: t.booking.orderPreview.title
             }, void 0, false, {
                 fileName: "[project]/src/components/booking-form.tsx",
-                lineNumber: 441,
+                lineNumber: 439,
                 columnNumber: 23
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 441,
+            lineNumber: 439,
             columnNumber: 11
         }, this);
         $[100] = t.booking.orderPreview.title;
@@ -728,7 +721,7 @@ function BookingForm() {
             children: t.booking.orderPreview.selectedPackage
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 449,
+            lineNumber: 447,
             columnNumber: 11
         }, this);
         $[102] = t.booking.orderPreview.selectedPackage;
@@ -743,7 +736,7 @@ function BookingForm() {
             children: packageName
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 457,
+            lineNumber: 455,
             columnNumber: 11
         }, this);
         $[104] = packageName;
@@ -761,7 +754,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 465,
+            lineNumber: 463,
             columnNumber: 11
         }, this);
         $[106] = t42;
@@ -777,7 +770,7 @@ function BookingForm() {
             children: t.booking.orderPreview.guests
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 474,
+            lineNumber: 472,
             columnNumber: 11
         }, this);
         $[109] = t.booking.orderPreview.guests;
@@ -792,7 +785,7 @@ function BookingForm() {
             children: guests
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 482,
+            lineNumber: 480,
             columnNumber: 11
         }, this);
         $[111] = guests;
@@ -810,7 +803,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 490,
+            lineNumber: 488,
             columnNumber: 11
         }, this);
         $[113] = t45;
@@ -823,7 +816,7 @@ function BookingForm() {
     if ($[116] === Symbol.for("react.memo_cache_sentinel")) {
         t48 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 499,
+            lineNumber: 497,
             columnNumber: 11
         }, this);
         $[116] = t48;
@@ -837,7 +830,7 @@ function BookingForm() {
             children: t.booking.orderPreview.originalPrice
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 506,
+            lineNumber: 504,
             columnNumber: 11
         }, this);
         $[117] = t.booking.orderPreview.originalPrice;
@@ -855,7 +848,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 514,
+            lineNumber: 512,
             columnNumber: 11
         }, this);
         $[119] = originalPrice;
@@ -873,7 +866,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 522,
+            lineNumber: 520,
             columnNumber: 11
         }, this);
         $[121] = t49;
@@ -889,7 +882,7 @@ function BookingForm() {
             children: t.booking.orderPreview.discount
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 531,
+            lineNumber: 529,
             columnNumber: 11
         }, this);
         $[124] = t.booking.orderPreview.discount;
@@ -907,7 +900,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 539,
+            lineNumber: 537,
             columnNumber: 11
         }, this);
         $[126] = discount;
@@ -925,7 +918,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 547,
+            lineNumber: 545,
             columnNumber: 11
         }, this);
         $[128] = t52;
@@ -938,7 +931,7 @@ function BookingForm() {
     if ($[131] === Symbol.for("react.memo_cache_sentinel")) {
         t55 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 556,
+            lineNumber: 554,
             columnNumber: 11
         }, this);
         $[131] = t55;
@@ -951,7 +944,7 @@ function BookingForm() {
             children: t.booking.orderPreview.total
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 563,
+            lineNumber: 561,
             columnNumber: 11
         }, this);
         $[132] = t.booking.orderPreview.total;
@@ -968,7 +961,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 571,
+            lineNumber: 569,
             columnNumber: 11
         }, this);
         $[134] = total;
@@ -986,7 +979,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 579,
+            lineNumber: 577,
             columnNumber: 11
         }, this);
         $[136] = t56;
@@ -1002,7 +995,7 @@ function BookingForm() {
             children: t.booking.orderPreview.freeDelivery
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 588,
+            lineNumber: 586,
             columnNumber: 11
         }, this);
         $[139] = t.booking.orderPreview.freeDelivery;
@@ -1026,7 +1019,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 596,
+            lineNumber: 594,
             columnNumber: 11
         }, this);
         $[141] = t44;
@@ -1051,12 +1044,12 @@ function BookingForm() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/booking-form.tsx",
-                lineNumber: 609,
+                lineNumber: 607,
                 columnNumber: 44
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 609,
+            lineNumber: 607,
             columnNumber: 11
         }, this);
         $[148] = t41;
@@ -1075,7 +1068,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 618,
+            lineNumber: 616,
             columnNumber: 11
         }, this);
         $[151] = t40;
@@ -1095,7 +1088,7 @@ function BookingForm() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 627,
+            lineNumber: 625,
             columnNumber: 11
         }, this);
         $[154] = t62;
@@ -1114,7 +1107,7 @@ function BookingForm() {
             children: t63
         }, void 0, false, {
             fileName: "[project]/src/components/booking-form.tsx",
-            lineNumber: 637,
+            lineNumber: 635,
             columnNumber: 11
         }, this);
         $[158] = dir;

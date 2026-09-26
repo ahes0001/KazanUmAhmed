@@ -628,20 +628,16 @@ const navLinks = [
     {
         key: "gallery",
         href: "#gallery"
-    },
-    {
-        key: "book",
-        href: "#book"
     }
 ];
 function Navbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(38);
-    if ($[0] !== "3a924a4e0eacad16b3142041a934af549caae98ce97ae1c517e3420be223efbb") {
+    if ($[0] !== "68de2957c938b176c4b9a0bf4de7a3612519a87f8012d3d898b5c8195c46e711") {
         for(let $i = 0; $i < 38; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "3a924a4e0eacad16b3142041a934af549caae98ce97ae1c517e3420be223efbb";
+        $[0] = "68de2957c938b176c4b9a0bf4de7a3612519a87f8012d3d898b5c8195c46e711";
     }
     const { locale, toggleLocale, t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -684,7 +680,7 @@ function Navbar() {
             children: t.businessName
         }, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 75,
+            lineNumber: 74,
             columnNumber: 10
         }, this);
         $[5] = t.businessName;
@@ -701,7 +697,7 @@ function Navbar() {
                     children: t.nav[link.key]
                 }, link.key, false, {
                     fileName: "[project]/src/components/navbar.tsx",
-                    lineNumber: 84,
+                    lineNumber: 83,
                     columnNumber: 41
                 }, this)
         }["Navbar[navLinks.map()]"]);
@@ -717,7 +713,7 @@ function Navbar() {
             children: t5
         }, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 93,
+            lineNumber: 92,
             columnNumber: 10
         }, this);
         $[9] = t5;
@@ -738,7 +734,7 @@ function Navbar() {
             children: t8
         }, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 103,
+            lineNumber: 102,
             columnNumber: 10
         }, this);
         $[11] = t7;
@@ -757,7 +753,7 @@ function Navbar() {
             children: t.nav.book
         }, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 113,
+            lineNumber: 112,
             columnNumber: 11
         }, this);
         $[15] = t.nav.book;
@@ -779,11 +775,11 @@ function Navbar() {
     if ($[18] !== mobileOpen) {
         t13 = mobileOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {}, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 131,
+            lineNumber: 130,
             columnNumber: 24
         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {}, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 131,
+            lineNumber: 130,
             columnNumber: 32
         }, this);
         $[18] = mobileOpen;
@@ -802,7 +798,7 @@ function Navbar() {
             children: t13
         }, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 139,
+            lineNumber: 138,
             columnNumber: 11
         }, this);
         $[20] = t12;
@@ -822,7 +818,7 @@ function Navbar() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 148,
+            lineNumber: 147,
             columnNumber: 11
         }, this);
         $[23] = t10;
@@ -843,7 +839,7 @@ function Navbar() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 158,
+            lineNumber: 157,
             columnNumber: 11
         }, this);
         $[27] = t15;
@@ -870,7 +866,7 @@ function Navbar() {
                                 children: t.nav[link_0.key]
                             }, link_0.key, false, {
                                 fileName: "[project]/src/components/navbar.tsx",
-                                lineNumber: 169,
+                                lineNumber: 168,
                                 columnNumber: 47
                             }, this)
                     }["Navbar[navLinks.map()]"]),
@@ -884,23 +880,23 @@ function Navbar() {
                             children: t.nav.book
                         }, void 0, false, {
                             fileName: "[project]/src/components/navbar.tsx",
-                            lineNumber: 172,
+                            lineNumber: 171,
                             columnNumber: 94
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/navbar.tsx",
-                        lineNumber: 172,
+                        lineNumber: 171,
                         columnNumber: 38
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/navbar.tsx",
-                lineNumber: 168,
+                lineNumber: 167,
                 columnNumber: 95
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 168,
+            lineNumber: 167,
             columnNumber: 25
         }, this);
         $[31] = mobileOpen;
@@ -919,7 +915,7 @@ function Navbar() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/navbar.tsx",
-            lineNumber: 183,
+            lineNumber: 182,
             columnNumber: 11
         }, this);
         $[34] = t16;
@@ -1186,7 +1182,7 @@ const packages = [
         id: "white-sawakni-half",
         key: "whiteSawakni",
         size: "half",
-        feeds: 15,
+        feeds: 10,
         originalPrice: 1350,
         currentPrice: 1150,
         oiliness: "moreOily"
@@ -1195,7 +1191,7 @@ const packages = [
         id: "hari-half",
         key: "hari",
         size: "half",
-        feeds: 15,
+        feeds: 10,
         originalPrice: 1550,
         currentPrice: 1350,
         oiliness: "moreOily"

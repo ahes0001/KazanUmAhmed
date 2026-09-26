@@ -36,7 +36,7 @@
     "oneLambTitle": "باقات الخروف الواحد",
     "twoLambTitle": "باقات الخروفين",
     "feedsUpTo": "يكفي حتى {{count}} شخص",
-    "was": "كان {{price}} ريال",
+    "was": " {{price}} ريال",
     "now": "{{price}} ريال",
     "perOrder": "للطلب",
     "discountNote": "خصم {{amount}} ريال",

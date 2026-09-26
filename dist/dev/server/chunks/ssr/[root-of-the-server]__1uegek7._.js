@@ -115,164 +115,9 @@ function useLanguage() {
     return context;
 }
 }),
-"[project]/src/dictionaries/ar.json.[json].cjs [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/src/dictionaries/ar.json.[json].js [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-module.exports = {
-    "businessName": "كازان أم أحمد",
-    "nav": {
-        "home": "الرئيسية",
-        "about": "قصتنا",
-        "pricing": "القائمة والأسعار",
-        "howItWorks": "طريقة الطلب",
-        "gallery": "معرض الصور",
-        "book": "احجز الآن"
-    },
-    "hero": {
-        "eyebrow": "تمويل منزلي فاخر",
-        "headline": "متخصصين في بخاري لحم",
-        "subHeadline": "نستقبل طلبات بكميات محدودة وعالية الجودة للمناسبات والتجمعات",
-        "ctaBook": "احجز مناسبتك",
-        "ctaMenu": "شاهد القائمة والأسعار",
-        "trust1": "توصيل مجاني",
-        "trust2": "مرافق إضافية مشمولة",
-        "imageLabel": "[خلفية البطل - كازان]"
-    },
-    "about": {
-        "eyebrow": "قصة كازان أم أحمد",
-        "heading": "بداية قصتي مع البخاري من الغربة",
-        "paragraph1": "خلال سنوات ابتعاثي، كان الطبخ بالنسبة لي أكثر من مجرد إعداد وجبة؛ كان شغفًا يجمعني بالأصدقاء والعائلات حول مائدة واحدة. بدأت بتجربة إعداد البخاري للتجمعات، وجرّبت وصفات وطرقًا عديدة، واستمعت إلى آراء واقتراحات من حولي، حتى وصلت مع الوقت إلى خلطتي الخاصة ونكهتي التي تميزني.",
-        "paragraph2": "ومع كل طبق كنت أعدّه، كان الشغف يكبر… إلى أن قررت أن أحوّل هذا الحب إلى مشروع، وأن أحمل تجربتي معي إلى جدة.",
-        "paragraph3": "اليوم، كل طبق يخرج من مطبخي يحمل عبق التقاليد، وخلاصة سنوات من التجربة والشغف. ولهذا اخترت أن أُحضّر الطلبات بكميات محدودة، لأمنح كل طلب ما يستحقه من عناية، وأحافظ على مستوى عالٍ من الجودة والطعم.",
-        "paragraph4": "كما أحرص على اختيار أجود سلالات اللحوم المحلية والمستوردة بعناية، لضمان الطراوة، والجودة، والنكهة الأصيلة في كل طبق.",
-        "paragraph5": "كما أحرص على اختيار أجود سلالات اللحوم المحلية والمستوردة بعناية، لضمان الطراوة، والجودة، والنكهة الأصيلة في كل طبق.",
-        "imageLabel": "[صورة تحضير في المطبخ المنزلي]"
-    },
-    "pricing": {
-        "eyebrow": "القائمة والأسعار",
-        "heading": "باقاتنا وأسعارنا",
-        "subheading": "التوصيل والسلطات مشمولة: لبن طازج، سلطة حارة، وسلطة خضراء.",
-        "halfLambTitle": "باقات نصف الخروف",
-        "oneLambTitle": "باقات الخروف الواحد",
-        "twoLambTitle": "باقات الخروفين",
-        "feedsUpTo": "يكفي حتى {{count}} شخص",
-        "was": " {{price}} ريال",
-        "now": "{{price}} ريال",
-        "perOrder": "للطلب",
-        "discountNote": "خصم {{amount}} ريال",
-        "sizeLabels": {
-            "half": "نصف خروف",
-            "whole": "خروف كامل",
-            "double": "خروفين كاملين"
-        },
-        "oiliness": {
-            "lessOily": "أقل دهونًا",
-            "moreOily": "أكثر دهونًا"
-        },
-        "packages": {
-            "redSawakani": {
-                "name": "سواكني أحمر",
-                "description": ""
-            },
-            "whiteSawakni": {
-                "name": "سواكني أبيض",
-                "description": ""
-            },
-            "hari": {
-                "name": "حري",
-                "description": ""
-            }
-        }
-    },
-    "howItWorks": {
-        "eyebrow": "الحجوزات",
-        "heading": "كيفية الطلب",
-        "step1": {
-            "title": "اختر الخروف والتاريخ",
-            "description": "اختر باقتك وتاريخ المناسبة."
-        },
-        "step2": {
-            "title": "أرسل الطلب",
-            "description": "اتصل علينا او ارسل واتساب او املأ نموذج الحجز أدناه وسنستلم تفاصيلك فوراً"
-        },
-        "step3": {
-            "title": "العربون للتاكيد",
-            "description": "ادفع للتاكيد واتمام الطلب "
-        },
-        "step4": {
-            "title": "توصيل طازج لباب منزلك",
-            "description": "يصل طلبك ساخناً مع السلطات. ويُستكمل المبلغ المتبقي عند الاستلام."
-        }
-    },
-    "gallery": {
-        "eyebrow": "لمحة من التجربة",
-        "heading": "معرض الصور",
-        "imageLabels": {
-            "one": "[تقديم الطعام 1]",
-            "two": "[طاولة تقديم دافئة]",
-            "three": "[صورة مقربة للطبق الرئيسي]",
-            "four": "[مائدة عائلية]",
-            "five": "[تشكيلة المرافق]",
-            "six": "[صينية جاهزة للتوصيل]"
-        }
-    },
-    "booking": {
-        "eyebrow": "احجز موعدك",
-        "heading": "احجز مناسبتك",
-        "subtext": "املأ بياناتك وسنجهّز رسالة حجز مخصصة عبر الواتساب.",
-        "fields": {
-            "name": "الاسم الكامل",
-            "address": "عنوان التوصيل / الحي",
-            "date": "تاريخ المناسبة",
-            "time": "وقت المناسبة",
-            "package": "اختر الباقة",
-            "notes": "ملاحظات خاصة للتوصيل أو التحضير"
-        },
-        "packagePlaceholder": "اختر باقة",
-        "orderPreview": {
-            "title": "ملخص الطلب",
-            "selectedPackage": "الباقة المختارة",
-            "guests": "الضيوف",
-            "originalPrice": "السعر الأصلي",
-            "discount": "الخصم",
-            "total": "الإجمالي",
-            "freeDelivery": "التوصيل مجاني"
-        },
-        "submit": "إرسال الحجز عبر الواتساب",
-        "whatsappMessage": "مرحباً كازان أم أحمد، أرغب بحجز طلب كاترينج:\n\nالاسم: {{name}}\nالعنوان: {{address}}\nتاريخ المناسبة: {{date}}\nوقت المناسبة: {{time}}\nالباقة: {{package}}\nالضيوف: {{guests}}\nالإجمالي: {{total}} ريال\n\nملاحظات:\n{{notes}}"
-    },
-    "footer": {
-        "followUs": "تابعونا",
-        "quickLinks": "روابط سريعة",
-        "social": {
-            "tiktok": "تيك توك",
-            "instagram": "إنستغرام",
-            "facebook": "فيسبوك",
-            "youtube": "يوتيوب",
-            "x": "إكس"
-        },
-        "links": {
-            "home": "الرئيسية",
-            "about": "قصتنا",
-            "pricing": "الأسعار",
-            "book": "احجز الآن"
-        },
-        "contact": {
-            "title": "تواصل معنا",
-            "phone": "+966 50 234 6713",
-            "email": "kazanumahmed@gmail.com",
-            "location": "حي الجامعة، جدة، المملكة العربية السعودية"
-        },
-        "hours": {
-            "title": "أوقات العمل",
-            "weekdays": "الأحد – الخميس: 10:00 ص – 11:00 م",
-            "weekend": "الجمعة – السبت: 10:00 ظ – 11:00 م"
-        },
-        "copyright": "© {{year}} كازان أم أحمد. جميع الحقوق محفوظة."
-    },
-    "whatsappFab": {
-        "label": "تواصل عبر الواتساب"
-    }
-};
+throw new Error("Unable to make a module from invalid JSON: key must be a string at line 39 column 14");
 }),
 "[project]/src/dictionaries/en.json.[json].cjs [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
@@ -451,7 +296,7 @@ __turbopack_context__.s([
     ()=>t
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$dictionaries$2f$en$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/dictionaries/en.json.[json].cjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$dictionaries$2f$ar$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/dictionaries/ar.json.[json].cjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$dictionaries$2f$ar$2e$json$2e5b$json$5d2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/dictionaries/ar.json.[json].js [app-ssr] (ecmascript)");
 ;
 ;
 const locales = [
@@ -461,7 +306,7 @@ const locales = [
 const defaultLocale = "en";
 const dictionaries = {
     en: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$dictionaries$2f$en$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
-    ar: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$dictionaries$2f$ar$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+    ar: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$dictionaries$2f$ar$2e$json$2e5b$json$5d2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
 };
 function getDictionary(locale) {
     return dictionaries[locale] ?? dictionaries[defaultLocale];
@@ -475,4 +320,4 @@ function t(template, data = {}) {
 }),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__0wm5bbe._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__1uegek7._.js.map

@@ -413,10 +413,6 @@ const navLinks = [
     {
         key: "gallery",
         href: "#gallery"
-    },
-    {
-        key: "book",
-        href: "#book"
     }
 ];
 function Navbar() {
@@ -708,7 +704,7 @@ const packages = [
         id: "white-sawakni-half",
         key: "whiteSawakni",
         size: "half",
-        feeds: 15,
+        feeds: 10,
         originalPrice: 1350,
         currentPrice: 1150,
         oiliness: "moreOily"
@@ -717,7 +713,7 @@ const packages = [
         id: "hari-half",
         key: "hari",
         size: "half",
-        feeds: 15,
+        feeds: 10,
         originalPrice: 1550,
         currentPrice: 1350,
         oiliness: "moreOily"

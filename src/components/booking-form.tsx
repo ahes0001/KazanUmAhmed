@@ -176,8 +176,9 @@ export function BookingForm() {
                 <SelectContent>
                   {packages.map((pkg) => (
                     <SelectItem key={pkg.id} value={pkg.id}>
-                      {getPackageLabel(pkg, t)} —{" "}
-                      {interpolate(t.pricing.feedsUpTo, { count: pkg.feeds })}
+                      {getPackageLabel(pkg, t)} 
+                      {/* —{" "}
+                      {interpolate(t.pricing.feedsUpTo, { count: pkg.feeds })} */}
                     </SelectItem>
                   ))}
                 </SelectContent>

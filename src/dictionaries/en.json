@@ -36,7 +36,7 @@
     "oneLambTitle": "One Lamb Options",
     "twoLambTitle": "Two Lamb Options",
     "feedsUpTo": "Feeds {{count}} people",
-    "was": "Was SAR {{price}}",
+    "was": "SAR {{price}}",
     "now": "SAR {{price}}",
     "perOrder": "per order",
     "discountNote": "SAR {{amount}} Off",

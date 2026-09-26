@@ -13,7 +13,7 @@ const navLinks = [
   { key: "pricing", href: "#pricing" },
   { key: "howItWorks", href: "#how-it-works" },
   { key: "gallery", href: "#gallery" },
-  { key: "book", href: "#book" },
+  // { key: "book", href: "#book" },
 ] as const;
 
 export function Navbar() {
