@@ -1,19 +1,14 @@
-{"timestamp":"00:00:06.548","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:01:24.522","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/en.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:01:24.576","source":"Server","level":"LOG","message":"✓ Compiled in 1223ms"}
-{"timestamp":"00:02:24.963","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./src/dictionaries/ar.json.[json].cjs changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"00:02:25.020","source":"Server","level":"LOG","message":"✓ Compiled in 65ms"}
-{"timestamp":"00:02:26.466","source":"Server","level":"LOG","message":"✓ Compiled in 79ms"}
-{"timestamp":"00:02:26.514","source":"Browser","level":"ERROR","message":"./src/dictionaries/ar.json:39:14\nError: Unable to make a module from invalid JSON\n  37 |     \"twoLambTitle\": \"باقات الخروفين\",\n  38 |     \"feedsUpTo\": \"يكفي حتى {{count}} شخص\",\n> 39 |     \"was\":  {{price}} ريال\",\n     |              ^\n  40 |     \"now\": \"{{price}} ريال\",\n  41 |     \"perOrder\": \"للطلب\",\n  42 |     \"discountNote\": \"خصم {{amount}} ريال\",\n\nkey must be a string at line 39 column 14 "}
-{"timestamp":"00:02:26.515","source":"Server","level":"ERROR","message":"[browser] \"./src/dictionaries/ar.json:39:14\\nError: Unable to make a module from invalid JSON\\n  37 |     \\\"twoLambTitle\\\": \\\"باقات الخروفين\\\",\\n  38 |     \\\"feedsUpTo\\\": \\\"يكفي حتى {{count}} شخص\\\",\\n> 39 |     \\\"was\\\":  {{price}} ريال\\\",\\n     |              ^\\n  40 |     \\\"now\\\": \\\"{{price}} ريال\\\",\\n  41 |     \\\"perOrder\\\": \\\"للطلب\\\",\\n  42 |     \\\"discountNote\\\": \\\"خصم {{amount}} ريال\\\",\\n\\nkey must be a string at line 39 column 14\" \"\""}
-{"timestamp":"00:02:26.566","source":"Browser","level":"ERROR","message":"./src/dictionaries/ar.json:39:14\nError: Unable to make a module from invalid JSON\n  37 |     \"twoLambTitle\": \"باقات الخروفين\",\n  38 |     \"feedsUpTo\": \"يكفي حتى {{count}} شخص\",\n> 39 |     \"was\":  {{price}} ريال\",\n     |              ^\n  40 |     \"now\": \"{{price}} ريال\",\n  41 |     \"perOrder\": \"للطلب\",\n  42 |     \"discountNote\": \"خصم {{amount}} ريال\",\n\nkey must be a string at line 39 column 14 "}
-{"timestamp":"00:02:26.566","source":"Server","level":"ERROR","message":"[browser] \"./src/dictionaries/ar.json:39:14\\nError: Unable to make a module from invalid JSON\\n  37 |     \\\"twoLambTitle\\\": \\\"باقات الخروفين\\\",\\n  38 |     \\\"feedsUpTo\\\": \\\"يكفي حتى {{count}} شخص\\\",\\n> 39 |     \\\"was\\\":  {{price}} ريال\\\",\\n     |              ^\\n  40 |     \\\"now\\\": \\\"{{price}} ريال\\\",\\n  41 |     \\\"perOrder\\\": \\\"للطلب\\\",\\n  42 |     \\\"discountNote\\\": \\\"خصم {{amount}} ريال\\\",\\n\\nkey must be a string at line 39 column 14\" \"\""}
-{"timestamp":"00:05:28.784","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
-{"timestamp":"00:05:31.550","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
-{"timestamp":"00:06:12.494","source":"Server","level":"LOG","message":"✓ Compiled in 976ms"}
-{"timestamp":"00:10:55.730","source":"Server","level":"LOG","message":"✓ Compiled in 254ms"}
-{"timestamp":"00:10:56.870","source":"Server","level":"LOG","message":"✓ Compiled in 184ms"}
-{"timestamp":"00:10:58.339","source":"Server","level":"LOG","message":"✓ Compiled in 88ms"}
-{"timestamp":"00:11:30.407","source":"Server","level":"LOG","message":"✓ Compiled in 124ms"}
-{"timestamp":"00:11:33.986","source":"Server","level":"LOG","message":"✓ Compiled in 150ms"}
-{"timestamp":"00:11:37.592","source":"Server","level":"LOG","message":"✓ Compiled in 122ms"}
+{"timestamp":"00:00:00.724","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:46.720","source":"Server","level":"LOG","message":"✓ Compiled in 85ms"}
+{"timestamp":"00:00:51.243","source":"Server","level":"LOG","message":"✓ Compiled in 76ms"}
+{"timestamp":"00:00:52.901","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
+{"timestamp":"00:00:55.279","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
+{"timestamp":"00:00:57.263","source":"Server","level":"LOG","message":"✓ Compiled in 67ms"}
+{"timestamp":"00:01:00.783","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
+{"timestamp":"00:01:01.886","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
+{"timestamp":"00:01:03.603","source":"Server","level":"LOG","message":"✓ Compiled in 79ms"}
+{"timestamp":"00:01:04.982","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
+{"timestamp":"00:01:50.380","source":"Server","level":"LOG","message":"✓ Compiled in 80ms"}
+{"timestamp":"00:01:51.896","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
+{"timestamp":"00:14:14.170","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
+{"timestamp":"00:14:20.251","source":"Server","level":"LOG","message":"✓ Compiled in 63ms"}

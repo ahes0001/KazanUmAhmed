@@ -37,12 +37,19 @@ Update in the following files:
 
 ## a. Hero Section (`src/components/hero.tsx`)
 
-- [ ] Hero floating logo — replace `/images/logo.png` in the `<Image>` component (keeps the slow spin animation)
-- [ ] Eyebrow tagline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.eyebrow`)
-- [ ] Headline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.headline`)
-- [ ] Sub-headline — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.subHeadline`)
-- [ ] CTA button labels — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.ctaBook`, `hero.ctaMenu`)
-- [ ] Trust strip items — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.trust1`, `hero.trust2`)
+- [ ] Hero eyebrow text — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.eyebrow`)
+- [ ] Hero headline text — `src/dictionaries/en.json` + `src/dictionaries/ar.json` (`hero.headline`)
+- [ ] Hero spinning logo — replace `/images/logo.png` (circular)
+- [ ] Hero circular about photo — replace `/images/about.png`
+- [ ] Hero scattered photos — replace the six placeholders:
+  - `/images/hero1.JPG`
+  - `/images/hero2.JPG`
+  - `/images/hero3.png`
+  - `/images/hero4.jpeg` (portrait)
+  - `/images/hero5.jpeg` (portrait)
+  - `/images/hero6.jpeg` (portrait)
+
+*Note: sub-headline, CTA buttons, and trust strip have been removed from the Hero section. The leftover keys in the dictionaries are no longer used here.*
 
 ## b. About Us Section (`src/components/about.tsx`)
 
