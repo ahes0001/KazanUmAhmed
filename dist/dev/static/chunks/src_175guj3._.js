@@ -633,11 +633,11 @@ const navLinks = [
 function Navbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(38);
-    if ($[0] !== "68de2957c938b176c4b9a0bf4de7a3612519a87f8012d3d898b5c8195c46e711") {
+    if ($[0] !== "84313f5e2df61e1c14cb571b6eef388f6898a2a93f4ae24420d70e7b50a59e65") {
         for(let $i = 0; $i < 38; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "68de2957c938b176c4b9a0bf4de7a3612519a87f8012d3d898b5c8195c46e711";
+        $[0] = "84313f5e2df61e1c14cb571b6eef388f6898a2a93f4ae24420d70e7b50a59e65";
     }
     const { locale, toggleLocale, t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -675,7 +675,7 @@ function Navbar() {
     if ($[5] !== t.businessName) {
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
             href: "#home",
-            className: "text-lg font-semibold tracking-wide text-foreground",
+            className: "bname text-lg font-semibold tracking-wide text-foreground",
             "aria-label": t.businessName,
             children: t.businessName
         }, void 0, false, {
@@ -831,7 +831,7 @@ function Navbar() {
     let t16;
     if ($[27] !== t15 || $[28] !== t4 || $[29] !== t6) {
         t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-            className: "mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8",
+            className: "mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 ",
             children: [
                 t4,
                 t6,

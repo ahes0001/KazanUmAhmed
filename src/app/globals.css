@@ -207,8 +207,11 @@
   html[lang="ar"] h4,
   html[lang="ar"] h5,
   html[lang="ar"] h6 {
-    font-family: var(--font-arabic), "Cairo", "Noto Sans Arabic", ui-sans-serif, sans-serif, system-ui;
+    font-family: var(--font-el-messiri), "El Messiri", "Cairo", ui-sans-serif, sans-serif, system-ui !important;
   }
+}
+html[lang="ar"] .bname {
+  font-family: var(--font-el-messiri), "El Messiri", "Cairo", ui-sans-serif, sans-serif, system-ui !important;
 }
 
 @keyframes spin-slow {

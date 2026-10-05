@@ -36,10 +36,10 @@ export function Navbar() {
           : "bg-transparent"
       )}
     >
-      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 ">
         <a
           href="#home"
-          className="text-lg font-semibold tracking-wide text-foreground"
+          className="bname text-lg font-semibold tracking-wide text-foreground"
           aria-label={t.businessName}
         >
           {t.businessName}

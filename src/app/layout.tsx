@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Tenor_Sans, Cormorant_Garamond, Cairo } from "next/font/google";
+import { Tenor_Sans, Cormorant_Garamond, Cairo, El_Messiri } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/components/language-provider";
 
@@ -18,6 +18,12 @@ const fontArabic = Cairo({
   subsets: ["arabic"],
   variable: "--font-arabic",
   weight: ["400", "500", "600", "700"],
+});
+
+const fontElMessiri = El_Messiri({
+  subsets: ["arabic", "latin"], // Supports both Arabic and Latin characters
+  variable: "--font-el-messiri", // CSS variable name to use in your styles/Tailwind
+  weight: ["400", "500", "600", "700"], // Available weights: 400, 500, 600, 700
 });
 
 export const metadata: Metadata = {
@@ -145,7 +151,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${fontSans.variable} ${fontSerif.variable} ${fontArabic.variable} antialiased`}
+        className={`${fontSans.variable} ${fontSerif.variable} ${fontArabic.variable} ${fontElMessiri.variable} antialiased`}
       >
         <LanguageProvider>{children}</LanguageProvider>
       </body>
