@@ -10,6 +10,7 @@ const footerLinks = [
   { key: "about", href: "#about" },
   { key: "pricing", href: "#pricing" },
   { key: "book", href: "#book" },
+  { key: "IngredientsBalencer", href: "https://recipe-scaler-kappa.vercel.app/" },
 ] as const;
 
 export function Footer() {

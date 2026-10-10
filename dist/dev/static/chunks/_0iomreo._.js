@@ -2171,7 +2171,8 @@ module.exports = {
             "home": "Home",
             "about": "Our Story",
             "pricing": "Pricing",
-            "book": "Book Now"
+            "book": "Book Now",
+            "IngredientsBalencer": "Ingredients Balencer"
         },
         "contact": {
             "title": "Contact",

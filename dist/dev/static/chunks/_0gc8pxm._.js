@@ -269,16 +269,20 @@ const footerLinks = [
     {
         key: "book",
         href: "#book"
+    },
+    {
+        key: "IngredientsBalencer",
+        href: "https://recipe-scaler-kappa.vercel.app/"
     }
 ];
 function Footer() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(58);
-    if ($[0] !== "518cda14a2aa89a7045786f0eee46d5ad34fef7607ce45c523726533023047d8") {
+    if ($[0] !== "dd8100754c11f87316b0d5550f2aca78f240dd67f3c01abbdca70812df157aee") {
         for(let $i = 0; $i < 58; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "518cda14a2aa89a7045786f0eee46d5ad34fef7607ce45c523726533023047d8";
+        $[0] = "dd8100754c11f87316b0d5550f2aca78f240dd67f3c01abbdca70812df157aee";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -297,7 +301,7 @@ function Footer() {
             children: t.businessName
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 43,
+            lineNumber: 46,
             columnNumber: 10
         }, this);
         $[2] = t.businessName;
@@ -311,7 +315,7 @@ function Footer() {
             className: "mt-5"
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 51,
+            lineNumber: 54,
             columnNumber: 10
         }, this);
         $[4] = t2;
@@ -328,7 +332,7 @@ function Footer() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 58,
+            lineNumber: 61,
             columnNumber: 10
         }, this);
         $[5] = t1;
@@ -343,7 +347,7 @@ function Footer() {
             children: t.footer.quickLinks
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 66,
+            lineNumber: 69,
             columnNumber: 10
         }, this);
         $[7] = t.footer.quickLinks;
@@ -361,12 +365,12 @@ function Footer() {
                         children: t.footer.links[link.key]
                     }, void 0, false, {
                         fileName: "[project]/src/components/footer.tsx",
-                        lineNumber: 75,
+                        lineNumber: 78,
                         columnNumber: 63
                     }, this)
                 }, link.key, false, {
                     fileName: "[project]/src/components/footer.tsx",
-                    lineNumber: 75,
+                    lineNumber: 78,
                     columnNumber: 44
                 }, this)
         }["Footer[footerLinks.map()]"]);
@@ -382,7 +386,7 @@ function Footer() {
             children: t5
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 84,
+            lineNumber: 87,
             columnNumber: 10
         }, this);
         $[11] = t5;
@@ -399,7 +403,7 @@ function Footer() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 92,
+            lineNumber: 95,
             columnNumber: 10
         }, this);
         $[13] = t4;
@@ -415,7 +419,7 @@ function Footer() {
             children: t.footer.contact.title
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 101,
+            lineNumber: 104,
             columnNumber: 10
         }, this);
         $[16] = t.footer.contact.title;
@@ -429,7 +433,7 @@ function Footer() {
             className: "mt-0.5 size-4 shrink-0 text-primary"
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 109,
+            lineNumber: 112,
             columnNumber: 10
         }, this);
         $[18] = t9;
@@ -446,13 +450,13 @@ function Footer() {
                     children: t.footer.contact.phone
                 }, void 0, false, {
                     fileName: "[project]/src/components/footer.tsx",
-                    lineNumber: 116,
+                    lineNumber: 119,
                     columnNumber: 54
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 116,
+            lineNumber: 119,
             columnNumber: 11
         }, this);
         $[19] = t.footer.contact.phone;
@@ -466,7 +470,7 @@ function Footer() {
             className: "mt-0.5 size-4 shrink-0 text-primary"
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 124,
+            lineNumber: 127,
             columnNumber: 11
         }, this);
         $[21] = t11;
@@ -483,13 +487,13 @@ function Footer() {
                     children: t.footer.contact.email
                 }, void 0, false, {
                     fileName: "[project]/src/components/footer.tsx",
-                    lineNumber: 131,
+                    lineNumber: 134,
                     columnNumber: 55
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 131,
+            lineNumber: 134,
             columnNumber: 11
         }, this);
         $[22] = t.footer.contact.email;
@@ -503,7 +507,7 @@ function Footer() {
             className: "mt-0.5 size-4 shrink-0 text-primary"
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 139,
+            lineNumber: 142,
             columnNumber: 11
         }, this);
         $[24] = t13;
@@ -520,13 +524,13 @@ function Footer() {
                     children: t.footer.contact.location
                 }, void 0, false, {
                     fileName: "[project]/src/components/footer.tsx",
-                    lineNumber: 146,
+                    lineNumber: 149,
                     columnNumber: 55
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 146,
+            lineNumber: 149,
             columnNumber: 11
         }, this);
         $[25] = t.footer.contact.location;
@@ -540,7 +544,7 @@ function Footer() {
             className: "mt-0.5 size-4 shrink-0 text-primary"
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 154,
+            lineNumber: 157,
             columnNumber: 11
         }, this);
         $[27] = t15;
@@ -553,7 +557,7 @@ function Footer() {
             children: t.footer.hours.weekdays
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 161,
+            lineNumber: 164,
             columnNumber: 11
         }, this);
         $[28] = t.footer.hours.weekdays;
@@ -567,7 +571,7 @@ function Footer() {
             children: t.footer.hours.weekend
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 169,
+            lineNumber: 172,
             columnNumber: 11
         }, this);
         $[30] = t.footer.hours.weekend;
@@ -589,13 +593,13 @@ function Footer() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/footer.tsx",
-                    lineNumber: 177,
+                    lineNumber: 180,
                     columnNumber: 55
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 177,
+            lineNumber: 180,
             columnNumber: 11
         }, this);
         $[32] = t16;
@@ -616,7 +620,7 @@ function Footer() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 186,
+            lineNumber: 189,
             columnNumber: 11
         }, this);
         $[35] = t10;
@@ -636,7 +640,7 @@ function Footer() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 197,
+            lineNumber: 200,
             columnNumber: 11
         }, this);
         $[40] = t19;
@@ -656,7 +660,7 @@ function Footer() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 206,
+            lineNumber: 209,
             columnNumber: 11
         }, this);
         $[43] = t20;
@@ -672,7 +676,7 @@ function Footer() {
             className: "my-10"
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 216,
+            lineNumber: 219,
             columnNumber: 11
         }, this);
         $[47] = t22;
@@ -695,12 +699,12 @@ function Footer() {
                 children: t23
             }, void 0, false, {
                 fileName: "[project]/src/components/footer.tsx",
-                lineNumber: 231,
+                lineNumber: 234,
                 columnNumber: 145
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 231,
+            lineNumber: 234,
             columnNumber: 11
         }, this);
         $[50] = t23;
@@ -719,7 +723,7 @@ function Footer() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 239,
+            lineNumber: 242,
             columnNumber: 11
         }, this);
         $[52] = t21;
@@ -736,7 +740,7 @@ function Footer() {
             children: t25
         }, void 0, false, {
             fileName: "[project]/src/components/footer.tsx",
-            lineNumber: 248,
+            lineNumber: 251,
             columnNumber: 11
         }, this);
         $[55] = dir;
