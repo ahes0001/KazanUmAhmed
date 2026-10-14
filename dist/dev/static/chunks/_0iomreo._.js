@@ -2009,7 +2009,8 @@ module.exports = {
             "home": "الرئيسية",
             "about": "قصتنا",
             "pricing": "الأسعار",
-            "book": "احجز الآن"
+            "book": "احجز الآن",
+            "IngredientsBalencer": "موازن المكونات"
         },
         "contact": {
             "title": "تواصل معنا",

@@ -5,8 +5,8 @@ import { useLanguage } from "@/components/language-provider";
 import { SectionHeading } from "@/components/section-heading";
 
 const galleryImages = [
-  { src: "/images/Gallery1.jpg", labelKey: "one" as const },
-  { src: "/images/Gallery2.jpg", labelKey: "two" as const },
+  // { src: "/images/Gallery1.jpg", labelKey: "one" as const },
+  // { src: "/images/Gallery2.jpg", labelKey: "two" as const },
   { src: "/images/Gallery3.png", labelKey: "three" as const },
   { src: "/images/Gallery4.png", labelKey: "four" as const },
   { src: "/images/Gallery5.png", labelKey: "five" as const },

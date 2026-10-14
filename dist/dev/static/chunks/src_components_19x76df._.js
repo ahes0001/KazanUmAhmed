@@ -19,14 +19,8 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 const galleryImages = [
-    {
-        src: "/images/Gallery1.jpg",
-        labelKey: "one"
-    },
-    {
-        src: "/images/Gallery2.jpg",
-        labelKey: "two"
-    },
+    // { src: "/images/Gallery1.jpg", labelKey: "one" as const },
+    // { src: "/images/Gallery2.jpg", labelKey: "two" as const },
     {
         src: "/images/Gallery3.png",
         labelKey: "three"
@@ -71,11 +65,11 @@ const galleryImages = [
 function Gallery() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "f207e68032f92b14dafdac7d131282a0f4f559b9fff6f62c7524fa26be41c4cb") {
+    if ($[0] !== "1bdb6a2741f63d20dba8b7dcfc6224fc85da6ede3de9eb83efbb39ca1ab4e827") {
         for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "f207e68032f92b14dafdac7d131282a0f4f559b9fff6f62c7524fa26be41c4cb";
+        $[0] = "1bdb6a2741f63d20dba8b7dcfc6224fc85da6ede3de9eb83efbb39ca1ab4e827";
     }
     const { t, dir } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$language$2d$provider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     let t0;
@@ -85,7 +79,7 @@ function Gallery() {
             heading: t.gallery.heading
         }, void 0, false, {
             fileName: "[project]/src/components/gallery.tsx",
-            lineNumber: 58,
+            lineNumber: 55,
             columnNumber: 10
         }, this);
         $[1] = t.gallery.eyebrow;
@@ -107,12 +101,12 @@ function Gallery() {
                         sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     }, void 0, false, {
                         fileName: "[project]/src/components/gallery.tsx",
-                        lineNumber: 68,
+                        lineNumber: 65,
                         columnNumber: 142
                     }, this)
                 }, index, false, {
                     fileName: "[project]/src/components/gallery.tsx",
-                    lineNumber: 68,
+                    lineNumber: 65,
                     columnNumber: 57
                 }, this)
         }["Gallery[galleryImages.map()]"]);
@@ -128,7 +122,7 @@ function Gallery() {
             children: t1
         }, void 0, false, {
             fileName: "[project]/src/components/gallery.tsx",
-            lineNumber: 77,
+            lineNumber: 74,
             columnNumber: 10
         }, this);
         $[6] = t1;
@@ -146,7 +140,7 @@ function Gallery() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/gallery.tsx",
-            lineNumber: 85,
+            lineNumber: 82,
             columnNumber: 10
         }, this);
         $[8] = t0;
@@ -164,7 +158,7 @@ function Gallery() {
             children: t3
         }, void 0, false, {
             fileName: "[project]/src/components/gallery.tsx",
-            lineNumber: 94,
+            lineNumber: 91,
             columnNumber: 10
         }, this);
         $[11] = dir;
